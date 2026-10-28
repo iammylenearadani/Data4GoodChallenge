@@ -15,6 +15,7 @@ import time
 
 import streamlit as st
 
+from msfsearch import manifest
 from msfsearch import search as S
 from msfsearch.decide import decide
 
@@ -151,8 +152,38 @@ with left:
 with right:
     st.radio("lang", list(T), key="lang", horizontal=True, label_visibility="collapsed",
              format_func=lambda c: LANG_NAMES[c])
-st.markdown(f'<span class="pill"><span class="dot"></span>{t["status"]}</span>&nbsp; '
-            f'<span class="pill">{t["lib"].format(n=n_docs)}</span>', unsafe_allow_html=True)
+SYNC = {"en": ("Last synced", "ago", "Library {d} days old: sync when internet returns", "Verified", "Library changed since sync"),
+        "fr": ("Dernière synchro", "", "Bibliothèque vieille de {d} jours : synchroniser dès que possible", "Vérifiée",
+               "Bibliothèque modifiée depuis la synchro"),
+        "es": ("Última sincronización", "", "Biblioteca de hace {d} días: sincronizar cuando haya internet", "Verificada",
+               "Biblioteca modificada desde la sincronización"),
+        "ar": ("آخر مزامنة", "", "عمر المكتبة {d} يومًا: زامن عند عودة الإنترنت", "موثّقة", "تم تعديل المكتبة منذ المزامنة")}
+
+
+@st.cache_resource(show_spinner=False)
+def sync_state():
+    return manifest.check()  # SHA-256 of the library files, once per app start
+
+
+def ago(days):
+    h = days * 24
+    return f"{max(1, round(h * 60))} min" if h < 1 else (f"{round(h)} h" if h < 48 else f"{round(days)} d")
+
+
+m = sync_state()
+pills = f'<span class="pill"><span class="dot"></span>{t["status"]}</span>&nbsp; '
+if m:
+    s = SYNC[lang]
+    when = time.strftime("%d %b %H:%M", time.strptime(m["pulled_at"], manifest.FMT))
+    color = "#1a9b4b" if m["age_days"] < 14 else ("#d98e04" if m["age_days"] < 60 else "#E1001A")
+    label = f'☁ {s[0]}: {when} · {ago(m["age_days"])} {s[1]}'.strip()
+    if m["age_days"] >= 14:
+        label = f'⚠ {s[2].format(d=round(m["age_days"]))}'
+    pills += f'<span class="pill" style="color:{color};border-color:{color}55">{label}</span>&nbsp; '
+    pills += (f'<span class="pill" style="color:#1a9b4b">🔒 {s[3]} · {m["sha256"]["index.pkl"][:8]}</span>&nbsp; '
+              if m["verified"] else f'<span class="pill" style="color:#E1001A;border-color:#E1001A">⚠ {s[4]}</span>&nbsp; ')
+pills += f'<span class="pill">{t["lib"].format(n=n_docs)}</span>'
+st.markdown(pills, unsafe_allow_html=True)
 
 
 def lan_url():

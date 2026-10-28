@@ -16,7 +16,7 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from . import config as C
-from . import embedder, families, ingest
+from . import embedder, families, ingest, manifest
 from .text import tokenize
 
 
@@ -103,6 +103,7 @@ def main(dense=True):
     elif (C.ARTIFACTS / "emb.f16.npy").exists():
         (C.ARTIFACTS / "emb.f16.npy").unlink()  # stale embeddings from an older build
     (C.ARTIFACTS / "data_quality.json").write_text(json.dumps(report, indent=1, default=str), encoding="utf-8")
+    manifest.write(pack["built"], len(df))  # "last synced" + integrity fingerprints for the field app
     size = sum(p.stat().st_size for p in C.ARTIFACTS.glob("*") if p.is_file()) / 1e6
     print(f"[ok] artifacts/ = {size:.0f} MB, built in {time.time() - t0:.0f}s "
           f"({'hybrid keyword + dense' if emb is not None else 'keyword only'})")

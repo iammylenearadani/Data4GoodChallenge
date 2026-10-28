@@ -6,6 +6,7 @@ current reference?" Demo app: `streamlit run navigator.py` (the analyst view wit
 
 **How a 3-person team uses it:** the field-kit box serves the app on its local Wi-Fi; each person scans the QR code
 (📱 button) and uses it on their own phone — no install, no internet. Show this on stage: scan the QR with a phone.
+Point at the top bar: **☁ Last synced 28 Oct · 2 h ago** (turns amber after 2 weeks offline: "your library is old, sync when you can") and **🔒 Verified** (fingerprint check: nobody altered the library — MSF can be targeted).
 
 **Live demo (Wi-Fi off), ~90 s:** ① UI in English → click **Measles** → 5 numbered evidence points quoted from MSF
 studies ("aim for vaccination coverage close to 100%", "increase coverage by at least 67%") with sources, in ~80 ms.

@@ -21,6 +21,9 @@ python eval/run_eval.py                   # metrics -> eval/results.md
 The box runs `run_field_kit.ps1` (or starts it at boot via Task Scheduler). Team members join the kit's local Wi-Fi and
 scan the QR code under **📱 Open on team phones**: the Navigator opens in the phone's browser. Nothing to install on
 phones, no internet, no per-query cost. New documents arrive when the box syncs; rebuild with one command.
+The app always shows **☁ Last synced** (amber after 14 days offline, red after 60) and **🔒 Verified**: SHA-256
+fingerprints written at build time (`msfsearch/manifest.py`) are re-checked on start, so an altered library shows ⚠.
+After copying a new `artifacts/` onto a box: `python -m msfsearch.manifest` stamps the pull.
 
 ## Pipeline
 | Step | Where | File | What |
