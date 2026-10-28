@@ -138,9 +138,10 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
         qw = set(content_words(query))
         found = set(tokenize(top.title + " " + top.text[:200000]))
         coverage = len(qw & found) / max(1, len(qw))
-        weak_dense = (results[0]["dense_cos"] or 0) < C.ABSTAIN_DENSE if use_dense else True
         out["confidence"] = {"coverage": round(coverage, 2), "dense_cos": results[0]["dense_cos"]}
-        out["abstained"] = coverage < C.ABSTAIN_COVERAGE and weak_dense
+        out["abstained"] = coverage < C.ABSTAIN_COVERAGE
+        if use_dense:  # a low semantic match is enough on its own (query words alone can match by chance)
+            out["abstained"] = out["abstained"] or (results[0]["dense_cos"] or 0) < C.ABSTAIN_DENSE
     else:
         out["abstained"] = True
     out["results"] = results
