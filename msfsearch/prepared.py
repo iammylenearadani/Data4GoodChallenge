@@ -7,7 +7,7 @@ shown in its original language. Any LLM can regenerate this file (no vendor lock
 """
 import re
 
-SHEET_TITLE = {"en": "Decision sheet", "fr": "Fiche de décision", "es": "Ficha de decisión", "ar": "ورقة القرار"}
+SHEET_TITLE = {"en": "Quick answer", "fr": "Réponse rapide", "es": "Respuesta rápida", "ar": "إجابة سريعة"}
 SHEET_SUB = {"en": "Prepared off-site from the quotes below. Each line points to its source quote.",
              "fr": "Préparée hors site à partir des citations ci-dessous. Chaque ligne renvoie à sa citation source.",
              "es": "Preparada fuera del terreno a partir de las citas de abajo. Cada línea remite a su cita.",

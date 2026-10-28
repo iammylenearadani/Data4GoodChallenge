@@ -33,10 +33,10 @@ T = {
            "none_sub": "We would rather say nothing than mislead you. Closest documents:",
            "speed": "answered in {ms} ms · no internet used", "lib": "{n} MSF documents · 4 languages",
            "open": "Open", "brief": "Download the briefing for my team", "source": "Source",
-           "scen": {"Cholera": "cholera outbreak: setting up treatment centres and oral rehydration",
-                    "Measles": "measles outbreak: vaccination campaign age and coverage",
-                    "Ebola": "Ebola outbreak response: isolation, contact tracing and protection of health workers",
-                    "Malnutrition": "severe acute malnutrition in children: treatment and mortality"}},
+           "scen": {"Cholera": "Cholera outbreak: what should we set up, and how big?",
+                    "Measles": "Measles outbreak: who should we vaccinate, and what coverage do we need?",
+                    "Ebola": "Ebola outbreak: how do we stop it spreading among contacts?",
+                    "Malnutrition": "Child malnutrition: how do we screen, and what mortality is acceptable?"}},
     "fr": {"name": "Français", "title": "Navigateur d'épidémies", "status": "Hors ligne · sur le kit terrain",
            "hero": "À quoi faites-vous face ?",
            "sub": "Décrivez la situation. Obtenez l'expérience terrain de MSF et le document de référence en quelques secondes.",
@@ -48,10 +48,10 @@ T = {
            "none_sub": "Mieux vaut ne rien dire que vous induire en erreur. Documents les plus proches :",
            "speed": "réponse en {ms} ms · sans internet", "lib": "{n} documents MSF · 4 langues",
            "open": "Ouvrir", "brief": "Télécharger le briefing pour mon équipe", "source": "Source",
-           "scen": {"Choléra": "épidémie de choléra : centre de traitement et réhydratation",
-                    "Rougeole": "épidémie de rougeole : campagne de vaccination",
-                    "Ebola": "riposte Ebola : isolement et suivi des contacts",
-                    "Malnutrition": "malnutrition aiguë sévère chez l'enfant : traitement"}},
+           "scen": {"Choléra": "Épidémie de choléra : que mettre en place, et de quelle taille ?",
+                    "Rougeole": "Épidémie de rougeole : qui vacciner, et quelle couverture viser ?",
+                    "Ebola": "Épidémie d'Ebola : comment stopper la transmission chez les contacts ?",
+                    "Malnutrition": "Malnutrition de l'enfant : comment dépister, et quelle mortalité est acceptable ?"}},
     "es": {"name": "Español", "title": "Navegador de brotes", "status": "Sin conexión · en el kit de terreno",
            "hero": "¿A qué se enfrenta?",
            "sub": "Describa la situación. Obtenga la experiencia de MSF y el documento de referencia en segundos.",
@@ -63,10 +63,10 @@ T = {
            "none_sub": "Preferimos no decir nada antes que confundirle. Documentos más cercanos:",
            "speed": "respuesta en {ms} ms · sin internet", "lib": "{n} documentos de MSF · 4 idiomas",
            "open": "Abrir", "brief": "Descargar el informe para mi equipo", "source": "Fuente",
-           "scen": {"Cólera": "brote de cólera: centros de tratamiento y rehidratación oral",
-                    "Sarampión": "brote de sarampión: campaña de vacunación",
-                    "Ébola": "respuesta al ébola: aislamiento y rastreo de contactos",
-                    "Desnutrición": "desnutrición aguda severa en niños: tratamiento"}},
+           "scen": {"Cólera": "Brote de cólera: ¿qué instalar y de qué tamaño?",
+                    "Sarampión": "Brote de sarampión: ¿a quién vacunar y qué cobertura buscar?",
+                    "Ébola": "Brote de ébola: ¿cómo frenar la transmisión entre contactos?",
+                    "Desnutrición": "Desnutrición infantil: ¿cómo hacer el cribado y qué mortalidad es aceptable?"}},
     "ar": {"name": "العربية", "title": "دليل الاستجابة للأوبئة", "status": "دون اتصال · يعمل على عدة الميدان",
            "hero": "ما الذي تواجهه؟",
            "sub": "صِف الوضع. احصل على خبرة أطباء بلا حدود الميدانية والوثيقة المرجعية خلال ثوانٍ.",
@@ -78,10 +78,10 @@ T = {
            "none_sub": "نفضّل ألا نقول شيئًا على أن نضللك. أقرب الوثائق:",
            "speed": "الإجابة خلال {ms} مللي ثانية · دون إنترنت", "lib": "{n} وثيقة · 4 لغات",
            "open": "فتح", "brief": "تنزيل الإحاطة لفريقي", "source": "المصدر",
-           "scen": {"الكوليرا": "cholera outbreak: setting up treatment centres and oral rehydration",
-                    "الحصبة": "measles outbreak: vaccination campaign age and coverage",
-                    "إيبولا": "Ebola outbreak response: isolation, contact tracing and protection of health workers",
-                    "سوء التغذية": "severe acute malnutrition in children: treatment and mortality"}},
+           "scen": {"الكوليرا": "تفشي الكوليرا: ماذا ننشئ، وبأي حجم؟",
+                    "الحصبة": "تفشي الحصبة: من نطعّم، وما نسبة التغطية المطلوبة؟",
+                    "إيبولا": "تفشي إيبولا: كيف نوقف انتقال العدوى بين المخالطين؟",
+                    "سوء التغذية": "سوء تغذية الأطفال: كيف نكشف عنه، وما معدل الوفيات المقبول؟"}},
 }
 LANG_NAMES = {"en": "EN", "fr": "FR", "es": "ES", "ar": "AR"}
 
@@ -154,6 +154,7 @@ n_docs = warm()
 lang = st.session_state.get("lang", "en")
 t = T[lang]
 rtl = ' class="rtl"' if lang == "ar" else ""
+dir_attr = ' dir="rtl"' if lang == "ar" else ""
 
 left, right = st.columns([3, 2])
 with left:
@@ -229,7 +230,16 @@ st.markdown(f'<div{rtl}><div class="hero">{t["hero"]}</div><div class="sub">{t["
             unsafe_allow_html=True)
 
 
-SCENARIO_OF = dict(zip(T["en"]["scen"].values(), ["cholera", "measles", "ebola", "malnutrition"]))
+# Scenario buttons: the question is SHOWN in the user's language; the search runs on a fixed English query (the library
+# is mostly English, and the prepared decision sheets + translations in msfsearch/prepared.py are keyed on its evidence).
+SCEN_KEYS = ["cholera", "measles", "ebola", "malnutrition"]
+SCEN_SEARCH = ["cholera outbreak: setting up treatment centres and oral rehydration",
+               "measles outbreak: vaccination campaign age and coverage",
+               "Ebola outbreak response: isolation, contact tracing and protection of health workers",
+               "severe acute malnutrition in children: treatment and mortality"]
+QMAP = {question: i for tl in T.values() for i, question in enumerate(tl["scen"].values())}
+if st.session_state.get("q") in QMAP:  # language switched: show the same scenario question in the new language
+    st.session_state.q = list(t["scen"].values())[QMAP[st.session_state.q]]
 
 
 def _set(q):
@@ -239,8 +249,11 @@ def _set(q):
 q = st.text_input("q", key="q", placeholder=t["ph"], label_visibility="collapsed")
 # the UI is translated; the library is mostly English, so scenarios search the English evidence in every UI language
 cols = st.columns(len(t["scen"]))
-for c, label, query in zip(cols, t["scen"], T["en"]["scen"].values()):
-    c.button(label, on_click=_set, args=(query,), use_container_width=True)
+for c, (label, question) in zip(cols, t["scen"].items()):
+    c.button(label, on_click=_set, args=(question,), use_container_width=True)
+if lang == "ar":
+    st.markdown('<style>div[data-testid="stTextInput"] input { direction:rtl; text-align:right; }</style>',
+                unsafe_allow_html=True)
 
 _NUM = re.compile(r"(\d[\d\s.,]*\s?(?:%|mg|ml|kg|litres?|liters?|hours?|days?|jours?|días|weeks?|months?|mois|"
                   r"meses|cases?|cas|casos|beds?|lits?|km|patients?|children|enfants)?)", re.I)
@@ -286,7 +299,8 @@ def briefing(query, r):
 
 if q.strip():
     t0 = time.time()
-    r = decide(q.strip())
+    si = QMAP.get(q.strip())
+    r = decide(SCEN_SEARCH[si] if si is not None else q.strip())
     ms = max(1, round((time.time() - t0) * 1000))
     st.markdown(f'<div class="meta">⚡ {t["speed"].format(ms=ms)}</div>', unsafe_allow_html=True)
 
@@ -296,7 +310,7 @@ if q.strip():
             doc_card(x)
     else:
         # decision sheet (prepared off-site for the 4 scenarios): the numbers a team leader decides with
-        scen = SCENARIO_OF.get(q.strip())
+        scen = SCEN_KEYS[si] if si is not None else None
         if scen and r["actions"]:
             rows = ""
             for line in prepared.SHEETS[scen]:
@@ -307,7 +321,7 @@ if q.strip():
                 rows += (f'<div class="row"><div class="lab">{html.escape(label)}</div>'
                          f'<div class="val">{bold_numbers(value)}</div><div class="ref">#{n}</div></div>')
             if rows:
-                st.markdown(f'<div class="sheet"{rtl}><div class="sheet-t">✚ {prepared.SHEET_TITLE[lang]}</div>'
+                st.markdown(f'<div class="sheet"{dir_attr}><div class="sheet-t">✚ {prepared.SHEET_TITLE[lang]}</div>'
                             f'<div class="sheet-s">{prepared.SHEET_SUB[lang]}</div>{rows}</div>', unsafe_allow_html=True)
         if r["actions"]:
             st.markdown(f'<div{rtl}><div class="sec">{t["evidence"]}</div>'
@@ -319,7 +333,7 @@ if q.strip():
                 year = f' · {a["year"]}' if a.get("year") else ""
                 tr = prepared.translate(a["text"], lang)
                 if tr:  # prepared translation first, the exact original underneath
-                    body = (f'<div class="q"{rtl}>“{bold_numbers(tr)}”</div>'
+                    body = (f'<div class="q"{dir_attr}>“{bold_numbers(tr)}”</div>'
                             f'<div class="orig">{prepared.TRANSLATED[lang]} “{html.escape(a["text"])}”</div>')
                 else:
                     note = f'<div class="orig">{prepared.UNTRANSLATED[lang]}</div>' if lang != "en" else ""
