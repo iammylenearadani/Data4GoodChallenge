@@ -15,7 +15,7 @@ import time
 
 import streamlit as st
 
-from msfsearch import manifest
+from msfsearch import manifest, prepared
 from msfsearch import search as S
 from msfsearch.decide import decide
 
@@ -129,6 +129,15 @@ div[data-testid="stTextInput"] input:focus { border-color:var(--red); box-shadow
 .none { border:2px dashed #f3b6be; border-radius:12px; padding:1rem 1.2rem; background:#fffafb; }
 .none b { color:var(--red); font-size:1.1rem; }
 .rtl { direction:rtl; text-align:right; }
+.orig { color:#8a8a90; font-size:.78rem; margin-top:.35rem; font-style:italic; }
+.sheet { border:2px solid var(--red); border-radius:14px; padding:1rem 1.2rem .6rem; margin:1rem 0 .4rem;
+         box-shadow:0 6px 24px #E1001A14; }
+.sheet-t { color:var(--red); font-weight:800; font-size:1.2rem; }
+.sheet-s { color:var(--muted); font-size:.78rem; margin-bottom:.6rem; }
+.row { display:flex; gap:1rem; align-items:baseline; padding:.55rem 0; border-top:1px solid var(--line); }
+.lab { flex:0 0 34%; font-weight:700; color:var(--ink); }
+.val { flex:1; color:var(--ink); font-size:1.05rem; } .val b { color:var(--red); }
+.ref { flex:0 0 auto; font-size:.75rem; color:#fff; background:var(--red); border-radius:999px; padding:.05rem .5rem; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -220,6 +229,9 @@ st.markdown(f'<div{rtl}><div class="hero">{t["hero"]}</div><div class="sub">{t["
             unsafe_allow_html=True)
 
 
+SCENARIO_OF = dict(zip(T["en"]["scen"].values(), ["cholera", "measles", "ebola", "malnutrition"]))
+
+
 def _set(q):
     st.session_state.q = q
 
@@ -235,7 +247,7 @@ _NUM = re.compile(r"(\d[\d\s.,]*\s?(?:%|mg|ml|kg|litres?|liters?|hours?|days?|jo
 
 
 def bold_numbers(s):
-    return _NUM.sub(lambda m: f"<b>{m.group(1)}</b>" if m.group(1).strip() else m.group(1), html.escape(s))
+    return _NUM.sub(lambda m: f"<b>{m.group(1)}</b>" if m.group(1).strip() else m.group(1), html.escape(s, quote=False))
 
 
 def doc_card(x):
@@ -283,6 +295,20 @@ if q.strip():
         for x in r["results"][:3]:
             doc_card(x)
     else:
+        # decision sheet (prepared off-site for the 4 scenarios): the numbers a team leader decides with
+        scen = SCENARIO_OF.get(q.strip())
+        if scen and r["actions"]:
+            rows = ""
+            for line in prepared.SHEETS[scen]:
+                n = next((i for i, a in enumerate(r["actions"], 1) if line["key"] in a["text"]), None)
+                if n is None:
+                    continue
+                label, value = line[lang]
+                rows += (f'<div class="row"><div class="lab">{html.escape(label)}</div>'
+                         f'<div class="val">{bold_numbers(value)}</div><div class="ref">#{n}</div></div>')
+            if rows:
+                st.markdown(f'<div class="sheet"{rtl}><div class="sheet-t">✚ {prepared.SHEET_TITLE[lang]}</div>'
+                            f'<div class="sheet-s">{prepared.SHEET_SUB[lang]}</div>{rows}</div>', unsafe_allow_html=True)
         if r["actions"]:
             st.markdown(f'<div{rtl}><div class="sec">{t["evidence"]}</div>'
                         f'<div class="secsub">{t["evidence_sub"]}</div></div>', unsafe_allow_html=True)
@@ -291,7 +317,14 @@ if q.strip():
                 if a.get("url"):
                     src = f'<a href="{a["url"]}" target="_blank">{src}</a>'
                 year = f' · {a["year"]}' if a.get("year") else ""
-                st.markdown(f'<div class="ev"><div class="num">{i}</div><div><div class="q">“{bold_numbers(a["text"])}”</div>'
+                tr = prepared.translate(a["text"], lang)
+                if tr:  # prepared translation first, the exact original underneath
+                    body = (f'<div class="q"{rtl}>“{bold_numbers(tr)}”</div>'
+                            f'<div class="orig">{prepared.TRANSLATED[lang]} “{html.escape(a["text"])}”</div>')
+                else:
+                    note = f'<div class="orig">{prepared.UNTRANSLATED[lang]}</div>' if lang != "en" else ""
+                    body = f'<div class="q">“{bold_numbers(a["text"])}”</div>{note}'
+                st.markdown(f'<div class="ev"><div class="num">{i}</div><div>{body}'
                             f'<div class="src">{t["source"]}: {src} · {html.escape(a["genre"])}{year}</div></div></div>',
                             unsafe_allow_html=True)
         st.markdown(f'<div{rtl}><div class="sec">{t["docs"]}</div></div>', unsafe_allow_html=True)
