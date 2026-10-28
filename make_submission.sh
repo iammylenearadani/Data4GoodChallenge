@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Creates submission.zip without secrets, virtualenvs or big data folders.
-cd "$(dirname "$0")"
-rm -f submission.zip
-zip -qr submission.zip . -x ".env" ".venv/*" "*/__pycache__/*" "data/*" "*.pkl.gz" ".git/*" "submission.zip"
-echo "submission.zip: $(du -h submission.zip | cut -f1)"; unzip -l submission.zip | grep -E "\.env$" && echo "WARNING: .env inside!" || echo "OK: no .env inside"
+# Code ZIP for the jury: no secrets, no data, no virtualenv, no build artifacts.
+cd "$(dirname "$0")"; rm -f submission.zip
+zip -qr submission.zip . -x ".env" ".venv/*" "*/__pycache__/*" "__pycache__/*" "data/*" "artifacts/*" ".git/*" "submission.zip"
+unzip -l submission.zip | grep -qE "(^|/)\.env$" && echo "WARNING: .env inside!" || echo "OK: submission.zip ($(du -h submission.zip | cut -f1)), no .env"

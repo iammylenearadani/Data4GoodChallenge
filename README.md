@@ -1,24 +1,46 @@
-# D4GC 2026 — AWS track starter kit
+# MSF Field Library — offline document retrieval (D4GC 2026)
 
-## Before you leave home (10 min)
-1. Install **Python 3.12** (python.org) — 3.13 also works, avoid 3.14 for now.
-2. Unzip this folder, open a terminal in it:
-   - macOS/Linux: `bash setup_mac_linux.sh`
-   - Windows: `powershell -ExecutionPolicy Bypass -File .\setup_windows.ps1`
-3. Everyone on the team does this — don't rely on one laptop.
+A query in any language goes in; the relevant MSF documents come out, with few false positives.
+**Retrieval runs fully on-premises**: no internet, CPU only, ~100 ms per query, ~75 MB of index (+ ~470 MB optional model).
+**Heavy work happens once, off-premises**: cleaning, de-duplication, indexing, optional AI labels.
+**No vendor lock-in**: open-source Python (BM25, numpy, scikit-learn, Streamlit) and an MIT-licensed open model.
 
-## When the AWS workshop gives you an account (~10:00)
-1. Workshop Studio → **Get AWS CLI credentials** → paste the 3 values into `.env`.
-2. `python check_env.py` → copy a chat model id into `BEDROCK_MODEL_ID` in `.env` → re-run.
-3. `streamlit run app.py` → you have a working demo shell.
+## Quick start
+```bash
+python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Scripts\Activate.ps1
+pip install -r requirements-build.txt
+# put the dataset here:  data/D4GC data/Parsed/*.md,  data/D4GC data/Original/*,  data/documentation.csv
+python -m msfsearch.build                 # ~1 min keyword-only; + a few min on CPU if sentence-transformers is installed
+python -m msfsearch "prise en charge du choléra"           # CLI
+streamlit run app.py                      # demo app
+python eval/run_eval.py                   # metrics -> eval/results.md
+```
 
-## Files
-| File | What |
-|---|---|
-| `bedrock_helpers.py` | `chat()`, `chat_json()`, `embed()`, `MiniRAG` — Bedrock Converse API, model-agnostic |
-| `check_env.py` | Verifies credentials, lists usable models, makes a test call |
-| `app.py` | Streamlit demo: data explorer / document Q&A / AI assistant tabs |
-| `requirements.txt` | boto3, langchain-aws, faiss, pandas, sklearn, shap, plotly, streamlit, jupyter |
+## Pipeline
+| Step | Where | File | What |
+|---|---|---|---|
+| 1 Ingest | off-prem | `msfsearch/ingest.py` | Markdown text + HTML metadata (title, date, URL, keywords) + CSV (genre, language). Removes lines repeated in ≥5 docs (website boilerplate) and known banners; drops 18 failed-scrape pages. Year = © year, else HTML date, else latest year near the top. |
+| 2 Families | off-prem | `msfsearch/families.py` | Groups exact copies, editions and translations (TF-IDF cosine + title overlap + language; multilingual embeddings if built). Canonical = newest edition. |
+| 3 Index | off-prem | `msfsearch/build.py` | Heading-aware 250-word passages; BM25 on passages; BM25 on title + keywords + first 2,000 chars; optional multilingual-e5-small passage embeddings; 2-D collection map. |
+| 4 Search | **on-prem** | `msfsearch/search.py` | Reciprocal Rank Fusion of passage BM25 + abstract BM25 + dense; evidence filter; language/genre filters; one result per family (member in the query's language first); abstains when the match is weak. |
+| 5 App / CLI | **on-prem** | `app.py`, `msfsearch/__main__.py` | Search, family badges (🌐 translations, 🆕 newest edition, 📄 copies merged), "why this result", collection map, data-quality and evaluation tabs. |
+| opt. AI labels | off-prem | `enrich.py` | Any LLM writes titles/topics/multilingual synonyms → added to the abstract field. |
+| Evaluation | off-prem | `eval/` | Title known-item set, hand-written field questions (incl. FR/AR and no-answer), optional LLM-written questions. |
 
-## If credentials expire mid-afternoon
-Workshop Studio credentials are temporary. `ExpiredToken` → re-copy from Workshop Studio into `.env`, restart Streamlit.
+All knobs live in `msfsearch/config.py`. `search()` returns a JSON-able dict (see `msfsearch/search.py`).
+
+## Results (keyword mode, laptop CPU) — see `eval/results.md` for the latest
+| Test set | Hit@1 | Hit@5 | MRR | No-answer abstained | Wrong abstentions | Median latency |
+|---|---|---|---|---|---|---|
+| 150 title known-item queries | 90.0% | 96.7% | 0.925 | – | 0/150 | 111 ms |
+| 17 field questions + 3 no-answer | 82.4% | 100% | 0.902 | 2/3 | 0/17 | 89 ms |
+
+## Data findings
+582 files (470 en, 51 ar, 44 fr, 17 es); 182 CSV ids have no file. 18 pages are the same failed "MSF Access" scrape → dropped.
+1,050 boilerplate lines removed. 8 families / 19 docs: P07, P16, P44 are copies of D-documents; P42 copies the 2026
+edition of the Rwanda case study (2024 edition = older); P45/P46/P47 = financial report 2024/2021/2018; guideline
+chapters exist in EN/FR/ES. Some genre labels are noisy. Tables in PDFs are mostly lost in the Markdown.
+
+## Roadmap
+ONNX int8 export of the embedder (no PyTorch in the field, ~140 MB) · cross-encoder re-ranker as an optional precision
+step · incremental re-index when the field kit syncs (only changed files) · feedback button → missing-protocol report · table extraction from PDFs.

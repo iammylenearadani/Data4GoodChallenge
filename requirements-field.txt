@@ -1,0 +1,9 @@
+# Runtime on the field kit (on-premises, offline). Keyword-only mode needs just the first block.
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+rank-bm25>=0.2.2
+streamlit>=1.38
+plotly>=5.22
+# semantic (hybrid) search: + the e5-small model folder (~470 MB download once, then offline)
+sentence-transformers>=3.0

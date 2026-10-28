@@ -1,0 +1,21 @@
+query,relevant_ids,lang,notes
+ready-to-use therapeutic food for malnourished children,Da7bd65da54,en,
+children with severe wasting need a food supplement,Da7bd65da54;Da8b17ac14e,en,paraphrase (no shared key terms)
+snake bite in children,Da8a79bb208,en,
+decentralised care for multidrug-resistant tuberculosis,Dfa31139cc4,en,
+Ebola outbreak response North Kivu,D5e8da6e171;Dd2d4a2481b,en,
+oral cholera vaccine immune response,D8954bd10a8,en,
+how to organise a mass vaccination campaign,Da5fedd82cc,en,
+sexual and gender-based violence Port-au-Prince,D907b8f0256,en,
+emergency response northern Mozambique,De4c251983a,en,
+MSF and the Rohingya,Dbd6e2ef149,en,
+Rwanda genocide 1994 MSF speaking out,Da68d33c442;D3ee82c6349;D8edc950029,en,family: 2026 edition canonical
+HIV cascade of care survey Malawi,D24a2c98ae3,en,
+prise en charge du choléra,Dc95675e997,fr,French query
+المهاجرون بنما,Df35d21f1d6,ar,Arabic query
+hospital in southern Gaza,Dd4ee6d16b7,en,P07 is an exact copy
+attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,en,
+how much money does MSF spend each year,D10d6a75496;P45;P48,en,paraphrase
+veterinary rabies vaccine for cattle,,en,no answer -> should abstain
+cryptocurrency mining regulation,,en,no answer -> should abstain
+football world cup results,,en,no answer -> should abstain
