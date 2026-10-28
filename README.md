@@ -12,7 +12,8 @@ pip install -r requirements-build.txt
 # put the dataset here:  data/D4GC data/Parsed/*.md,  data/D4GC data/Original/*,  data/documentation.csv
 python -m msfsearch.build                 # ~1 min keyword-only; + a few min on CPU if sentence-transformers is installed
 python -m msfsearch "prise en charge du choléra"           # CLI
-streamlit run app.py                      # demo app
+streamlit run navigator.py                # field demo: outbreak decision evidence (4-language UI)
+streamlit run app.py                      # analyst view: filters, collection map, evaluation
 python eval/run_eval.py                   # metrics -> eval/results.md
 ```
 
@@ -23,7 +24,8 @@ python eval/run_eval.py                   # metrics -> eval/results.md
 | 2 Families | off-prem | `msfsearch/families.py` | Groups exact copies, editions and translations (TF-IDF cosine + title overlap + language; multilingual embeddings if built). Canonical = newest edition. |
 | 3 Index | off-prem | `msfsearch/build.py` | Heading-aware 250-word passages; BM25 on passages; BM25 on title + keywords + first 2,000 chars; optional multilingual-e5-small passage embeddings; 2-D collection map. |
 | 4 Search | **on-prem** | `msfsearch/search.py` | Reciprocal Rank Fusion of passage BM25 + abstract BM25 + dense; evidence filter; language/genre filters; one result per family (member in the query's language first); abstains when the match is weak. |
-| 5 App / CLI | **on-prem** | `app.py`, `msfsearch/__main__.py` | Search, family badges (🌐 translations, 🆕 newest edition, 📄 copies merged), "why this result", collection map, data-quality and evaluation tabs. |
+| 5 Decide | **on-prem** | `msfsearch/decide.py`, `navigator.py` | Field scope (operational genres, no front matter) → 5 evidence sentences quoted from the top documents, ranked by query words + prescriptive wording + numbers; MSF guidelines first. Nothing generated. |
+| 6 App / CLI | **on-prem** | `app.py`, `msfsearch/__main__.py` | Search, family badges (🌐 translations, 🆕 newest edition, 📄 copies merged), "why this result", collection map, data-quality and evaluation tabs. |
 | opt. AI labels | off-prem | `enrich.py` | Any LLM writes titles/topics/multilingual synonyms → added to the abstract field. |
 | Evaluation | off-prem | `eval/` | Title known-item set, hand-written field questions (incl. FR/AR and no-answer), optional LLM-written questions. |
 

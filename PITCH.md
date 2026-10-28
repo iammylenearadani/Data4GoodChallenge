@@ -1,5 +1,17 @@
 # 5-minute pitch (max 5:00 — rehearse with a timer)
 
+**Scope (after client feedback): ONE user, ONE moment.** The medical team leader / emergency coordinator in the first
+72 hours of an outbreak response. Their question: "what has MSF already learned about this, and which document is the
+current reference?" Demo app: `streamlit run navigator.py` (the analyst view with filters/map/eval stays in `app.py`).
+
+**Live demo (Wi-Fi off), ~90 s:** ① UI in English → click **Measles** → 5 numbered evidence points quoted from MSF
+studies ("aim for vaccination coverage close to 100%", "increase coverage by at least 67%") with sources, in ~80 ms.
+② Switch the UI to **العربية** (right-to-left) and **Français** → same evidence, interface in the user's language.
+③ Click **Cholera** → "MSF runs a 20-bed cholera treatment unit… setting up five oral rehydration points" + reference
+documents with ✓ latest version / 🌐 also in AR. ④ Type "football world cup results" → **"No confident answer — we would
+rather say nothing than mislead you."** Key line: *"Every line is a quote from an MSF document. Nothing is generated."*
+
+
 | Time | Slide / moment | Say (keep it human, numbers in bold) |
 |---|---|---|
 | 0:00–0:30 | 1. The doctor | "Day 1 of an Ebola response in North Kivu. Internet has been down for 4 days. A nurse needs the right protocol — the **current** version, in **her** language — in seconds." |
