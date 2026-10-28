@@ -89,9 +89,15 @@ def main():
     docs = pack["docs"]
     modes = ["keyword"] + (["dense", "hybrid"] if S.dense_ready() else [])
     sets = {"Title known-item (auto, 150)": title_set(docs)}
-    for name, f in [("Manual field questions", "queries_manual.csv"), ("LLM-written questions", "queries_synthetic.csv")]:
+    for name, f in [("Manual field questions", "queries_manual.csv"),
+                    ("Held-out field questions (never tuned on)", "queries_heldout.csv"),
+                    ("LLM-written questions", "queries_synthetic.csv")]:
         if (HERE / f).exists():
-            sets[name] = pd.read_csv(HERE / f)
+            qs = pd.read_csv(HERE / f)
+            if qs.relevant_ids.notna().any():  # unlabelled sets would count every query as no-answer
+                sets[name] = qs
+            else:
+                print(f"skipping {f}: no relevant_ids yet (label it with eval/pool.py first)")
     size = sum(p.stat().st_size for p in C.ARTIFACTS.glob("*") if p.is_file()) / 1e6
     lines = [f"# Evaluation results ({time.strftime('%Y-%m-%d %H:%M')})", "",
              f"Index: {len(docs)} documents, {len(pack['chunks'])} passages, artifacts {size:.0f} MB, "

@@ -1,0 +1,16 @@
+query,relevant_ids,lang,notes
+measles outbreak what to do first,,en,TO LABEL; medical; responder natural question
+paludisme grave chez l'enfant,,fr,TO LABEL; medical; short keyword
+how to keep vaccines cold without electricity,,en,TO LABEL; logistics; paraphrase (no 'cold chain')
+agua potable y saneamiento para desplazados,,es,TO LABEL; logistics/WASH; keyword
+what happens when aid workers are kidnapped,,en,TO LABEL; staff security; natural question
+can armed groups legally attack a hospital,,en,TO LABEL; legal/IHL; paraphrase (no 'international humanitarian law')
+الحصول على الأدوية بأسعار معقولة,,ar,TO LABEL; advocacy/access to medicines
+اللاجئون السوريون في لبنان,,ar,TO LABEL; advocacy/context; keyword
+rapport d'activité MSF,,fr,TO LABEL; finance/annual report; short keyword
+people drowning trying to cross the sea to Europe,,en,TO LABEL; advocacy; paraphrase (no 'search and rescue'/'Mediterranean')
+¿de dónde viene el dinero de MSF?,,es,TO LABEL; finance; paraphrase (funding sources)
+breast augmentation recovery time,,en,no answer -> should abstain; cosmetic surgery
+dosage ivermectine pour chevaux,,fr,no answer -> should abstain; veterinary; near-miss (ivermectin is a human drug too)
+IVF fertility treatment success rates,,en,no answer -> should abstain; elective medicine MSF does not publish on
+seguro médico para viajes de vacaciones,,es,no answer -> should abstain; travel insurance; finance/medical-adjacent
