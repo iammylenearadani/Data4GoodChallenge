@@ -21,7 +21,7 @@ KNOWN_BANNERS = [
 COPY_SIM = 0.95                 # TF-IDF cosine >= this -> exact copy
 EDITION_SIM = 0.80              # >= this AND similar titles -> edition of the same document
 TITLE_SIM = 0.8                 # title word-overlap needed for an edition link (0.5 merged measles+cholera guides)
-TRANSLATION_DENSE_SIM = 0.90    # multilingual doc-embedding cosine for translations (if embeddings built)
+TRANSLATION_DENSE_SIM = 0.87    # + mutual nearest neighbour + same genre (families.py). Audit of all such pairs: >=0.87 are real EN<->AR/FR/ES translations
 
 # --- chunking
 CHUNK_WORDS = 250
