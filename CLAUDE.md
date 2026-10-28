@@ -38,10 +38,12 @@ Dense is optional: if `sentence-transformers` is missing, everything falls back 
   (temporary, AWS Workshop Studio, region eu-central-1). Never print, log or commit them.
 - The Workshop Studio account terms forbid personal/regulated data — our MSF documents are public, fine.
 
-## Current results (keyword mode, CPU) — keep improving these, never regress them
-Title known-item (150): Hit@1 90.0%, Hit@5 96.7%, MRR 0.925, 111 ms. Manual (17 + 3 no-answer): Hit@1 82.4%,
-Hit@5 100%, MRR 0.902, abstains 2/3 on no-answer, 0 wrong abstentions. **Re-run `python eval/run_eval.py`
-after any change to ingest/families/build/search and compare.**
+## Current results (default mode = hybrid, CPU, dense e5-small built) — keep improving these, never regress them
+Title known-item (150): Hit@1 90.0%, Hit@5 96.7%, MRR 0.926, 80 ms, 0 wrong abstentions. Manual (17 + 3 no-answer):
+Hit@1 94.1%, Hit@5 100%, MRR 0.971, abstains 2/3 on no-answer, 0 wrong abstentions (keyword-only: Hit@1 82.4%).
+Families: dense translation links need mutual nearest neighbour (threshold alone chained 46-doc blobs) → 45 families / 109 docs, max size 3.
+`ABSTAIN_DENSE = 0.81` sits between no-answer (0.805/0.808) and the weakest real query (0.817) — tight; re-calibrate on the bigger manual set.
+**Re-run `python eval/run_eval.py` after any change to ingest/families/build/search and compare.**
 
 ## Work plan (one owner each; all in this repo)
 1. **Search (B)** — `pip install -r requirements-build.txt`, `python -m msfsearch.build` (with dense), run eval.
