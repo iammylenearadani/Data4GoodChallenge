@@ -29,16 +29,22 @@ python eval/run_eval.py                   # metrics -> eval/results.md
 
 All knobs live in `msfsearch/config.py`. `search()` returns a JSON-able dict (see `msfsearch/search.py`).
 
-## Results (laptop CPU) — see `eval/results.md` for all modes
-| Test set | Mode | Hit@1 | Hit@5 | MRR | No-answer abstained | Wrong abstentions | Median latency |
-|---|---|---|---|---|---|---|---|
-| 150 title known-item queries | hybrid (default) | 90.0% | 96.7% | 0.926 | – | 0/150 | 80 ms |
-| 17 field questions + 3 no-answer | hybrid (default) | 94.1% | 100% | 0.971 | 2/3 | 0/17 | 74 ms |
-| 17 field questions + 3 no-answer | keyword only | 82.4% | 100% | 0.902 | 2/3 | 0/17 | 34 ms |
+## Results (laptop CPU, hybrid default) — full tables in `eval/results.md`
+Held-out set: 99 questions written blind from randomly sampled passages (EN/FR/ES/AR), incl. cross-language and
+no-answer questions. Thresholds were tuned on a separate set (`eval/queries_manual.csv`) and the title set only.
+
+| Held-out question type | n | Hit@1 (95% CI) | Hit@5 | Notes |
+|---|---|---|---|---|
+| Native language | 74 | **91.9%** (83–96%) | 97.3% | keyword only: 89.2% |
+| Cross-language, same doc or its translation | 17 | **47.1%** (hybrid) · 58.8% (dense) | – | keyword only: 41.2% |
+| No answer in the collection | 8 | abstained **5/8** | – | 0 wrong abstentions on native questions |
+
+Title known-item (150): Hit@1 90.7% (85–94%), Hit@5 96.0%. ~4 results per question, ~75 ms median per query on CPU.
+Ablation: removing the multilingual model costs 12 points Hit@1 on the tuning set; removing the title/abstract field costs 12.
 
 ## Data findings
 582 files (470 en, 51 ar, 44 fr, 17 es); 182 CSV ids have no file. 18 pages are the same failed "MSF Access" scrape → dropped.
-1,050 boilerplate lines removed. 45 families / 109 docs (57 translations, mostly EN/FR/ES guideline chapters and activity reports): P07, P16, P44 are copies of D-documents; P42 copies the 2026
+1,050 boilerplate lines removed. 76 families / 171 docs (88 translations: EN/FR/ES guideline chapters, activity reports, EN↔AR press releases): P07, P16, P44 are copies of D-documents; P42 copies the 2026
 edition of the Rwanda case study (2024 edition = older); P45/P46/P47 = financial report 2024/2021/2018; guideline
 chapters exist in EN/FR/ES. Some genre labels are noisy. Tables in PDFs are mostly lost in the Markdown.
 

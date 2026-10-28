@@ -38,11 +38,15 @@ Dense is optional: if `sentence-transformers` is missing, everything falls back 
   (temporary, AWS Workshop Studio, region eu-central-1). Never print, log or commit them.
 - The Workshop Studio account terms forbid personal/regulated data — our MSF documents are public, fine.
 
-## Current results (default mode = hybrid, CPU, dense e5-small built) — keep improving these, never regress them
-Title known-item (150): Hit@1 90.0%, Hit@5 96.7%, MRR 0.926, 80 ms, 0 wrong abstentions. Manual (17 + 3 no-answer):
-Hit@1 94.1%, Hit@5 100%, MRR 0.971, abstains 2/3 on no-answer, 0 wrong abstentions (keyword-only: Hit@1 82.4%).
-Families: dense translation links need mutual nearest neighbour (threshold alone chained 46-doc blobs) → 45 families / 109 docs, max size 3.
-`ABSTAIN_DENSE = 0.81` sits between no-answer (0.805/0.808) and the weakest real query (0.817) — tight; re-calibrate on the bigger manual set.
+## Current results (hybrid default, CPU) — REPORTING = held-out set; never tune on it (see EVAL_UPGRADE.md)
+Held-out, 99 blind questions: native (74) Hit@1 **91.9% (83–96%)**, Hit@5 97.3%, 0 wrong abstentions ·
+cross-language (17) Hit@1 family: keyword 41% → dense 59% → hybrid 47% (strict ~6–12%: the system shows the
+same story in the query's language) · no-answer 5/8 abstained · 4.0 results/question · ~75 ms.
+Title known-item (150): Hit@1 90.7% (85–94%), Hit@5 96.0%, 2 wrong abstentions (junk titles).
+Ablation (tuning+title): dense −12 pts / −5 pts, abstract −12 / −4, passage BM25 ±0 (kept).
+Config chosen on tuning+title only: KEYWORD_CUTOFF 0.65, DENSE_MARGIN 0.03, ABSTAIN_DENSE 0.81, TRANSLATION_DENSE_SIM 0.87
+(audit: all same-genre mutual-NN cross-language pairs >= 0.87 are real translations) → 76 families / 171 docs, max 3.
+Demo no-answer query: "football world cup results" (verified to abstain). "dental implant…"/"Antarctica" do NOT abstain.
 **Re-run `python eval/run_eval.py` after any change to ingest/families/build/search and compare.**
 
 ## Work plan (one owner each; all in this repo)
