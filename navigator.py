@@ -89,8 +89,9 @@ st.markdown("""
 <style>
 :root { --red:#E1001A; --ink:#1d1d1f; --muted:#6b6b70; --line:#ececef; --soft:#fff5f6; }
 .stApp { background:#ffffff; }
-.block-container { padding-top:1.2rem; max-width:860px; }
-header[data-testid="stHeader"] { background:transparent; }
+.block-container { padding-top:1.5rem; max-width:860px; }
+/* Streamlit's own header bar is invisible but sits on top of the page and swallowed clicks on the language buttons */
+header[data-testid="stHeader"], [data-testid="stToolbar"], [data-testid="stDecoration"] { display:none !important; }
 .topbar { display:flex; align-items:center; justify-content:space-between; margin-bottom:.4rem; }
 .brand { display:flex; align-items:center; gap:.6rem; font-weight:800; font-size:1.15rem; color:var(--ink); }
 .cross { background:var(--red); color:#fff; width:34px; height:34px; border-radius:8px; display:flex;

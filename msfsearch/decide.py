@@ -5,6 +5,7 @@ Sentences are ranked by: query words they contain + prescriptive wording ("must"
 + action verbs + numbers/doses/thresholds, with MSF clinical guidelines ranked above news and reports.
 """
 import re
+import unicodedata
 
 from . import search as S
 from .text import content_words, tokenize
@@ -38,7 +39,11 @@ _WRAP = re.compile(r"(?<![.!?:;\n])\n(?!\n|\s*[-*•#>|]|\s*\d+[.)]\s)")  # a PD
 
 def _sentences(text):
     for s in _SPLIT.split(_WRAP.sub(" ", text)):
-        s = re.sub(r"\s+", " ", re.sub(r"^[\s>*#\-–•·\d.)]+", "", s)).replace("ﬁ", "fi").replace("ﬂ", "fl").replace("**", "").strip()
+        # PDF ligatures: "eﬃcacy" (NFKC) and "e\x81cacy" (this corpus encodes "ffi" as 0x81) -> "efficacy"
+        s = unicodedata.normalize("NFKC", s.replace("\x81", "ffi")).replace("**", "")
+        s = "".join(ch for ch in s if unicodedata.category(ch) not in ("Cc", "Co"))  # other invisible PDF junk
+        s = re.sub(r"\s+", " ", re.sub(r"^[\s>*#\-–•·\d.)]+", "", s)).strip()
+        s = re.sub(r"(?<=[a-z])- (?=[a-z])", "", s)  # PDF hyphenation: "cover- age" -> "coverage"
         if 7 <= len(s.split()) <= 55 and not _JUNK.search(s) and s[-1] in ".!?:;)":
             yield s
 
