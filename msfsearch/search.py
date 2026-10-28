@@ -59,7 +59,7 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
     docs, chunks = pack["docs"], pack["chunks"]
     q_tokens = tokenize(query)
     q_lang = detect_lang(query)
-    out = {"query": query, "query_lang": q_lang, "mode": mode, "abstained": False, "results": []}
+    out = {"query": query, "query_lang": q_lang, "mode": mode, "abstained": False, "results": [], "latency_ms": 0}
     if not q_tokens:
         return out
 
@@ -76,6 +76,7 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
         qv = embedder.embed_query(query)
         dn = _best_per_doc(_emb @ qv, pack["emb_ids"], chunks, C.CANDIDATES)
         lists["dense"] = list(dn)
+    lists = {n: l for n, l in lists.items() if n in C.SIGNALS}
     if not any(lists.values()):
         out["abstained"] = True
         return out
@@ -89,7 +90,7 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
     max_dn = max((s for _, s in dn.values()), default=0)
 
     def strong(d):
-        ok_kw = d in kw and kw[d][1] >= C.KEYWORD_CUTOFF * max_kw
+        ok_kw = d in kw and kw[d][1] >= (C.KEYWORD_CUTOFF if dn else C.KEYWORD_CUTOFF_NO_DENSE) * max_kw
         ok_dn = d in dn and dn[d][1] >= max_dn - C.DENSE_MARGIN
         return ok_kw or ok_dn
 
@@ -116,7 +117,9 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
                 continue
             shown = alt.iloc[0]
         ci = (kw.get(d) or dn.get(d))[0]
-        passage = chunks[ci]["text"] if chunks[ci]["doc_idx"] == shown.name else shown.text[:1500]
+        if not results:
+            top_ci = ci  # evidence passage of the top result, used for abstention below
+        passage =chunks[ci]["text"] if chunks[ci]["doc_idx"] == shown.name else shown.text[:1500]
         results.append({
             "doc_id": shown.doc_id, "title": shown.get("ai_title") or shown.title, "genre": shown.genre,
             "lang": shown.lang, "year": None if shown.year != shown.year else int(shown.year),
@@ -138,7 +141,10 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
         qw = set(content_words(query))
         found = set(tokenize(top.title + " " + top.text[:200000]))
         coverage = len(qw & found) / max(1, len(qw))
-        out["confidence"] = {"coverage": round(coverage, 2), "dense_cos": results[0]["dense_cos"]}
+        # same check on the matched passage only: long reports contain almost any word somewhere
+        p_found = set(tokenize(chunks[top_ci]["heading"] + " " + chunks[top_ci]["text"]))
+        out["confidence"] = {"coverage": round(coverage, 2), "dense_cos": results[0]["dense_cos"],
+                             "passage_coverage": round(len(qw & p_found) / max(1, len(qw)), 2)}
         out["abstained"] = coverage < C.ABSTAIN_COVERAGE
         if use_dense:  # a low semantic match is enough on its own (query words alone can match by chance)
             out["abstained"] = out["abstained"] or (results[0]["dense_cos"] or 0) < C.ABSTAIN_DENSE

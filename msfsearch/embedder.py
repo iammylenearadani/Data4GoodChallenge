@@ -22,7 +22,10 @@ def _get():
     global _model
     if _model is None:
         from sentence_transformers import SentenceTransformer
-        _model = SentenceTransformer(C.EMBED_MODEL, device="cpu")
+        try:  # field kit: local cache only, never wait on a dead or slow network
+            _model = SentenceTransformer(C.EMBED_MODEL, device="cpu", local_files_only=True)
+        except Exception:  # first build on a fresh machine: download once
+            _model = SentenceTransformer(C.EMBED_MODEL, device="cpu")
     return _model
 
 

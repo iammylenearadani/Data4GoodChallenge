@@ -29,15 +29,35 @@ def title_set(docs, n=150):
     return pd.DataFrame({"query": ok.title.values, "relevant_ids": ok.doc_id.values})
 
 
-def evaluate(qs, mode, docs):
+def wilson(k, n, z=1.96):
+    """95% interval for a proportion: honest error bars for small test sets."""
+    if not n:
+        return 0.0, 0.0
+    p, d = k / n, 1 + z * z / n
+    c, h = (p + z * z / (2 * n)) / d, z * (p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5 / d
+    return c - h, c + h
+
+
+def evaluate(qs, mode, docs, log=None, set_name=""):
+    """Aggregate metrics for one mode; appends one row per query to `log` (-> eval/per_query.csv)."""
     fam_of = dict(zip(docs.doc_id, docs.family_id))
     h1 = h5 = mrr = 0
     n_ans = n_noans = abst_ok_noans = abst_wrong = 0
-    lat, nres = [], []
+    lat, nres, prec = [], [], []
     for q, rel in zip(qs["query"], qs["relevant_ids"].fillna("")):
         r = S.search(str(q), k=5, mode=mode)
         lat.append(r.get("latency_ms", 0))
         rel = [x.strip() for x in str(rel).split(";") if x.strip()]
+        fams = {fam_of.get(x) for x in rel}
+        hits = [x["doc_id"] in rel or x["family"]["id"] in fams for x in r["results"]]
+        if log is not None:
+            conf, top = r.get("confidence") or {}, (r["results"] or [{}])[0]
+            log.append({"set": set_name, "mode": mode, "query": q, "gold": ";".join(rel) or "(no answer)",
+                        "gold_rank": hits.index(True) + 1 if True in hits else None,
+                        "top1": top.get("doc_id"), "top1_title": (top.get("title") or "")[:80],
+                        "dense_cos": conf.get("dense_cos"), "coverage": conf.get("coverage"),
+                        "passage_coverage": conf.get("passage_coverage"),
+                        "abstained": r["abstained"], "n_results": len(r["results"])})
         if not rel:  # no-answer question
             n_noans += 1
             abst_ok_noans += r["abstained"]
@@ -45,14 +65,18 @@ def evaluate(qs, mode, docs):
         n_ans += 1
         abst_wrong += r["abstained"]
         nres.append(len(r["results"]))
-        fams = {fam_of.get(x) for x in rel}
-        ranks = [i for i, x in enumerate(r["results"]) if x["doc_id"] in rel or x["family"]["id"] in fams]
-        if ranks:
+        if hits:
+            prec.append(sum(hits) / len(hits))
+        if True in hits:
+            first = hits.index(True)
             h5 += 1
-            h1 += ranks[0] == 0
-            mrr += 1 / (ranks[0] + 1)
+            h1 += first == 0
+            mrr += 1 / (first + 1)
+    lo, hi = wilson(h1, n_ans)
     row = {"mode": mode, "n": n_ans,
-           "Hit@1": f"{h1 / max(1, n_ans):.1%}", "Hit@5": f"{h5 / max(1, n_ans):.1%}", "MRR": f"{mrr / max(1, n_ans):.3f}",
+           "Hit@1": f"{h1 / max(1, n_ans):.1%}", "Hit@1 95% CI": f"{lo:.0%}–{hi:.0%}",
+           "Hit@5": f"{h5 / max(1, n_ans):.1%}", "MRR": f"{mrr / max(1, n_ans):.3f}",
+           "precision@k": f"{np.mean(prec):.2f}" if prec else "-",
            "avg results": f"{np.mean(nres):.1f}" if nres else "-",
            "abstains on no-answer": f"{abst_ok_noans}/{n_noans}" if n_noans else "-",
            "wrong abstentions": f"{abst_wrong}/{n_ans}",
@@ -72,12 +96,16 @@ def main():
     lines = [f"# Evaluation results ({time.strftime('%Y-%m-%d %H:%M')})", "",
              f"Index: {len(docs)} documents, {len(pack['chunks'])} passages, artifacts {size:.0f} MB, "
              f"dense model: {pack.get('embed_model') or 'none (keyword only)'}", ""]
+    log = []
     for name, qs in sets.items():
-        rows = [evaluate(qs, m, docs) for m in modes]
+        rows = [evaluate(qs, m, docs, log, name) for m in modes]
         t = pd.DataFrame(rows)
         lines += [f"## {name}", "", t.to_markdown(index=False), ""]
         print(f"\n{name}\n{t.to_string(index=False)}")
+    lines += ["precision@k = share of returned results that are gold (understated until gold lists are pooled); "
+              "per-query details in eval/per_query.csv", ""]
     (HERE / "results.md").write_text("\n".join(lines), encoding="utf-8")
+    pd.DataFrame(log).to_csv(HERE / "per_query.csv", index=False, encoding="utf-8-sig")
     print(f"\n-> {HERE / 'results.md'}")
 
 

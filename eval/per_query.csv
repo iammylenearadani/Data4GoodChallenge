@@ -1,0 +1,511 @@
+﻿set,mode,query,gold,gold_rank,top1,top1_title,dense_cos,coverage,passage_coverage,abstained,n_results
+"Title known-item (auto, 150)",keyword,This article appeared in a journal published by Elsevier. The attached,Da9f6db469d,1.0,Da9f6db469d,This article appeared in a journal published by Elsevier. The attached,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Webster R, et al. Implementing Fixed Dose Combination Medications",D673ba9db5c,1.0,D673ba9db5c,"Webster R, et al. Implementing Fixed Dose Combination Medications",,1.0,1.0,False,3
+"Title known-item (auto, 150)",keyword,Médicaments à usage externe et antiseptiques,D1b539fd0a2,1.0,D1b539fd0a2,Médicaments à usage externe et antiseptiques,,1.0,1.0,False,2
+"Title known-item (auto, 150)",keyword,Foreword 2018 Activity Report,Dbdfa725f12,,D3a344296cf,Foreword 2021,,0.75,0.75,False,5
+"Title known-item (auto, 150)",keyword,"Performance evaluation of the Mini-Lab, an all-in-one clinical",D04c8ff52a2,1.0,D04c8ff52a2,"Performance evaluation of the Mini-Lab, an all-in-one clinical",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Acceptability and use of a virtual support group for HIV-positive youth in Khayelitsha, Cape Town using the MXit social networking platform",De56cde2022,1.0,De56cde2022,Acceptability and use of a virtual support group for HIV-positive youth in Khaye,,1.0,0.81,False,5
+"Title known-item (auto, 150)",keyword,"contribution to the evidence base,",D705d4b38bf,1.0,D705d4b38bf,"contribution to the evidence base,",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,,0.5,0.25,False,5
+"Title known-item (auto, 150)",keyword,"Violence against civilians and access to health care in North Kivu, Democratic Republic of Congo: three cross-sectional surveys.",Da0c54e36d0,1.0,Da0c54e36d0,"Violence against civilians and access to health care in North Kivu, Democratic R",,1.0,0.87,False,5
+"Title known-item (auto, 150)",keyword,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في الصومال وإثيوبيا,D7acf22526b,1.0,D7acf22526b,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في ا,,1.0,0.57,False,5
+"Title known-item (auto, 150)",keyword,DR-TB drugs under the microscope 2018,D0ae7cceef7,1.0,D0ae7cceef7,DR-TB drugs under the microscope 2018,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,ADAPTING IN TIMES OF CRISIS TO,Dc5ae5123ae,1.0,Dc5ae5123ae,ADAPTING IN TIMES OF CRISIS TO,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Ethical dilemmas in medical humanitarian practice:,D473461b69b,1.0,D473461b69b,Ethical dilemmas in medical humanitarian practice:,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,International Criminal Court (ICC),P28,1.0,P28,International Criminal Court (ICC),,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Crisis in Darfur: This is a war against civilians,D8b3df52e9e,1.0,D8b3df52e9e,Crisis in Darfur: This is a war against civilians,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Inadequate water and sanitation pose health threats in Syria,D9e5162a399,1.0,D9e5162a399,Inadequate water and sanitation pose health threats in Syria,,1.0,0.71,False,5
+"Title known-item (auto, 150)",keyword,Conflict in Greater Upper Nile is impeding humanitarian aid to thousands of people already devastated by flooding,De03cafecf1,1.0,De03cafecf1,Conflict in Greater Upper Nile is impeding humanitarian aid to thousands of peop,,1.0,0.83,False,5
+"Title known-item (auto, 150)",keyword,AMR in low-resource settings: Medecins Sans Frontieres bridges,D8ad70d7749,1.0,D8ad70d7749,AMR in low-resource settings: Medecins Sans Frontieres bridges,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Voluntary counselling, HIV testing and adjunctive",Dc75803ba46,1.0,Dc75803ba46,"Voluntary counselling, HIV testing and adjunctive",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Ebola disease in DRC: MSF scales up response to a rapidly evolving outbreak,Dd2d4a2481b,4.0,D5375e4eb66,DRC: MSF statement on the visit of WHO Director-General to Bunia,,0.7,0.7,False,5
+"Title known-item (auto, 150)",keyword,RSF must protect health facilities and staff in Central Darfur Sudan,Ddbc2d1795e,1.0,Ddbc2d1795e,RSF must protect health facilities and staff in Central Darfur Sudan,,1.0,0.89,False,5
+"Title known-item (auto, 150)",keyword,Management of diabetes and associated costs in a complex humanitarian setting in the Democratic Republic of Congo: a retrospective cohort study,D7b1badbde2,1.0,D7b1badbde2,Management of diabetes and associated costs in a complex humanitarian setting in,,1.0,0.69,False,5
+"Title known-item (auto, 150)",keyword,English Charity Reg. No. 1026588,Ddd8f64b337,1.0,Ddd8f64b337,English Charity Reg. No. 1026588,,1.0,1.0,False,3
+"Title known-item (auto, 150)",keyword,Tornimbene et al. BMC Proceedings            (2025) 19:7,D00acff0abd,1.0,D00acff0abd,Tornimbene et al. BMC Proceedings            (2025) 19:7,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Chad: Scores of wounded in Adré as conflict in Sudan surges,D13a0eeb8c5,1.0,D13a0eeb8c5,Chad: Scores of wounded in Adré as conflict in Sudan surges,,1.0,0.57,False,5
+"Title known-item (auto, 150)",keyword,"SESSION 3: Melioidosis, microbes, and mosquitoes: pushing boundaries for the most neglected and most vulnerable",D4f51b3b8aa,1.0,D4f51b3b8aa,"SESSION 3: Melioidosis, microbes, and mosquitoes: pushing boundaries for the mos",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Solidarity and dedication in response to devastating Myanmar earthquake,D221a40d307,1.0,D221a40d307,Solidarity and dedication in response to devastating Myanmar earthquake,,1.0,0.33,False,5
+"Title known-item (auto, 150)",keyword,Mismatch of supply and demand: Marburg virus disease outbreaks need countermeasures but will not provide opportunity for clinical trials,D6707fbdcac,1.0,D6707fbdcac,Mismatch of supply and demand: Marburg virus disease outbreaks need countermeasu,,1.0,1.0,False,2
+"Title known-item (auto, 150)",keyword,MSF AND THE ROHINGYA,Dbd6e2ef149,1.0,Dbd6e2ef149,MSF AND THE ROHINGYA,,1.0,1.0,False,4
+"Title known-item (auto, 150)",keyword,Israeli forces must stop attacks on medical care in Jenin,D054bcedd1a,1.0,D054bcedd1a,Israeli forces must stop attacks on medical care in Jenin,,1.0,0.88,False,5
+"Title known-item (auto, 150)",keyword,Adverse Events among HIV/MDR-TB Co-Infected Patients,D7d3811047b,1.0,D7d3811047b,Adverse Events among HIV/MDR-TB Co-Infected Patients,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,The burden and outcomes of childhood tuberculosis,D795c870cf1,1.0,D795c870cf1,The burden and outcomes of childhood tuberculosis,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Coldiron et al. Malar J          (2021) 20:419,P14,1.0,P14,Coldiron et al. Malar J          (2021) 20:419,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,جنوب السودان تنفذ أول حملة تلقيح في العالم استجابة لتفشي التهاب الكبد E,Dc835fd8fa5,1.0,Dc835fd8fa5,جنوب السودان تنفذ أول حملة تلقيح في العالم استجابة لتفشي التهاب الكبد E,,1.0,0.83,False,2
+"Title known-item (auto, 150)",keyword,Every day thousands of Ukrainians arrive in Slovakia traumatised and exhausted,D7fa676b119,1.0,D7fa676b119,Every day thousands of Ukrainians arrive in Slovakia traumatised and exhausted,,1.0,0.62,False,5
+"Title known-item (auto, 150)",keyword,Prise en charge d’une ÉPIDÉMIE DE ROUGEOLE,D5e9f29a4e4,1.0,D5e9f29a4e4,Prise en charge d’une ÉPIDÉMIE DE ROUGEOLE,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,This Provisional PDF corresponds to the article as it appeared upon acceptance. Fully formatted,D39b5a07cce,1.0,D39b5a07cce,This Provisional PDF corresponds to the article as it appeared upon acceptance. ,,1.0,1.0,False,1
+"Title known-item (auto, 150)",keyword,Towards more accurate HIV testing in sub-Saharan,Dc5f2be378d,1.0,Dc5f2be378d,Towards more accurate HIV testing in sub-Saharan,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Five questions about the mpox outbreak in DRC,Ddc5f4e5436,1.0,Ddc5f4e5436,Five questions about the mpox outbreak in DRC,,1.0,0.4,False,5
+"Title known-item (auto, 150)",keyword,People in Gaza still need a massive scale-up of humanitarian supplies,D89f8f8704e,1.0,D89f8f8704e,People in Gaza still need a massive scale-up of humanitarian supplies,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,غزة: التقييد المتعمّد للغذاء والمساعدات أدى إلى مستويات مقلقة من سوء التغذية,Db305b45b94,1.0,Db305b45b94,غزة: التقييد المتعمّد للغذاء والمساعدات أدى إلى مستويات مقلقة من سوء التغذية,,1.0,0.58,False,5
+"Title known-item (auto, 150)",keyword,"MSF and Ebola in Nord Kivu: Positioning,",D5e8da6e171,1.0,D5e8da6e171,"MSF and Ebola in Nord Kivu: Positioning,",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,8.2 Early postpartum haemorrhage,P23,1.0,P23,8.2 Early postpartum haemorrhage,,1.0,1.0,False,3
+"Title known-item (auto, 150)",keyword,استمرار الاحتياجات الطبية وسط النزاع في السودان,D8d099e6717,3.0,Db6773e8c18,أطباء بلا حدود تدعو إلى الاستجابة فورًا لأزمة اللاجئين السودانيين في تشاد,,0.71,0.71,False,5
+"Title known-item (auto, 150)",keyword,"Two-dose vaccine effectiveness following the first reactive mass vaccination campaign against Hepatitis E in Bentiu, South Sudan",D081f681b26,1.0,D081f681b26,Two-dose vaccine effectiveness following the first reactive mass vaccination cam,,1.0,1.0,False,4
+"Title known-item (auto, 150)",keyword,Report: Escalating violence in South Sudan,Df73a5c30bf,2.0,D2e11dee055,South Sudan is at a breaking point,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,VitalSurg: Outcomes From a Surgical,D1fa284e16c,1.0,D1fa284e16c,VitalSurg: Outcomes From a Surgical,,1.0,1.0,False,3
+"Title known-item (auto, 150)",keyword,Over 100 deaths in one week in the Central Mediterranean,D6de324faad,1.0,D6de324faad,Over 100 deaths in one week in the Central Mediterranean,,1.0,0.71,False,5
+"Title known-item (auto, 150)",keyword,volume 5 no 9 pp 640–647 september 2000,D7dbccfcf92,1.0,D7dbccfcf92,volume 5 no 9 pp 640–647 september 2000,,1.0,1.0,False,4
+"Title known-item (auto, 150)",keyword,"Eight years in Kirkuk, Iraq: following along the journey of Hawija recovery",D4177935ee4,1.0,D4177935ee4,"Eight years in Kirkuk, Iraq: following along the journey of Hawija recovery",,1.0,0.78,False,4
+"Title known-item (auto, 150)",keyword,Mortality and cause of death in children with presumptive disseminated tuberculosis,De19574ea6d,1.0,De19574ea6d,Mortality and cause of death in children with presumptive disseminated tuberculo,,1.0,0.86,False,5
+"Title known-item (auto, 150)",keyword,Antiretroviral Therapy Outcomes in Resource-Limited,De61d0eaa84,1.0,De61d0eaa84,Antiretroviral Therapy Outcomes in Resource-Limited,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Kumar R, et al. BMJ Open 2023;0:e074679. doi:10.1136/bmjopen-2023-074679",D035530810c,1.0,D035530810c,"Kumar R, et al. BMJ Open 2023;0:e074679. doi:10.1136/bmjopen-2023-074679",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,وسط البحر الأبيض المتوسط: وفاة أكثر من 100 شخص خلال أسبوع,D332fd5febc,1.0,D332fd5febc,وسط البحر الأبيض المتوسط: وفاة أكثر من 100 شخص خلال أسبوع,,1.0,0.91,False,2
+"Title known-item (auto, 150)",keyword,The Bundibugyo virus challenge: why is this Ebola disease outbreak different,D5d1bb4aad4,1.0,D5d1bb4aad4,The Bundibugyo virus challenge: why is this Ebola disease outbreak different,,1.0,0.62,False,5
+"Title known-item (auto, 150)",keyword,Molecular genotyping in a malaria treatment trial in Uganda –,Dce112b1459,1.0,Dce112b1459,Molecular genotyping in a malaria treatment trial in Uganda –,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Antibiotic susceptibility patterns of pathogens isolated from,D3ceda3d736,1.0,D3ceda3d736,Antibiotic susceptibility patterns of pathogens isolated from,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Body mass index trajectories and association with,D279f7b3d6d,1.0,D279f7b3d6d,Body mass index trajectories and association with,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Haiti: In Port-au-Prince, the violence is like gangrene",De86ef509f0,1.0,De86ef509f0,"Haiti: In Port-au-Prince, the violence is like gangrene",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Yale New Haven Health System, United States",D5814f937ab,1.0,D5814f937ab,"Yale New Haven Health System, United States",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,A randomized trial of AmBisome,D8048b8fc82,1.0,D8048b8fc82,A randomized trial of AmBisome,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,A deadly cycle: Malnutrition and disease outbreaks across the globe,D1ef8b2e740,1.0,D1ef8b2e740,A deadly cycle: Malnutrition and disease outbreaks across the globe,,1.0,0.57,False,5
+"Title known-item (auto, 150)",keyword,2020 in figures - Cloned,Ddc83b267e0,1.0,Ddc83b267e0,2020 in figures - Cloned,,1.0,0.67,False,5
+"Title known-item (auto, 150)",keyword,MSF AND THE WAR IN,Dd529d6b2d6,,Da68d33c442,RWANDAN TUTSI 1994,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Haiti 2018 Activity Report,P10,,D62e0b7f65e,"Infection Control & Hospital Epidemiology (2018), 39, 1381–1383",,0.75,0.5,False,5
+"Title known-item (auto, 150)",keyword,Responding to COVID-19 across the world,D702c8332ce,1.0,D702c8332ce,Responding to COVID-19 across the world,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Supply shortages and patient influxes leave Nasser hospital at breaking point,D28f2e6484c,1.0,D28f2e6484c,Supply shortages and patient influxes leave Nasser hospital at breaking point,,1.0,0.44,False,5
+"Title known-item (auto, 150)",keyword,Reducing Wasting in Young Children With Preventive,Da8b17ac14e,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Bringing clean water and sanitation to forcibly displaced families in Lebanon,D55eeab715f,1.0,D55eeab715f,Bringing clean water and sanitation to forcibly displaced families in Lebanon,,1.0,0.88,False,5
+"Title known-item (auto, 150)",keyword,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,Df1c261b285,1.0,Df1c261b285,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,,1.0,0.62,False,5
+"Title known-item (auto, 150)",keyword,Building evidence in crises,D62457e1efb,5.0,D67e9876b52,Pneumococcal conjugate vaccine use during humanitarian crises,,0.67,0.67,False,5
+"Title known-item (auto, 150)",keyword,These abstracts are not te be quoted for publication,D674b851bcf,1.0,D674b851bcf,These abstracts are not te be quoted for publication,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Evaluation of the “Tea Team,D3f9de2b07a,1.0,D3f9de2b07a,Evaluation of the “Tea Team,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Lancet Glob Health 2026;,Df45b248d71,1.0,Df45b248d71,Lancet Glob Health 2026;,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,in the BDLC group and among 69 of,Dda00263b16,1.0,Dda00263b16,in the BDLC group and among 69 of,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF UK | English Charity Reg. No. 1026588,D48246cb637,1.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,,1.0,1.0,False,4
+"Title known-item (auto, 150)",keyword,وجهًا لوجه مع الإيبولا في أوغندا,D19b04b35f2,1.0,D19b04b35f2,وجهًا لوجه مع الإيبولا في أوغندا,,1.0,0.67,False,4
+"Title known-item (auto, 150)",keyword,Control and public health aspects,D1acecedd02,1.0,D1acecedd02,Control and public health aspects,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,سوريا: أطباء بلا حدود تختتم أنشطتها في مركز دارة عزة,D2764b19112,1.0,D2764b19112,سوريا: أطباء بلا حدود تختتم أنشطتها في مركز دارة عزة,,1.0,0.8,False,5
+"Title known-item (auto, 150)",keyword,Thailand Cooperating with local groups to fight AIDS,D0eebba4c05,1.0,D0eebba4c05,Thailand Cooperating with local groups to fight AIDS,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF: Open statement on the launch of the Global AMR R&D Collaboration Hub,D17890cad99,1.0,D17890cad99,MSF: Open statement on the launch of the Global AMR R&D Collaboration Hub,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF briefing on Sudan to UN Security Council,D5774643607,1.0,D5774643607,MSF briefing on Sudan to UN Security Council,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,© The Author(s) 2019. Published by Oxford University Press for the Infectious Diseases Society of,D02dab61f41,1.0,D02dab61f41,© The Author(s) 2019. Published by Oxford University Press for the Infectious Di,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,أطباء بلا حدود تطلق استجابة طارئة في شمال موزمبيق,D8d18203d3a,1.0,D8d18203d3a,أطباء بلا حدود تطلق استجابة طارئة في شمال موزمبيق,,1.0,0.89,False,5
+"Title known-item (auto, 150)",keyword,"2 Projet Sante pour Tous-Kinshasa, Hopital de la Rive, BP 9638, Kinshasa-Ngaliema, Zaire",De5b2f33ffa,1.0,De5b2f33ffa,"2 Projet Sante pour Tous-Kinshasa, Hopital de la Rive, BP 9638, Kinshasa-Ngaliem",,1.0,1.0,False,2
+"Title known-item (auto, 150)",keyword,The near impossible task of getting lifesaving supplies into Gaza,D3a9dd210b9,1.0,D3a9dd210b9,The near impossible task of getting lifesaving supplies into Gaza,,1.0,0.71,False,5
+"Title known-item (auto, 150)",keyword,EECA Regional SORT IT,D9fb30dbc22,1.0,D9fb30dbc22,EECA Regional SORT IT,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Measles: the long walk to elimination drawn out by COVID-19,Dc1ad0828ea,1.0,Dc1ad0828ea,Measles: the long walk to elimination drawn out by COVID-19,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Knowledge, attitudes and practices on childhood TB among healthcare workers",D90917c4e45,1.0,D90917c4e45,"Knowledge, attitudes and practices on childhood TB among healthcare workers",,1.0,0.88,False,3
+"Title known-item (auto, 150)",keyword,INT J TUBERC LUNG DIS 24(12):1265–1271,D030d37cd08,1.0,D030d37cd08,INT J TUBERC LUNG DIS 24(12):1265–1271,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,9.2 Conventional treatment regimens,P49,2.0,Dd049c70e48,Landmark clinical trial redefines multidrug-resistant TB treatment options,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Academic Editors: Mingyang Wu and,D7a52c1f25b,1.0,D7a52c1f25b,Academic Editors: Mingyang Wu and,,1.0,1.0,False,4
+"Title known-item (auto, 150)",keyword,South Sudan: The long walk for new life,P06,4.0,D810d7eb050,South Sudan implements world-first outbreak response vaccination campaign for he,,0.67,0.5,False,5
+"Title known-item (auto, 150)",keyword,Sexually transmitted infections among prison inmates in a rural district of,D037e4f1dc8,1.0,D037e4f1dc8,Sexually transmitted infections among prison inmates in a rural district of,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"In August 1995, for the first time in its history, North Korea launched a call for inter-",D806bc9089a,1.0,D806bc9089a,"In August 1995, for the first time in its history, North Korea launched a call f",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,NATURE MICROBIOLOGY | VOL 1 | MARCH 2016 | www.nature.com/naturemicrobiology,D0bd9567695,1.0,D0bd9567695,NATURE MICROBIOLOGY | VOL 1 | MARCH 2016 | www.nature.com/naturemicrobiology,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF response to Israeli allegations linked to staff killing,D236dc184a5,5.0,Da7897cecbd,Statement on Israeli military decision to deny a criminal investigation into MSF,,0.57,0.57,False,5
+"Title known-item (auto, 150)",keyword,Belarus innovative safe tuberculosis treatment programme,Dc190efdb0c,1.0,Dc190efdb0c,Belarus innovative safe tuberculosis treatment programme,,1.0,0.67,False,5
+"Title known-item (auto, 150)",keyword,Identifying critically ill children at risk of,D0a172b79a4,1.0,D0a172b79a4,Identifying critically ill children at risk of,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Haiti: MSF forced to evacuate hospital in Cite Soleil,D5057743ad2,1.0,D5057743ad2,Haiti: MSF forced to evacuate hospital in Cite Soleil,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Focusing on Quality Patient Care in the New Global,Da8de6138bd,1.0,Da8de6138bd,Focusing on Quality Patient Care in the New Global,,1.0,0.83,False,5
+"Title known-item (auto, 150)",keyword,"Countries are out of step with international recommendations for tuberculosis testing,",D07afa7fbd7,1.0,D07afa7fbd7,Countries are out of step with international recommendations for tuberculosis te,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Severe medical needs persist amidst conflict in Sudan,De1f99aa2cf,,Db3559c4320,Foreword 2023,,0.71,0.71,False,5
+"Title known-item (auto, 150)",keyword,Uzbekistan 2019 Activity Report,De0f71e5cf5,,D32ea4a9d92,THE MÉDECINS SANS,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MENTAL HEALTH IN THE AMERICAS:,D8b233f27d2,1.0,D8b233f27d2,MENTAL HEALTH IN THE AMERICAS:,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,سلالة بونديبوغيو: ما المختلف في تفشّي الإيبولا هذه المرة؟,Dac15cd638c,1.0,Dac15cd638c,سلالة بونديبوغيو: ما المختلف في تفشّي الإيبولا هذه المرة؟,,1.0,0.67,False,5
+"Title known-item (auto, 150)",keyword,"Protocol repeated morbidity and vaccination coverage surveys, Bokoro District, Chad, 2016.",D5710a4f4c5,1.0,D5710a4f4c5,"Protocol repeated morbidity and vaccination coverage surveys, Bokoro District, C",,1.0,1.0,False,1
+"Title known-item (auto, 150)",keyword,Massive humanitarian response needed to avoid health catastrophe in DRC,D279e1306ba,1.0,D279e1306ba,Massive humanitarian response needed to avoid health catastrophe in DRC,,1.0,0.62,False,5
+"Title known-item (auto, 150)",keyword,Low castes have poor access to visceral leishmaniasis treatment,D20de515bc6,1.0,D20de515bc6,Low castes have poor access to visceral leishmaniasis treatment,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF wraps up activities in northern Brazil,D1bcc414c13,1.0,D1bcc414c13,MSF wraps up activities in northern Brazil,,1.0,0.5,False,5
+"Title known-item (auto, 150)",keyword,published: 20 August 2020,D2b2708f82d,1.0,D2b2708f82d,published: 20 August 2020,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF begins emergency response in northern Mozambique,De4c251983a,1.0,De4c251983a,MSF begins emergency response in northern Mozambique,,1.0,0.83,False,5
+"Title known-item (auto, 150)",keyword,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,Df35d21f1d6,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,,1.0,0.44,False,5
+"Title known-item (auto, 150)",keyword,Treatment of Tuberculosis in a Region with High Drug,Df3ba72b4f8,1.0,Df3ba72b4f8,Treatment of Tuberculosis in a Region with High Drug,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,V I E W P O I N T S,D24b54ce36a,,,,,,,False,0
+"Title known-item (auto, 150)",keyword,Les traumatismes abdominaux en Haïti,Dfb721c01fd,1.0,Dfb721c01fd,Les traumatismes abdominaux en Haïti,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Sudan: Strike on hospitals results in 10 fatalities, including 7 medical staff",Db2de191d11,1.0,Db2de191d11,"Sudan: Strike on hospitals results in 10 fatalities, including 7 medical staff",,1.0,0.67,False,5
+"Title known-item (auto, 150)",keyword,Engaging men in preventing sexual,Dad3389f998,1.0,Dad3389f998,Engaging men in preventing sexual,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Democratic Republic of Congo: Ebola update June 2018,P02,1.0,P02,Democratic Republic of Congo: Ebola update June 2018,,1.0,0.86,False,5
+"Title known-item (auto, 150)",keyword,Division of Medical Microbiology and the Institute,Db90c744289,2.0,D8ad70d7749,AMR in low-resource settings: Medecins Sans Frontieres bridges,,1.0,0.75,False,5
+"Title known-item (auto, 150)",keyword,Addressing Antimicrobial Resistance Within Global Processes to Improve,P35,1.0,P35,Addressing Antimicrobial Resistance Within Global Processes to Improve,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,The Author 2014. Published by Oxford University Press on behalf of Royal Society of Tropical Medicine and Hygiene. All rights reserved.,D66fe4cd145,1.0,D66fe4cd145,The Author 2014. Published by Oxford University Press on behalf of Royal Society,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Operational response to malaria epidemics: are rapid diagnostic,D1c2515fd29,1.0,D1c2515fd29,Operational response to malaria epidemics: are rapid diagnostic,,1.0,0.83,False,5
+"Title known-item (auto, 150)",keyword,Validation of GeneXpert testing for human papillomavirus and self-,D03da2066dd,1.0,D03da2066dd,Validation of GeneXpert testing for human papillomavirus and self-,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Implementation of WHO guidelines on urine lateral flow LAM testing in the high TB/HIV burden African countries,D9549aa0ea8,1.0,D9549aa0ea8,Implementation of WHO guidelines on urine lateral flow LAM testing in the high T,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,MSF policy brief for the Lancet Countdown on health and climate change,D69ad43fc13,1.0,D69ad43fc13,MSF policy brief for the Lancet Countdown on health and climate change,,1.0,1.0,False,3
+"Title known-item (auto, 150)",keyword,Face to face with Ebola in Uganda,D4e14ca42fa,1.0,D4e14ca42fa,Face to face with Ebola in Uganda,,1.0,0.67,False,5
+"Title known-item (auto, 150)",keyword,Pediatric Access and Continuity of HIV Care Before the Start of Antiretroviral Therapy in Sub-Saharan Africa,D957b22fac7,1.0,D957b22fac7,Pediatric Access and Continuity of HIV Care Before the Start of Antiretroviral T,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,TB diagnosis and treatment breakthroughs,D98949d5e0c,1.0,D98949d5e0c,TB diagnosis and treatment breakthroughs,,1.0,0.75,False,5
+"Title known-item (auto, 150)",keyword,People killed by landmines in Deir ez-Zor Syria,Dadc2eedb91,1.0,Dadc2eedb91,People killed by landmines in Deir ez-Zor Syria,,1.0,1.0,False,2
+"Title known-item (auto, 150)",keyword,The forgotten emergency of maternal healthcare in the Central African crisis,D3f666b74fc,3.0,D0858e37568,PUBLISHED 21 SEPTEMBER 2019,,0.71,0.43,False,5
+"Title known-item (auto, 150)",keyword,بيان منظمة أطباء بلا حدود بشأن وضع مرض الإيبولا في إيتوري، جمهورية الكونغو الديمقراطية,Dacd418953a,1.0,Dacd418953a,بيان منظمة أطباء بلا حدود بشأن وضع مرض الإيبولا في إيتوري، جمهورية الكونغو الديم,,1.0,0.79,False,5
+"Title known-item (auto, 150)",keyword,People are still being killed by Israeli forces in southern Lebanon,D20cfb5ee60,2.0,D13381c1c34,In Gaza all the components of a society have been destroyed,,0.88,0.88,False,5
+"Title known-item (auto, 150)",keyword,Successes and gaps in the HIV cascade of care of a high HIV,Db5c5c06c40,1.0,Db5c5c06c40,Successes and gaps in the HIV cascade of care of a high HIV,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Nifurtimox-eﬂ ornithine combination therapy for,De3f857b161,1.0,De3f857b161,Nifurtimox-eﬂ ornithine combination therapy for,,1.0,1.0,False,2
+"Title known-item (auto, 150)",keyword,Superior Virologic and Treatment Outcomes,De81b52b6ad,1.0,De81b52b6ad,Superior Virologic and Treatment Outcomes,,1.0,1.0,False,4
+"Title known-item (auto, 150)",keyword,مخاطر صحية غير مرئية تُحدق بالنازحين في شمال غرب سوريا,Ded9b8766ac,2.0,Df212579f8d,ثلاثة أشياء يجب معرفتها حول ما يحدث في سوريا,,0.5,0.4,False,5
+"Title known-item (auto, 150)",keyword,شمال غرب سويا: توفير الرعاية الصحية بين الأنقاض في جنديرس,D3260fee68c,1.0,D3260fee68c,شمال غرب سويا: توفير الرعاية الصحية بين الأنقاض في جنديرس,,1.0,0.7,False,5
+"Title known-item (auto, 150)",keyword,Accounting for False Positive HIV Tests: Is,D9ae55ed798,1.0,D9ae55ed798,Accounting for False Positive HIV Tests: Is,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Premature babies fight for their lives in north Gaza,Dc9b5ae9bd8,1.0,Dc9b5ae9bd8,Premature babies fight for their lives in north Gaza,,1.0,0.86,False,5
+"Title known-item (auto, 150)",keyword,The Medecins Sans Frontieres Charter,Da3c2a32b51,2.0,Db88e5c92e9,MSF ACTIVITY REPORT2000-2001,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"Three questions about the recent violent clashes in Port-au-Prince, Haiti",Dc1894a2331,1.0,Dc1894a2331,"Three questions about the recent violent clashes in Port-au-Prince, Haiti",,1.0,0.62,False,5
+"Title known-item (auto, 150)",keyword,"van Boetzelaer E, et al. BMJ Glob Health 2025;10:e019821. doi:10.1136/bmjgh-2025-019821",D35e08369e9,1.0,D35e08369e9,"van Boetzelaer E, et al. BMJ Glob Health 2025;10:e019821. doi:10.1136/bmjgh-2025",,1.0,1.0,False,2
+"Title known-item (auto, 150)",keyword,published 21 march 2016,D9e83de4d52,2.0,D111832613c,Lancet Gastroenterol Hepatol,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,"ISSN 2062-509X / $ 20.00 © 2012 Akadémiai Kiadó, Budapest",D96536b2560,1.0,D96536b2560,"ISSN 2062-509X / $ 20.00 © 2012 Akadémiai Kiadó, Budapest",,1.0,1.0,False,1
+"Title known-item (auto, 150)",keyword,Doctors cannot stop genocide- world leaders can,Dc799fdceaa,1.0,Dc799fdceaa,Doctors cannot stop genocide- world leaders can,,1.0,0.83,False,5
+"Title known-item (auto, 150)",keyword,Twenty years of home-based palliative care,Dfc2b1675a1,1.0,Dfc2b1675a1,Twenty years of home-based palliative care,,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,Incidence of paradoxical tuberculosis-associated immune reconstitution inflammatory syndrome and impact on patient outcome.,D89ca40c1b2,1.0,D89ca40c1b2,Incidence of paradoxical tuberculosis-associated immune reconstitution inflammat,,1.0,0.91,False,5
+"Title known-item (auto, 150)",keyword,"Alba S, et al. BMJ Global Health 2020;5:e003236. doi:10.1136/bmjgh-2020-003236",D227872fd4e,1.0,D227872fd4e,"Alba S, et al. BMJ Global Health 2020;5:e003236. doi:10.1136/bmjgh-2020-003236",,1.0,1.0,False,5
+"Title known-item (auto, 150)",keyword,أزمة غذائية بعيدة عن الأنظار تهدّد عشرات آلاف الأطفال في شمال غرب نيجيريا وتُقابَل بالإهمال,Da5383a3d0a,1.0,Da5383a3d0a,أزمة غذائية بعيدة عن الأنظار تهدّد عشرات آلاف الأطفال في شمال غرب نيجيريا وتُقاب,,1.0,0.67,False,1
+"Title known-item (auto, 150)",dense,This article appeared in a journal published by Elsevier. The attached,Da9f6db469d,2.0,D92891baef4,Authors/Contributors,0.858,0.17,0.17,True,5
+"Title known-item (auto, 150)",dense,"Webster R, et al. Implementing Fixed Dose Combination Medications",D673ba9db5c,1.0,D673ba9db5c,"Webster R, et al. Implementing Fixed Dose Combination Medications",0.906,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Médicaments à usage externe et antiseptiques,D1b539fd0a2,1.0,D1b539fd0a2,Médicaments à usage externe et antiseptiques,0.914,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Foreword 2018 Activity Report,Dbdfa725f12,1.0,Dbdfa725f12,Foreword 2018 Activity Report,0.899,1.0,0.5,False,3
+"Title known-item (auto, 150)",dense,"Performance evaluation of the Mini-Lab, an all-in-one clinical",D04c8ff52a2,1.0,D04c8ff52a2,"Performance evaluation of the Mini-Lab, an all-in-one clinical",0.889,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,"Acceptability and use of a virtual support group for HIV-positive youth in Khayelitsha, Cape Town using the MXit social networking platform",De56cde2022,1.0,De56cde2022,Acceptability and use of a virtual support group for HIV-positive youth in Khaye,0.942,1.0,0.81,False,1
+"Title known-item (auto, 150)",dense,"contribution to the evidence base,",D705d4b38bf,,D285604a37d,Advancing population health research to improve intervention: Final results from,0.829,0.0,0.0,True,5
+"Title known-item (auto, 150)",dense,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,0.879,0.5,0.25,False,2
+"Title known-item (auto, 150)",dense,"Violence against civilians and access to health care in North Kivu, Democratic Republic of Congo: three cross-sectional surveys.",Da0c54e36d0,1.0,Da0c54e36d0,"Violence against civilians and access to health care in North Kivu, Democratic R",0.908,1.0,0.27,False,1
+"Title known-item (auto, 150)",dense,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في الصومال وإثيوبيا,D7acf22526b,1.0,D7acf22526b,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في ا,0.931,1.0,0.57,False,1
+"Title known-item (auto, 150)",dense,DR-TB drugs under the microscope 2018,D0ae7cceef7,1.0,D0ae7cceef7,DR-TB drugs under the microscope 2018,0.895,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,ADAPTING IN TIMES OF CRISIS TO,Dc5ae5123ae,3.0,Df7c02523fe,Leresche et al. Conflict and Health           (2023) 17:39,0.859,1.0,0.33,False,5
+"Title known-item (auto, 150)",dense,Ethical dilemmas in medical humanitarian practice:,D473461b69b,1.0,D473461b69b,Ethical dilemmas in medical humanitarian practice:,0.9,1.0,0.8,False,1
+"Title known-item (auto, 150)",dense,International Criminal Court (ICC),P28,1.0,P28,International Criminal Court (ICC),0.901,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Crisis in Darfur: This is a war against civilians,D8b3df52e9e,1.0,D8b3df52e9e,Crisis in Darfur: This is a war against civilians,0.876,1.0,0.4,False,1
+"Title known-item (auto, 150)",dense,Inadequate water and sanitation pose health threats in Syria,D9e5162a399,1.0,D9e5162a399,Inadequate water and sanitation pose health threats in Syria,0.913,1.0,0.57,False,1
+"Title known-item (auto, 150)",dense,Conflict in Greater Upper Nile is impeding humanitarian aid to thousands of people already devastated by flooding,De03cafecf1,1.0,De03cafecf1,Conflict in Greater Upper Nile is impeding humanitarian aid to thousands of peop,0.891,1.0,0.33,False,1
+"Title known-item (auto, 150)",dense,AMR in low-resource settings: Medecins Sans Frontieres bridges,D8ad70d7749,1.0,D8ad70d7749,AMR in low-resource settings: Medecins Sans Frontieres bridges,0.902,1.0,0.89,False,1
+"Title known-item (auto, 150)",dense,"Voluntary counselling, HIV testing and adjunctive",Dc75803ba46,1.0,Dc75803ba46,"Voluntary counselling, HIV testing and adjunctive",0.889,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,Ebola disease in DRC: MSF scales up response to a rapidly evolving outbreak,Dd2d4a2481b,1.0,Dd2d4a2481b,Ebola disease in DRC: MSF scales up response to a rapidly evolving outbreak,0.917,1.0,0.6,False,3
+"Title known-item (auto, 150)",dense,RSF must protect health facilities and staff in Central Darfur Sudan,Ddbc2d1795e,1.0,Ddbc2d1795e,RSF must protect health facilities and staff in Central Darfur Sudan,0.902,1.0,0.89,False,2
+"Title known-item (auto, 150)",dense,Management of diabetes and associated costs in a complex humanitarian setting in the Democratic Republic of Congo: a retrospective cohort study,D7b1badbde2,1.0,D7b1badbde2,Management of diabetes and associated costs in a complex humanitarian setting in,0.913,1.0,0.23,False,2
+"Title known-item (auto, 150)",dense,English Charity Reg. No. 1026588,Ddd8f64b337,2.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,0.844,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,Tornimbene et al. BMC Proceedings            (2025) 19:7,D00acff0abd,1.0,D00acff0abd,Tornimbene et al. BMC Proceedings            (2025) 19:7,0.908,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Chad: Scores of wounded in Adré as conflict in Sudan surges,D13a0eeb8c5,1.0,D13a0eeb8c5,Chad: Scores of wounded in Adré as conflict in Sudan surges,0.892,1.0,0.57,False,1
+"Title known-item (auto, 150)",dense,"SESSION 3: Melioidosis, microbes, and mosquitoes: pushing boundaries for the most neglected and most vulnerable",D4f51b3b8aa,1.0,D4f51b3b8aa,"SESSION 3: Melioidosis, microbes, and mosquitoes: pushing boundaries for the mos",0.863,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,Solidarity and dedication in response to devastating Myanmar earthquake,D221a40d307,1.0,D221a40d307,Solidarity and dedication in response to devastating Myanmar earthquake,0.874,1.0,0.33,False,2
+"Title known-item (auto, 150)",dense,Mismatch of supply and demand: Marburg virus disease outbreaks need countermeasures but will not provide opportunity for clinical trials,D6707fbdcac,1.0,D6707fbdcac,Mismatch of supply and demand: Marburg virus disease outbreaks need countermeasu,0.916,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,MSF AND THE ROHINGYA,Dbd6e2ef149,1.0,Dbd6e2ef149,MSF AND THE ROHINGYA,0.878,1.0,1.0,False,2
+"Title known-item (auto, 150)",dense,Israeli forces must stop attacks on medical care in Jenin,D054bcedd1a,1.0,D054bcedd1a,Israeli forces must stop attacks on medical care in Jenin,0.915,1.0,0.88,False,1
+"Title known-item (auto, 150)",dense,Adverse Events among HIV/MDR-TB Co-Infected Patients,D7d3811047b,1.0,D7d3811047b,Adverse Events among HIV/MDR-TB Co-Infected Patients,0.913,1.0,0.89,False,1
+"Title known-item (auto, 150)",dense,The burden and outcomes of childhood tuberculosis,D795c870cf1,1.0,D795c870cf1,The burden and outcomes of childhood tuberculosis,0.92,1.0,0.75,False,1
+"Title known-item (auto, 150)",dense,Coldiron et al. Malar J          (2021) 20:419,P14,1.0,P14,Coldiron et al. Malar J          (2021) 20:419,0.89,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,جنوب السودان تنفذ أول حملة تلقيح في العالم استجابة لتفشي التهاب الكبد E,Dc835fd8fa5,1.0,Dc835fd8fa5,جنوب السودان تنفذ أول حملة تلقيح في العالم استجابة لتفشي التهاب الكبد E,0.918,1.0,0.58,False,1
+"Title known-item (auto, 150)",dense,Every day thousands of Ukrainians arrive in Slovakia traumatised and exhausted,D7fa676b119,1.0,D7fa676b119,Every day thousands of Ukrainians arrive in Slovakia traumatised and exhausted,0.901,1.0,0.62,False,1
+"Title known-item (auto, 150)",dense,Prise en charge d’une ÉPIDÉMIE DE ROUGEOLE,D5e9f29a4e4,1.0,D5e9f29a4e4,Prise en charge d’une ÉPIDÉMIE DE ROUGEOLE,0.901,1.0,1.0,False,2
+"Title known-item (auto, 150)",dense,This Provisional PDF corresponds to the article as it appeared upon acceptance. Fully formatted,D39b5a07cce,1.0,D39b5a07cce,This Provisional PDF corresponds to the article as it appeared upon acceptance. ,0.876,1.0,0.0,False,1
+"Title known-item (auto, 150)",dense,Towards more accurate HIV testing in sub-Saharan,Dc5f2be378d,1.0,Dc5f2be378d,Towards more accurate HIV testing in sub-Saharan,0.9,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,Five questions about the mpox outbreak in DRC,Ddc5f4e5436,1.0,Ddc5f4e5436,Five questions about the mpox outbreak in DRC,0.917,1.0,0.2,False,1
+"Title known-item (auto, 150)",dense,People in Gaza still need a massive scale-up of humanitarian supplies,D89f8f8704e,1.0,D89f8f8704e,People in Gaza still need a massive scale-up of humanitarian supplies,0.907,1.0,1.0,False,2
+"Title known-item (auto, 150)",dense,غزة: التقييد المتعمّد للغذاء والمساعدات أدى إلى مستويات مقلقة من سوء التغذية,Db305b45b94,1.0,Db305b45b94,غزة: التقييد المتعمّد للغذاء والمساعدات أدى إلى مستويات مقلقة من سوء التغذية,0.906,1.0,0.58,False,2
+"Title known-item (auto, 150)",dense,"MSF and Ebola in Nord Kivu: Positioning,",D5e8da6e171,1.0,D5e8da6e171,"MSF and Ebola in Nord Kivu: Positioning,",0.904,1.0,0.8,False,4
+"Title known-item (auto, 150)",dense,8.2 Early postpartum haemorrhage,P23,1.0,P23,8.2 Early postpartum haemorrhage,0.911,1.0,0.67,False,1
+"Title known-item (auto, 150)",dense,استمرار الاحتياجات الطبية وسط النزاع في السودان,D8d099e6717,1.0,D8d099e6717,استمرار الاحتياجات الطبية وسط النزاع في السودان,0.908,1.0,0.57,False,3
+"Title known-item (auto, 150)",dense,"Two-dose vaccine effectiveness following the first reactive mass vaccination campaign against Hepatitis E in Bentiu, South Sudan",D081f681b26,1.0,D081f681b26,Two-dose vaccine effectiveness following the first reactive mass vaccination cam,0.918,1.0,1.0,False,3
+"Title known-item (auto, 150)",dense,Report: Escalating violence in South Sudan,Df73a5c30bf,4.0,Daf96810c48,Displaced people in northeastern South Sudan need urgent support,0.868,0.6,0.6,False,5
+"Title known-item (auto, 150)",dense,VitalSurg: Outcomes From a Surgical,D1fa284e16c,1.0,D1fa284e16c,VitalSurg: Outcomes From a Surgical,0.895,1.0,0.67,False,2
+"Title known-item (auto, 150)",dense,Over 100 deaths in one week in the Central Mediterranean,D6de324faad,1.0,D6de324faad,Over 100 deaths in one week in the Central Mediterranean,0.889,1.0,0.43,False,1
+"Title known-item (auto, 150)",dense,volume 5 no 9 pp 640–647 september 2000,D7dbccfcf92,2.0,D7a52c1f25b,Academic Editors: Mingyang Wu and,0.86,0.5,0.0,False,5
+"Title known-item (auto, 150)",dense,"Eight years in Kirkuk, Iraq: following along the journey of Hawija recovery",D4177935ee4,1.0,D4177935ee4,"Eight years in Kirkuk, Iraq: following along the journey of Hawija recovery",0.893,1.0,0.44,False,2
+"Title known-item (auto, 150)",dense,Mortality and cause of death in children with presumptive disseminated tuberculosis,De19574ea6d,1.0,De19574ea6d,Mortality and cause of death in children with presumptive disseminated tuberculo,0.938,1.0,0.57,False,1
+"Title known-item (auto, 150)",dense,Antiretroviral Therapy Outcomes in Resource-Limited,De61d0eaa84,1.0,De61d0eaa84,Antiretroviral Therapy Outcomes in Resource-Limited,0.916,1.0,0.8,False,3
+"Title known-item (auto, 150)",dense,"Kumar R, et al. BMJ Open 2023;0:e074679. doi:10.1136/bmjopen-2023-074679",D035530810c,1.0,D035530810c,"Kumar R, et al. BMJ Open 2023;0:e074679. doi:10.1136/bmjopen-2023-074679",0.887,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,وسط البحر الأبيض المتوسط: وفاة أكثر من 100 شخص خلال أسبوع,D332fd5febc,1.0,D332fd5febc,وسط البحر الأبيض المتوسط: وفاة أكثر من 100 شخص خلال أسبوع,0.902,1.0,0.91,False,1
+"Title known-item (auto, 150)",dense,The Bundibugyo virus challenge: why is this Ebola disease outbreak different,D5d1bb4aad4,1.0,D5d1bb4aad4,The Bundibugyo virus challenge: why is this Ebola disease outbreak different,0.895,1.0,0.62,False,3
+"Title known-item (auto, 150)",dense,Molecular genotyping in a malaria treatment trial in Uganda –,Dce112b1459,1.0,Dce112b1459,Molecular genotyping in a malaria treatment trial in Uganda –,0.927,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Antibiotic susceptibility patterns of pathogens isolated from,D3ceda3d736,1.0,D3ceda3d736,Antibiotic susceptibility patterns of pathogens isolated from,0.917,1.0,0.4,False,1
+"Title known-item (auto, 150)",dense,Body mass index trajectories and association with,D279f7b3d6d,1.0,D279f7b3d6d,Body mass index trajectories and association with,0.893,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,"Haiti: In Port-au-Prince, the violence is like gangrene",De86ef509f0,1.0,De86ef509f0,"Haiti: In Port-au-Prince, the violence is like gangrene",0.897,1.0,0.5,False,2
+"Title known-item (auto, 150)",dense,"Yale New Haven Health System, United States",D5814f937ab,1.0,D5814f937ab,"Yale New Haven Health System, United States",0.865,1.0,0.0,False,2
+"Title known-item (auto, 150)",dense,A randomized trial of AmBisome,D8048b8fc82,1.0,D8048b8fc82,A randomized trial of AmBisome,0.88,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,A deadly cycle: Malnutrition and disease outbreaks across the globe,D1ef8b2e740,1.0,D1ef8b2e740,A deadly cycle: Malnutrition and disease outbreaks across the globe,0.891,1.0,0.57,False,5
+"Title known-item (auto, 150)",dense,2020 in figures - Cloned,Ddc83b267e0,1.0,Ddc83b267e0,2020 in figures - Cloned,0.872,1.0,0.67,False,5
+"Title known-item (auto, 150)",dense,MSF AND THE WAR IN,Dd529d6b2d6,1.0,Dd529d6b2d6,MSF AND THE WAR IN,0.877,1.0,0.5,False,5
+"Title known-item (auto, 150)",dense,Haiti 2018 Activity Report,P10,1.0,P10,Haiti 2018 Activity Report,0.894,1.0,0.25,False,5
+"Title known-item (auto, 150)",dense,Responding to COVID-19 across the world,D702c8332ce,1.0,D702c8332ce,Responding to COVID-19 across the world,0.877,1.0,0.4,False,5
+"Title known-item (auto, 150)",dense,Supply shortages and patient influxes leave Nasser hospital at breaking point,D28f2e6484c,1.0,D28f2e6484c,Supply shortages and patient influxes leave Nasser hospital at breaking point,0.9,1.0,0.44,False,1
+"Title known-item (auto, 150)",dense,Reducing Wasting in Young Children With Preventive,Da8b17ac14e,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,0.901,1.0,0.4,False,1
+"Title known-item (auto, 150)",dense,Bringing clean water and sanitation to forcibly displaced families in Lebanon,D55eeab715f,1.0,D55eeab715f,Bringing clean water and sanitation to forcibly displaced families in Lebanon,0.892,1.0,0.5,False,2
+"Title known-item (auto, 150)",dense,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,Df1c261b285,1.0,Df1c261b285,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,0.923,1.0,0.62,False,1
+"Title known-item (auto, 150)",dense,Building evidence in crises,D62457e1efb,1.0,D62457e1efb,Building evidence in crises,0.874,1.0,0.33,False,2
+"Title known-item (auto, 150)",dense,These abstracts are not te be quoted for publication,D674b851bcf,,D0197c14ba0,E X P E R T S ’ O P I N I O N,0.849,0.0,0.0,True,5
+"Title known-item (auto, 150)",dense,Evaluation of the “Tea Team,D3f9de2b07a,1.0,D3f9de2b07a,Evaluation of the “Tea Team,0.887,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Lancet Glob Health 2026;,Df45b248d71,1.0,Df45b248d71,Lancet Glob Health 2026;,0.881,1.0,1.0,False,4
+"Title known-item (auto, 150)",dense,in the BDLC group and among 69 of,Dda00263b16,1.0,Dda00263b16,in the BDLC group and among 69 of,0.823,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,MSF UK | English Charity Reg. No. 1026588,D48246cb637,1.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,0.869,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,وجهًا لوجه مع الإيبولا في أوغندا,D19b04b35f2,1.0,D19b04b35f2,وجهًا لوجه مع الإيبولا في أوغندا,0.894,1.0,0.67,False,4
+"Title known-item (auto, 150)",dense,Control and public health aspects,D1acecedd02,2.0,Dfd0d9e3afb,DRC cholera epidemic is increasingly worrying,0.851,0.5,0.5,False,5
+"Title known-item (auto, 150)",dense,سوريا: أطباء بلا حدود تختتم أنشطتها في مركز دارة عزة,D2764b19112,1.0,D2764b19112,سوريا: أطباء بلا حدود تختتم أنشطتها في مركز دارة عزة,0.918,1.0,0.8,False,1
+"Title known-item (auto, 150)",dense,Thailand Cooperating with local groups to fight AIDS,D0eebba4c05,1.0,D0eebba4c05,Thailand Cooperating with local groups to fight AIDS,0.906,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,MSF: Open statement on the launch of the Global AMR R&D Collaboration Hub,D17890cad99,1.0,D17890cad99,MSF: Open statement on the launch of the Global AMR R&D Collaboration Hub,0.892,1.0,0.62,False,1
+"Title known-item (auto, 150)",dense,MSF briefing on Sudan to UN Security Council,D5774643607,1.0,D5774643607,MSF briefing on Sudan to UN Security Council,0.896,1.0,0.2,False,5
+"Title known-item (auto, 150)",dense,© The Author(s) 2019. Published by Oxford University Press for the Infectious Diseases Society of,D02dab61f41,2.0,Ddae572ff5a,© The Author(s) 2022. Published by Oxford University Press for the Infectious Di,0.898,1.0,0.89,False,5
+"Title known-item (auto, 150)",dense,أطباء بلا حدود تطلق استجابة طارئة في شمال موزمبيق,D8d18203d3a,1.0,D8d18203d3a,أطباء بلا حدود تطلق استجابة طارئة في شمال موزمبيق,0.903,1.0,0.67,False,3
+"Title known-item (auto, 150)",dense,"2 Projet Sante pour Tous-Kinshasa, Hopital de la Rive, BP 9638, Kinshasa-Ngaliema, Zaire",De5b2f33ffa,1.0,De5b2f33ffa,"2 Projet Sante pour Tous-Kinshasa, Hopital de la Rive, BP 9638, Kinshasa-Ngaliem",0.903,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,The near impossible task of getting lifesaving supplies into Gaza,D3a9dd210b9,1.0,D3a9dd210b9,The near impossible task of getting lifesaving supplies into Gaza,0.906,1.0,0.29,False,4
+"Title known-item (auto, 150)",dense,EECA Regional SORT IT,D9fb30dbc22,1.0,D9fb30dbc22,EECA Regional SORT IT,0.891,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Measles: the long walk to elimination drawn out by COVID-19,Dc1ad0828ea,1.0,Dc1ad0828ea,Measles: the long walk to elimination drawn out by COVID-19,0.909,1.0,0.88,False,1
+"Title known-item (auto, 150)",dense,"Knowledge, attitudes and practices on childhood TB among healthcare workers",D90917c4e45,1.0,D90917c4e45,"Knowledge, attitudes and practices on childhood TB among healthcare workers",0.901,1.0,0.88,False,2
+"Title known-item (auto, 150)",dense,INT J TUBERC LUNG DIS 24(12):1265–1271,D030d37cd08,1.0,D030d37cd08,INT J TUBERC LUNG DIS 24(12):1265–1271,0.879,1.0,0.0,False,5
+"Title known-item (auto, 150)",dense,9.2 Conventional treatment regimens,P49,1.0,P49,9.2 Conventional treatment regimens,0.874,1.0,1.0,False,5
+"Title known-item (auto, 150)",dense,Academic Editors: Mingyang Wu and,D7a52c1f25b,1.0,D7a52c1f25b,Academic Editors: Mingyang Wu and,0.871,1.0,0.0,False,1
+"Title known-item (auto, 150)",dense,South Sudan: The long walk for new life,P06,1.0,P06,South Sudan: The long walk for new life,0.856,1.0,0.17,False,5
+"Title known-item (auto, 150)",dense,Sexually transmitted infections among prison inmates in a rural district of,D037e4f1dc8,1.0,D037e4f1dc8,Sexually transmitted infections among prison inmates in a rural district of,0.9,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,"In August 1995, for the first time in its history, North Korea launched a call for inter-",D806bc9089a,1.0,D806bc9089a,"In August 1995, for the first time in its history, North Korea launched a call f",0.856,1.0,0.27,False,2
+"Title known-item (auto, 150)",dense,NATURE MICROBIOLOGY | VOL 1 | MARCH 2016 | www.nature.com/naturemicrobiology,D0bd9567695,1.0,D0bd9567695,NATURE MICROBIOLOGY | VOL 1 | MARCH 2016 | www.nature.com/naturemicrobiology,0.875,1.0,0.12,False,5
+"Title known-item (auto, 150)",dense,MSF response to Israeli allegations linked to staff killing,D236dc184a5,1.0,D236dc184a5,MSF response to Israeli allegations linked to staff killing,0.902,1.0,0.43,False,5
+"Title known-item (auto, 150)",dense,Belarus innovative safe tuberculosis treatment programme,Dc190efdb0c,1.0,Dc190efdb0c,Belarus innovative safe tuberculosis treatment programme,0.905,1.0,0.67,False,2
+"Title known-item (auto, 150)",dense,Identifying critically ill children at risk of,D0a172b79a4,1.0,D0a172b79a4,Identifying critically ill children at risk of,0.895,1.0,0.6,False,2
+"Title known-item (auto, 150)",dense,Haiti: MSF forced to evacuate hospital in Cite Soleil,D5057743ad2,1.0,D5057743ad2,Haiti: MSF forced to evacuate hospital in Cite Soleil,0.91,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Focusing on Quality Patient Care in the New Global,Da8de6138bd,1.0,Da8de6138bd,Focusing on Quality Patient Care in the New Global,0.867,1.0,0.0,False,5
+"Title known-item (auto, 150)",dense,"Countries are out of step with international recommendations for tuberculosis testing,",D07afa7fbd7,1.0,D07afa7fbd7,Countries are out of step with international recommendations for tuberculosis te,0.888,1.0,0.29,False,1
+"Title known-item (auto, 150)",dense,Severe medical needs persist amidst conflict in Sudan,De1f99aa2cf,1.0,De1f99aa2cf,Severe medical needs persist amidst conflict in Sudan,0.91,1.0,0.29,False,1
+"Title known-item (auto, 150)",dense,Uzbekistan 2019 Activity Report,De0f71e5cf5,1.0,De0f71e5cf5,Uzbekistan 2019 Activity Report,0.89,1.0,0.25,False,4
+"Title known-item (auto, 150)",dense,MENTAL HEALTH IN THE AMERICAS:,D8b233f27d2,1.0,D8b233f27d2,MENTAL HEALTH IN THE AMERICAS:,0.904,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,سلالة بونديبوغيو: ما المختلف في تفشّي الإيبولا هذه المرة؟,Dac15cd638c,1.0,Dac15cd638c,سلالة بونديبوغيو: ما المختلف في تفشّي الإيبولا هذه المرة؟,0.927,1.0,0.67,False,1
+"Title known-item (auto, 150)",dense,"Protocol repeated morbidity and vaccination coverage surveys, Bokoro District, Chad, 2016.",D5710a4f4c5,1.0,D5710a4f4c5,"Protocol repeated morbidity and vaccination coverage surveys, Bokoro District, C",0.907,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Massive humanitarian response needed to avoid health catastrophe in DRC,D279e1306ba,1.0,D279e1306ba,Massive humanitarian response needed to avoid health catastrophe in DRC,0.896,1.0,0.62,False,5
+"Title known-item (auto, 150)",dense,Low castes have poor access to visceral leishmaniasis treatment,D20de515bc6,1.0,D20de515bc6,Low castes have poor access to visceral leishmaniasis treatment,0.907,1.0,0.62,False,1
+"Title known-item (auto, 150)",dense,MSF wraps up activities in northern Brazil,D1bcc414c13,1.0,D1bcc414c13,MSF wraps up activities in northern Brazil,0.887,1.0,0.5,False,4
+"Title known-item (auto, 150)",dense,published: 20 August 2020,D2b2708f82d,5.0,De05c727a25,16 April 2020,0.846,0.5,0.0,False,5
+"Title known-item (auto, 150)",dense,MSF begins emergency response in northern Mozambique,De4c251983a,1.0,De4c251983a,MSF begins emergency response in northern Mozambique,0.922,1.0,0.83,False,1
+"Title known-item (auto, 150)",dense,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,Df35d21f1d6,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,0.877,1.0,0.33,False,1
+"Title known-item (auto, 150)",dense,Treatment of Tuberculosis in a Region with High Drug,Df3ba72b4f8,1.0,Df3ba72b4f8,Treatment of Tuberculosis in a Region with High Drug,0.906,1.0,0.8,False,5
+"Title known-item (auto, 150)",dense,V I E W P O I N T S,D24b54ce36a,,,,,,,False,0
+"Title known-item (auto, 150)",dense,Les traumatismes abdominaux en Haïti,Dfb721c01fd,1.0,Dfb721c01fd,Les traumatismes abdominaux en Haïti,0.904,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,"Sudan: Strike on hospitals results in 10 fatalities, including 7 medical staff",Db2de191d11,1.0,Db2de191d11,"Sudan: Strike on hospitals results in 10 fatalities, including 7 medical staff",0.899,1.0,0.33,False,1
+"Title known-item (auto, 150)",dense,Engaging men in preventing sexual,Dad3389f998,1.0,Dad3389f998,Engaging men in preventing sexual,0.897,1.0,0.5,False,1
+"Title known-item (auto, 150)",dense,Democratic Republic of Congo: Ebola update June 2018,P02,1.0,P02,Democratic Republic of Congo: Ebola update June 2018,0.903,1.0,0.86,False,4
+"Title known-item (auto, 150)",dense,Division of Medical Microbiology and the Institute,Db90c744289,,D6e4fcedcad,The new engl and jour nal of medicine,0.851,1.0,0.5,False,5
+"Title known-item (auto, 150)",dense,Addressing Antimicrobial Resistance Within Global Processes to Improve,P35,1.0,P35,Addressing Antimicrobial Resistance Within Global Processes to Improve,0.902,1.0,0.29,False,3
+"Title known-item (auto, 150)",dense,The Author 2014. Published by Oxford University Press on behalf of Royal Society of Tropical Medicine and Hygiene. All rights reserved.,D66fe4cd145,1.0,D66fe4cd145,The Author 2014. Published by Oxford University Press on behalf of Royal Society,0.898,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Operational response to malaria epidemics: are rapid diagnostic,D1c2515fd29,1.0,D1c2515fd29,Operational response to malaria epidemics: are rapid diagnostic,0.911,1.0,0.67,False,1
+"Title known-item (auto, 150)",dense,Validation of GeneXpert testing for human papillomavirus and self-,D03da2066dd,1.0,D03da2066dd,Validation of GeneXpert testing for human papillomavirus and self-,0.926,1.0,0.33,False,1
+"Title known-item (auto, 150)",dense,Implementation of WHO guidelines on urine lateral flow LAM testing in the high TB/HIV burden African countries,D9549aa0ea8,1.0,D9549aa0ea8,Implementation of WHO guidelines on urine lateral flow LAM testing in the high T,0.918,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,MSF policy brief for the Lancet Countdown on health and climate change,D69ad43fc13,1.0,D69ad43fc13,MSF policy brief for the Lancet Countdown on health and climate change,0.924,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,Face to face with Ebola in Uganda,D4e14ca42fa,1.0,D4e14ca42fa,Face to face with Ebola in Uganda,0.891,1.0,0.33,False,4
+"Title known-item (auto, 150)",dense,Pediatric Access and Continuity of HIV Care Before the Start of Antiretroviral Therapy in Sub-Saharan Africa,D957b22fac7,1.0,D957b22fac7,Pediatric Access and Continuity of HIV Care Before the Start of Antiretroviral T,0.911,1.0,1.0,False,3
+"Title known-item (auto, 150)",dense,TB diagnosis and treatment breakthroughs,D98949d5e0c,1.0,D98949d5e0c,TB diagnosis and treatment breakthroughs,0.906,1.0,0.75,False,5
+"Title known-item (auto, 150)",dense,People killed by landmines in Deir ez-Zor Syria,Dadc2eedb91,1.0,Dadc2eedb91,People killed by landmines in Deir ez-Zor Syria,0.903,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,The forgotten emergency of maternal healthcare in the Central African crisis,D3f666b74fc,1.0,D3f666b74fc,The forgotten emergency of maternal healthcare in the Central African crisis,0.897,1.0,0.43,False,2
+"Title known-item (auto, 150)",dense,بيان منظمة أطباء بلا حدود بشأن وضع مرض الإيبولا في إيتوري، جمهورية الكونغو الديمقراطية,Dacd418953a,1.0,Dacd418953a,بيان منظمة أطباء بلا حدود بشأن وضع مرض الإيبولا في إيتوري، جمهورية الكونغو الديم,0.919,1.0,0.79,False,2
+"Title known-item (auto, 150)",dense,People are still being killed by Israeli forces in southern Lebanon,D20cfb5ee60,1.0,D20cfb5ee60,People are still being killed by Israeli forces in southern Lebanon,0.886,1.0,0.38,False,2
+"Title known-item (auto, 150)",dense,Successes and gaps in the HIV cascade of care of a high HIV,Db5c5c06c40,1.0,Db5c5c06c40,Successes and gaps in the HIV cascade of care of a high HIV,0.916,1.0,1.0,False,2
+"Title known-item (auto, 150)",dense,Nifurtimox-eﬂ ornithine combination therapy for,De3f857b161,1.0,De3f857b161,Nifurtimox-eﬂ ornithine combination therapy for,0.923,1.0,0.8,False,1
+"Title known-item (auto, 150)",dense,Superior Virologic and Treatment Outcomes,De81b52b6ad,1.0,De81b52b6ad,Superior Virologic and Treatment Outcomes,0.901,1.0,0.0,False,4
+"Title known-item (auto, 150)",dense,مخاطر صحية غير مرئية تُحدق بالنازحين في شمال غرب سوريا,Ded9b8766ac,1.0,Ded9b8766ac,مخاطر صحية غير مرئية تُحدق بالنازحين في شمال غرب سوريا,0.891,1.0,0.4,False,4
+"Title known-item (auto, 150)",dense,شمال غرب سويا: توفير الرعاية الصحية بين الأنقاض في جنديرس,D3260fee68c,1.0,D3260fee68c,شمال غرب سويا: توفير الرعاية الصحية بين الأنقاض في جنديرس,0.884,1.0,0.6,False,5
+"Title known-item (auto, 150)",dense,Accounting for False Positive HIV Tests: Is,D9ae55ed798,1.0,D9ae55ed798,Accounting for False Positive HIV Tests: Is,0.903,1.0,0.8,False,4
+"Title known-item (auto, 150)",dense,Premature babies fight for their lives in north Gaza,Dc9b5ae9bd8,1.0,Dc9b5ae9bd8,Premature babies fight for their lives in north Gaza,0.904,1.0,0.86,False,1
+"Title known-item (auto, 150)",dense,The Medecins Sans Frontieres Charter,Da3c2a32b51,1.0,Da3c2a32b51,The Medecins Sans Frontieres Charter,0.883,1.0,0.75,False,5
+"Title known-item (auto, 150)",dense,"Three questions about the recent violent clashes in Port-au-Prince, Haiti",Dc1894a2331,1.0,Dc1894a2331,"Three questions about the recent violent clashes in Port-au-Prince, Haiti",0.903,1.0,0.5,False,3
+"Title known-item (auto, 150)",dense,"van Boetzelaer E, et al. BMJ Glob Health 2025;10:e019821. doi:10.1136/bmjgh-2025-019821",D35e08369e9,1.0,D35e08369e9,"van Boetzelaer E, et al. BMJ Glob Health 2025;10:e019821. doi:10.1136/bmjgh-2025",0.909,1.0,0.17,False,4
+"Title known-item (auto, 150)",dense,published 21 march 2016,D9e83de4d52,,D92891baef4,Authors/Contributors,0.878,0.25,0.25,True,4
+"Title known-item (auto, 150)",dense,"ISSN 2062-509X / $ 20.00 © 2012 Akadémiai Kiadó, Budapest",D96536b2560,1.0,D96536b2560,"ISSN 2062-509X / $ 20.00 © 2012 Akadémiai Kiadó, Budapest",0.889,1.0,0.11,False,1
+"Title known-item (auto, 150)",dense,Doctors cannot stop genocide- world leaders can,Dc799fdceaa,1.0,Dc799fdceaa,Doctors cannot stop genocide- world leaders can,0.921,1.0,0.83,False,1
+"Title known-item (auto, 150)",dense,Twenty years of home-based palliative care,Dfc2b1675a1,1.0,Dfc2b1675a1,Twenty years of home-based palliative care,0.886,1.0,0.67,False,1
+"Title known-item (auto, 150)",dense,Incidence of paradoxical tuberculosis-associated immune reconstitution inflammatory syndrome and impact on patient outcome.,D89ca40c1b2,1.0,D89ca40c1b2,Incidence of paradoxical tuberculosis-associated immune reconstitution inflammat,0.925,1.0,0.18,False,1
+"Title known-item (auto, 150)",dense,"Alba S, et al. BMJ Global Health 2020;5:e003236. doi:10.1136/bmjgh-2020-003236",D227872fd4e,1.0,D227872fd4e,"Alba S, et al. BMJ Global Health 2020;5:e003236. doi:10.1136/bmjgh-2020-003236",0.912,1.0,1.0,False,1
+"Title known-item (auto, 150)",dense,أزمة غذائية بعيدة عن الأنظار تهدّد عشرات آلاف الأطفال في شمال غرب نيجيريا وتُقابَل بالإهمال,Da5383a3d0a,1.0,Da5383a3d0a,أزمة غذائية بعيدة عن الأنظار تهدّد عشرات آلاف الأطفال في شمال غرب نيجيريا وتُقاب,0.926,1.0,0.67,False,1
+"Title known-item (auto, 150)",hybrid,This article appeared in a journal published by Elsevier. The attached,Da9f6db469d,1.0,Da9f6db469d,This article appeared in a journal published by Elsevier. The attached,0.854,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,"Webster R, et al. Implementing Fixed Dose Combination Medications",D673ba9db5c,1.0,D673ba9db5c,"Webster R, et al. Implementing Fixed Dose Combination Medications",0.906,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,Médicaments à usage externe et antiseptiques,D1b539fd0a2,1.0,D1b539fd0a2,Médicaments à usage externe et antiseptiques,0.914,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Foreword 2018 Activity Report,Dbdfa725f12,3.0,D3a344296cf,Foreword 2021,0.878,0.75,0.75,False,5
+"Title known-item (auto, 150)",hybrid,"Performance evaluation of the Mini-Lab, an all-in-one clinical",D04c8ff52a2,1.0,D04c8ff52a2,"Performance evaluation of the Mini-Lab, an all-in-one clinical",0.889,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,"Acceptability and use of a virtual support group for HIV-positive youth in Khayelitsha, Cape Town using the MXit social networking platform",De56cde2022,1.0,De56cde2022,Acceptability and use of a virtual support group for HIV-positive youth in Khaye,0.942,1.0,0.81,False,1
+"Title known-item (auto, 150)",hybrid,"contribution to the evidence base,",D705d4b38bf,,D1a668dca00,Making sure that clinical trial results make a difference:,0.817,0.67,0.67,False,5
+"Title known-item (auto, 150)",hybrid,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,0.879,0.5,0.25,False,5
+"Title known-item (auto, 150)",hybrid,"Violence against civilians and access to health care in North Kivu, Democratic Republic of Congo: three cross-sectional surveys.",Da0c54e36d0,1.0,Da0c54e36d0,"Violence against civilians and access to health care in North Kivu, Democratic R",0.908,1.0,0.87,False,5
+"Title known-item (auto, 150)",hybrid,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في الصومال وإثيوبيا,D7acf22526b,1.0,D7acf22526b,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في ا,0.931,1.0,0.57,False,1
+"Title known-item (auto, 150)",hybrid,DR-TB drugs under the microscope 2018,D0ae7cceef7,1.0,D0ae7cceef7,DR-TB drugs under the microscope 2018,0.895,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,ADAPTING IN TIMES OF CRISIS TO,Dc5ae5123ae,1.0,Dc5ae5123ae,ADAPTING IN TIMES OF CRISIS TO,0.857,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Ethical dilemmas in medical humanitarian practice:,D473461b69b,1.0,D473461b69b,Ethical dilemmas in medical humanitarian practice:,0.9,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,International Criminal Court (ICC),P28,1.0,P28,International Criminal Court (ICC),0.901,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,Crisis in Darfur: This is a war against civilians,D8b3df52e9e,1.0,D8b3df52e9e,Crisis in Darfur: This is a war against civilians,0.876,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Inadequate water and sanitation pose health threats in Syria,D9e5162a399,1.0,D9e5162a399,Inadequate water and sanitation pose health threats in Syria,0.913,1.0,0.71,False,5
+"Title known-item (auto, 150)",hybrid,Conflict in Greater Upper Nile is impeding humanitarian aid to thousands of people already devastated by flooding,De03cafecf1,1.0,De03cafecf1,Conflict in Greater Upper Nile is impeding humanitarian aid to thousands of peop,0.891,1.0,0.83,False,3
+"Title known-item (auto, 150)",hybrid,AMR in low-resource settings: Medecins Sans Frontieres bridges,D8ad70d7749,1.0,D8ad70d7749,AMR in low-resource settings: Medecins Sans Frontieres bridges,0.902,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,"Voluntary counselling, HIV testing and adjunctive",Dc75803ba46,1.0,Dc75803ba46,"Voluntary counselling, HIV testing and adjunctive",0.889,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Ebola disease in DRC: MSF scales up response to a rapidly evolving outbreak,Dd2d4a2481b,2.0,D5375e4eb66,DRC: MSF statement on the visit of WHO Director-General to Bunia,0.894,0.7,0.7,False,5
+"Title known-item (auto, 150)",hybrid,RSF must protect health facilities and staff in Central Darfur Sudan,Ddbc2d1795e,1.0,Ddbc2d1795e,RSF must protect health facilities and staff in Central Darfur Sudan,0.902,1.0,0.89,False,3
+"Title known-item (auto, 150)",hybrid,Management of diabetes and associated costs in a complex humanitarian setting in the Democratic Republic of Congo: a retrospective cohort study,D7b1badbde2,1.0,D7b1badbde2,Management of diabetes and associated costs in a complex humanitarian setting in,0.913,1.0,0.69,False,5
+"Title known-item (auto, 150)",hybrid,English Charity Reg. No. 1026588,Ddd8f64b337,2.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,0.844,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Tornimbene et al. BMC Proceedings            (2025) 19:7,D00acff0abd,1.0,D00acff0abd,Tornimbene et al. BMC Proceedings            (2025) 19:7,0.908,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Chad: Scores of wounded in Adré as conflict in Sudan surges,D13a0eeb8c5,1.0,D13a0eeb8c5,Chad: Scores of wounded in Adré as conflict in Sudan surges,0.892,1.0,0.57,False,5
+"Title known-item (auto, 150)",hybrid,"SESSION 3: Melioidosis, microbes, and mosquitoes: pushing boundaries for the most neglected and most vulnerable",D4f51b3b8aa,1.0,D4f51b3b8aa,"SESSION 3: Melioidosis, microbes, and mosquitoes: pushing boundaries for the mos",0.863,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Solidarity and dedication in response to devastating Myanmar earthquake,D221a40d307,1.0,D221a40d307,Solidarity and dedication in response to devastating Myanmar earthquake,0.874,1.0,0.33,False,5
+"Title known-item (auto, 150)",hybrid,Mismatch of supply and demand: Marburg virus disease outbreaks need countermeasures but will not provide opportunity for clinical trials,D6707fbdcac,1.0,D6707fbdcac,Mismatch of supply and demand: Marburg virus disease outbreaks need countermeasu,0.916,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,MSF AND THE ROHINGYA,Dbd6e2ef149,1.0,Dbd6e2ef149,MSF AND THE ROHINGYA,0.878,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Israeli forces must stop attacks on medical care in Jenin,D054bcedd1a,1.0,D054bcedd1a,Israeli forces must stop attacks on medical care in Jenin,0.915,1.0,0.88,False,5
+"Title known-item (auto, 150)",hybrid,Adverse Events among HIV/MDR-TB Co-Infected Patients,D7d3811047b,1.0,D7d3811047b,Adverse Events among HIV/MDR-TB Co-Infected Patients,0.913,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,The burden and outcomes of childhood tuberculosis,D795c870cf1,1.0,D795c870cf1,The burden and outcomes of childhood tuberculosis,0.92,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Coldiron et al. Malar J          (2021) 20:419,P14,1.0,P14,Coldiron et al. Malar J          (2021) 20:419,0.89,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,جنوب السودان تنفذ أول حملة تلقيح في العالم استجابة لتفشي التهاب الكبد E,Dc835fd8fa5,1.0,Dc835fd8fa5,جنوب السودان تنفذ أول حملة تلقيح في العالم استجابة لتفشي التهاب الكبد E,0.918,1.0,0.83,False,1
+"Title known-item (auto, 150)",hybrid,Every day thousands of Ukrainians arrive in Slovakia traumatised and exhausted,D7fa676b119,1.0,D7fa676b119,Every day thousands of Ukrainians arrive in Slovakia traumatised and exhausted,0.901,1.0,0.62,False,1
+"Title known-item (auto, 150)",hybrid,Prise en charge d’une ÉPIDÉMIE DE ROUGEOLE,D5e9f29a4e4,1.0,D5e9f29a4e4,Prise en charge d’une ÉPIDÉMIE DE ROUGEOLE,0.901,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,This Provisional PDF corresponds to the article as it appeared upon acceptance. Fully formatted,D39b5a07cce,1.0,D39b5a07cce,This Provisional PDF corresponds to the article as it appeared upon acceptance. ,0.876,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Towards more accurate HIV testing in sub-Saharan,Dc5f2be378d,1.0,Dc5f2be378d,Towards more accurate HIV testing in sub-Saharan,0.9,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Five questions about the mpox outbreak in DRC,Ddc5f4e5436,1.0,Ddc5f4e5436,Five questions about the mpox outbreak in DRC,0.917,1.0,0.4,False,5
+"Title known-item (auto, 150)",hybrid,People in Gaza still need a massive scale-up of humanitarian supplies,D89f8f8704e,1.0,D89f8f8704e,People in Gaza still need a massive scale-up of humanitarian supplies,0.907,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,غزة: التقييد المتعمّد للغذاء والمساعدات أدى إلى مستويات مقلقة من سوء التغذية,Db305b45b94,1.0,Db305b45b94,غزة: التقييد المتعمّد للغذاء والمساعدات أدى إلى مستويات مقلقة من سوء التغذية,0.906,1.0,0.58,False,5
+"Title known-item (auto, 150)",hybrid,"MSF and Ebola in Nord Kivu: Positioning,",D5e8da6e171,1.0,D5e8da6e171,"MSF and Ebola in Nord Kivu: Positioning,",0.904,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,8.2 Early postpartum haemorrhage,P23,1.0,P23,8.2 Early postpartum haemorrhage,0.911,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,استمرار الاحتياجات الطبية وسط النزاع في السودان,D8d099e6717,2.0,Da62ea9bf7f,جنوب السودان على حافة الانهيار,0.883,0.71,0.57,False,5
+"Title known-item (auto, 150)",hybrid,"Two-dose vaccine effectiveness following the first reactive mass vaccination campaign against Hepatitis E in Bentiu, South Sudan",D081f681b26,1.0,D081f681b26,Two-dose vaccine effectiveness following the first reactive mass vaccination cam,0.918,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,Report: Escalating violence in South Sudan,Df73a5c30bf,1.0,Df73a5c30bf,Report: Escalating violence in South Sudan,0.861,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,VitalSurg: Outcomes From a Surgical,D1fa284e16c,1.0,D1fa284e16c,VitalSurg: Outcomes From a Surgical,0.895,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,Over 100 deaths in one week in the Central Mediterranean,D6de324faad,1.0,D6de324faad,Over 100 deaths in one week in the Central Mediterranean,0.889,1.0,0.71,False,5
+"Title known-item (auto, 150)",hybrid,volume 5 no 9 pp 640–647 september 2000,D7dbccfcf92,1.0,D7dbccfcf92,volume 5 no 9 pp 640–647 september 2000,0.857,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,"Eight years in Kirkuk, Iraq: following along the journey of Hawija recovery",D4177935ee4,1.0,D4177935ee4,"Eight years in Kirkuk, Iraq: following along the journey of Hawija recovery",0.893,1.0,0.78,False,2
+"Title known-item (auto, 150)",hybrid,Mortality and cause of death in children with presumptive disseminated tuberculosis,De19574ea6d,1.0,De19574ea6d,Mortality and cause of death in children with presumptive disseminated tuberculo,0.938,1.0,0.86,False,5
+"Title known-item (auto, 150)",hybrid,Antiretroviral Therapy Outcomes in Resource-Limited,De61d0eaa84,1.0,De61d0eaa84,Antiretroviral Therapy Outcomes in Resource-Limited,0.916,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,"Kumar R, et al. BMJ Open 2023;0:e074679. doi:10.1136/bmjopen-2023-074679",D035530810c,1.0,D035530810c,"Kumar R, et al. BMJ Open 2023;0:e074679. doi:10.1136/bmjopen-2023-074679",0.887,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,وسط البحر الأبيض المتوسط: وفاة أكثر من 100 شخص خلال أسبوع,D332fd5febc,1.0,D332fd5febc,وسط البحر الأبيض المتوسط: وفاة أكثر من 100 شخص خلال أسبوع,0.902,1.0,0.91,False,1
+"Title known-item (auto, 150)",hybrid,The Bundibugyo virus challenge: why is this Ebola disease outbreak different,D5d1bb4aad4,1.0,D5d1bb4aad4,The Bundibugyo virus challenge: why is this Ebola disease outbreak different,0.895,1.0,0.62,False,5
+"Title known-item (auto, 150)",hybrid,Molecular genotyping in a malaria treatment trial in Uganda –,Dce112b1459,1.0,Dce112b1459,Molecular genotyping in a malaria treatment trial in Uganda –,0.927,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Antibiotic susceptibility patterns of pathogens isolated from,D3ceda3d736,1.0,D3ceda3d736,Antibiotic susceptibility patterns of pathogens isolated from,0.917,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,Body mass index trajectories and association with,D279f7b3d6d,1.0,D279f7b3d6d,Body mass index trajectories and association with,0.893,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,"Haiti: In Port-au-Prince, the violence is like gangrene",De86ef509f0,1.0,De86ef509f0,"Haiti: In Port-au-Prince, the violence is like gangrene",0.897,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,"Yale New Haven Health System, United States",D5814f937ab,1.0,D5814f937ab,"Yale New Haven Health System, United States",0.865,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,A randomized trial of AmBisome,D8048b8fc82,1.0,D8048b8fc82,A randomized trial of AmBisome,0.88,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,A deadly cycle: Malnutrition and disease outbreaks across the globe,D1ef8b2e740,1.0,D1ef8b2e740,A deadly cycle: Malnutrition and disease outbreaks across the globe,0.891,1.0,0.57,False,5
+"Title known-item (auto, 150)",hybrid,2020 in figures - Cloned,Ddc83b267e0,1.0,Ddc83b267e0,2020 in figures - Cloned,0.872,1.0,0.67,False,5
+"Title known-item (auto, 150)",hybrid,MSF AND THE WAR IN,Dd529d6b2d6,4.0,Db44a39eff2,MSF in North Caucasus,0.863,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Haiti 2018 Activity Report,P10,4.0,P45,MSF PROGRAMMES AROUND THE WORLD,0.864,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Responding to COVID-19 across the world,D702c8332ce,1.0,D702c8332ce,Responding to COVID-19 across the world,0.877,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Supply shortages and patient influxes leave Nasser hospital at breaking point,D28f2e6484c,1.0,D28f2e6484c,Supply shortages and patient influxes leave Nasser hospital at breaking point,0.9,1.0,0.44,False,2
+"Title known-item (auto, 150)",hybrid,Reducing Wasting in Young Children With Preventive,Da8b17ac14e,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,0.901,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Bringing clean water and sanitation to forcibly displaced families in Lebanon,D55eeab715f,1.0,D55eeab715f,Bringing clean water and sanitation to forcibly displaced families in Lebanon,0.892,1.0,0.88,False,5
+"Title known-item (auto, 150)",hybrid,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,Df1c261b285,1.0,Df1c261b285,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,0.923,1.0,0.62,False,3
+"Title known-item (auto, 150)",hybrid,Building evidence in crises,D62457e1efb,1.0,D62457e1efb,Building evidence in crises,0.874,1.0,0.33,False,5
+"Title known-item (auto, 150)",hybrid,These abstracts are not te be quoted for publication,D674b851bcf,,D48246cb637,MSF UK | English Charity Reg. No. 1026588,0.827,0.5,0.5,False,5
+"Title known-item (auto, 150)",hybrid,Evaluation of the “Tea Team,D3f9de2b07a,1.0,D3f9de2b07a,Evaluation of the “Tea Team,0.887,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,Lancet Glob Health 2026;,Df45b248d71,1.0,Df45b248d71,Lancet Glob Health 2026;,0.881,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,in the BDLC group and among 69 of,Dda00263b16,1.0,Dda00263b16,in the BDLC group and among 69 of,0.823,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,MSF UK | English Charity Reg. No. 1026588,D48246cb637,1.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,0.869,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,وجهًا لوجه مع الإيبولا في أوغندا,D19b04b35f2,1.0,D19b04b35f2,وجهًا لوجه مع الإيبولا في أوغندا,0.894,1.0,0.67,False,4
+"Title known-item (auto, 150)",hybrid,Control and public health aspects,D1acecedd02,1.0,D1acecedd02,Control and public health aspects,0.85,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,سوريا: أطباء بلا حدود تختتم أنشطتها في مركز دارة عزة,D2764b19112,1.0,D2764b19112,سوريا: أطباء بلا حدود تختتم أنشطتها في مركز دارة عزة,0.918,1.0,0.8,False,2
+"Title known-item (auto, 150)",hybrid,Thailand Cooperating with local groups to fight AIDS,D0eebba4c05,1.0,D0eebba4c05,Thailand Cooperating with local groups to fight AIDS,0.906,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,MSF: Open statement on the launch of the Global AMR R&D Collaboration Hub,D17890cad99,1.0,D17890cad99,MSF: Open statement on the launch of the Global AMR R&D Collaboration Hub,0.892,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,MSF briefing on Sudan to UN Security Council,D5774643607,1.0,D5774643607,MSF briefing on Sudan to UN Security Council,0.896,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,© The Author(s) 2019. Published by Oxford University Press for the Infectious Diseases Society of,D02dab61f41,2.0,Ddae572ff5a,© The Author(s) 2022. Published by Oxford University Press for the Infectious Di,0.898,1.0,0.89,False,5
+"Title known-item (auto, 150)",hybrid,أطباء بلا حدود تطلق استجابة طارئة في شمال موزمبيق,D8d18203d3a,1.0,D8d18203d3a,أطباء بلا حدود تطلق استجابة طارئة في شمال موزمبيق,0.903,1.0,0.89,False,5
+"Title known-item (auto, 150)",hybrid,"2 Projet Sante pour Tous-Kinshasa, Hopital de la Rive, BP 9638, Kinshasa-Ngaliema, Zaire",De5b2f33ffa,1.0,De5b2f33ffa,"2 Projet Sante pour Tous-Kinshasa, Hopital de la Rive, BP 9638, Kinshasa-Ngaliem",0.903,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,The near impossible task of getting lifesaving supplies into Gaza,D3a9dd210b9,1.0,D3a9dd210b9,The near impossible task of getting lifesaving supplies into Gaza,0.906,1.0,0.71,False,5
+"Title known-item (auto, 150)",hybrid,EECA Regional SORT IT,D9fb30dbc22,1.0,D9fb30dbc22,EECA Regional SORT IT,0.891,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Measles: the long walk to elimination drawn out by COVID-19,Dc1ad0828ea,1.0,Dc1ad0828ea,Measles: the long walk to elimination drawn out by COVID-19,0.909,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,"Knowledge, attitudes and practices on childhood TB among healthcare workers",D90917c4e45,1.0,D90917c4e45,"Knowledge, attitudes and practices on childhood TB among healthcare workers",0.901,1.0,0.88,False,2
+"Title known-item (auto, 150)",hybrid,INT J TUBERC LUNG DIS 24(12):1265–1271,D030d37cd08,1.0,D030d37cd08,INT J TUBERC LUNG DIS 24(12):1265–1271,0.879,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,9.2 Conventional treatment regimens,P49,2.0,Dd049c70e48,Landmark clinical trial redefines multidrug-resistant TB treatment options,0.86,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Academic Editors: Mingyang Wu and,D7a52c1f25b,1.0,D7a52c1f25b,Academic Editors: Mingyang Wu and,0.871,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,South Sudan: The long walk for new life,P06,1.0,P06,South Sudan: The long walk for new life,0.856,1.0,0.5,False,5
+"Title known-item (auto, 150)",hybrid,Sexually transmitted infections among prison inmates in a rural district of,D037e4f1dc8,1.0,D037e4f1dc8,Sexually transmitted infections among prison inmates in a rural district of,0.9,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,"In August 1995, for the first time in its history, North Korea launched a call for inter-",D806bc9089a,1.0,D806bc9089a,"In August 1995, for the first time in its history, North Korea launched a call f",0.856,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,NATURE MICROBIOLOGY | VOL 1 | MARCH 2016 | www.nature.com/naturemicrobiology,D0bd9567695,1.0,D0bd9567695,NATURE MICROBIOLOGY | VOL 1 | MARCH 2016 | www.nature.com/naturemicrobiology,0.875,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,MSF response to Israeli allegations linked to staff killing,D236dc184a5,2.0,Da7897cecbd,Statement on Israeli military decision to deny a criminal investigation into MSF,0.898,0.57,0.57,False,5
+"Title known-item (auto, 150)",hybrid,Belarus innovative safe tuberculosis treatment programme,Dc190efdb0c,1.0,Dc190efdb0c,Belarus innovative safe tuberculosis treatment programme,0.905,1.0,0.67,False,5
+"Title known-item (auto, 150)",hybrid,Identifying critically ill children at risk of,D0a172b79a4,1.0,D0a172b79a4,Identifying critically ill children at risk of,0.895,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,Haiti: MSF forced to evacuate hospital in Cite Soleil,D5057743ad2,1.0,D5057743ad2,Haiti: MSF forced to evacuate hospital in Cite Soleil,0.91,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,Focusing on Quality Patient Care in the New Global,Da8de6138bd,1.0,Da8de6138bd,Focusing on Quality Patient Care in the New Global,0.867,1.0,0.83,False,5
+"Title known-item (auto, 150)",hybrid,"Countries are out of step with international recommendations for tuberculosis testing,",D07afa7fbd7,1.0,D07afa7fbd7,Countries are out of step with international recommendations for tuberculosis te,0.888,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Severe medical needs persist amidst conflict in Sudan,De1f99aa2cf,4.0,D2e6fdb1638,MSF appeals for immediate response to Sudanese refugee crisis in Chad,0.878,0.71,0.57,False,5
+"Title known-item (auto, 150)",hybrid,Uzbekistan 2019 Activity Report,De0f71e5cf5,,D32ea4a9d92,THE MÉDECINS SANS,0.862,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,MENTAL HEALTH IN THE AMERICAS:,D8b233f27d2,1.0,D8b233f27d2,MENTAL HEALTH IN THE AMERICAS:,0.904,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,سلالة بونديبوغيو: ما المختلف في تفشّي الإيبولا هذه المرة؟,Dac15cd638c,1.0,Dac15cd638c,سلالة بونديبوغيو: ما المختلف في تفشّي الإيبولا هذه المرة؟,0.927,1.0,0.67,False,4
+"Title known-item (auto, 150)",hybrid,"Protocol repeated morbidity and vaccination coverage surveys, Bokoro District, Chad, 2016.",D5710a4f4c5,1.0,D5710a4f4c5,"Protocol repeated morbidity and vaccination coverage surveys, Bokoro District, C",0.907,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Massive humanitarian response needed to avoid health catastrophe in DRC,D279e1306ba,1.0,D279e1306ba,Massive humanitarian response needed to avoid health catastrophe in DRC,0.896,1.0,0.62,False,5
+"Title known-item (auto, 150)",hybrid,Low castes have poor access to visceral leishmaniasis treatment,D20de515bc6,1.0,D20de515bc6,Low castes have poor access to visceral leishmaniasis treatment,0.907,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,MSF wraps up activities in northern Brazil,D1bcc414c13,1.0,D1bcc414c13,MSF wraps up activities in northern Brazil,0.887,1.0,0.5,False,5
+"Title known-item (auto, 150)",hybrid,published: 20 August 2020,D2b2708f82d,1.0,D2b2708f82d,published: 20 August 2020,0.841,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,MSF begins emergency response in northern Mozambique,De4c251983a,1.0,De4c251983a,MSF begins emergency response in northern Mozambique,0.922,1.0,0.83,False,5
+"Title known-item (auto, 150)",hybrid,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,Df35d21f1d6,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,0.877,1.0,0.44,False,4
+"Title known-item (auto, 150)",hybrid,Treatment of Tuberculosis in a Region with High Drug,Df3ba72b4f8,1.0,Df3ba72b4f8,Treatment of Tuberculosis in a Region with High Drug,0.906,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,V I E W P O I N T S,D24b54ce36a,,,,,,,False,0
+"Title known-item (auto, 150)",hybrid,Les traumatismes abdominaux en Haïti,Dfb721c01fd,1.0,Dfb721c01fd,Les traumatismes abdominaux en Haïti,0.904,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,"Sudan: Strike on hospitals results in 10 fatalities, including 7 medical staff",Db2de191d11,1.0,Db2de191d11,"Sudan: Strike on hospitals results in 10 fatalities, including 7 medical staff",0.899,1.0,0.67,False,4
+"Title known-item (auto, 150)",hybrid,Engaging men in preventing sexual,Dad3389f998,1.0,Dad3389f998,Engaging men in preventing sexual,0.897,1.0,1.0,False,2
+"Title known-item (auto, 150)",hybrid,Democratic Republic of Congo: Ebola update June 2018,P02,1.0,P02,Democratic Republic of Congo: Ebola update June 2018,0.903,1.0,0.86,False,5
+"Title known-item (auto, 150)",hybrid,Division of Medical Microbiology and the Institute,Db90c744289,,D8ad70d7749,AMR in low-resource settings: Medecins Sans Frontieres bridges,0.848,1.0,0.75,False,5
+"Title known-item (auto, 150)",hybrid,Addressing Antimicrobial Resistance Within Global Processes to Improve,P35,1.0,P35,Addressing Antimicrobial Resistance Within Global Processes to Improve,0.902,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,The Author 2014. Published by Oxford University Press on behalf of Royal Society of Tropical Medicine and Hygiene. All rights reserved.,D66fe4cd145,1.0,D66fe4cd145,The Author 2014. Published by Oxford University Press on behalf of Royal Society,0.898,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,Operational response to malaria epidemics: are rapid diagnostic,D1c2515fd29,1.0,D1c2515fd29,Operational response to malaria epidemics: are rapid diagnostic,0.911,1.0,0.83,False,5
+"Title known-item (auto, 150)",hybrid,Validation of GeneXpert testing for human papillomavirus and self-,D03da2066dd,1.0,D03da2066dd,Validation of GeneXpert testing for human papillomavirus and self-,0.926,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Implementation of WHO guidelines on urine lateral flow LAM testing in the high TB/HIV burden African countries,D9549aa0ea8,1.0,D9549aa0ea8,Implementation of WHO guidelines on urine lateral flow LAM testing in the high T,0.918,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,MSF policy brief for the Lancet Countdown on health and climate change,D69ad43fc13,1.0,D69ad43fc13,MSF policy brief for the Lancet Countdown on health and climate change,0.924,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Face to face with Ebola in Uganda,D4e14ca42fa,1.0,D4e14ca42fa,Face to face with Ebola in Uganda,0.891,1.0,0.67,False,5
+"Title known-item (auto, 150)",hybrid,Pediatric Access and Continuity of HIV Care Before the Start of Antiretroviral Therapy in Sub-Saharan Africa,D957b22fac7,1.0,D957b22fac7,Pediatric Access and Continuity of HIV Care Before the Start of Antiretroviral T,0.911,1.0,1.0,False,3
+"Title known-item (auto, 150)",hybrid,TB diagnosis and treatment breakthroughs,D98949d5e0c,1.0,D98949d5e0c,TB diagnosis and treatment breakthroughs,0.906,1.0,0.75,False,5
+"Title known-item (auto, 150)",hybrid,People killed by landmines in Deir ez-Zor Syria,Dadc2eedb91,1.0,Dadc2eedb91,People killed by landmines in Deir ez-Zor Syria,0.903,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,The forgotten emergency of maternal healthcare in the Central African crisis,D3f666b74fc,1.0,D3f666b74fc,The forgotten emergency of maternal healthcare in the Central African crisis,0.897,1.0,0.43,False,5
+"Title known-item (auto, 150)",hybrid,بيان منظمة أطباء بلا حدود بشأن وضع مرض الإيبولا في إيتوري، جمهورية الكونغو الديمقراطية,Dacd418953a,1.0,Dacd418953a,بيان منظمة أطباء بلا حدود بشأن وضع مرض الإيبولا في إيتوري، جمهورية الكونغو الديم,0.919,1.0,0.79,False,5
+"Title known-item (auto, 150)",hybrid,People are still being killed by Israeli forces in southern Lebanon,D20cfb5ee60,1.0,D20cfb5ee60,People are still being killed by Israeli forces in southern Lebanon,0.886,1.0,0.88,False,5
+"Title known-item (auto, 150)",hybrid,Successes and gaps in the HIV cascade of care of a high HIV,Db5c5c06c40,1.0,Db5c5c06c40,Successes and gaps in the HIV cascade of care of a high HIV,0.916,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Nifurtimox-eﬂ ornithine combination therapy for,De3f857b161,1.0,De3f857b161,Nifurtimox-eﬂ ornithine combination therapy for,0.923,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Superior Virologic and Treatment Outcomes,De81b52b6ad,1.0,De81b52b6ad,Superior Virologic and Treatment Outcomes,0.901,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,مخاطر صحية غير مرئية تُحدق بالنازحين في شمال غرب سوريا,Ded9b8766ac,1.0,Ded9b8766ac,مخاطر صحية غير مرئية تُحدق بالنازحين في شمال غرب سوريا,0.891,1.0,0.5,False,5
+"Title known-item (auto, 150)",hybrid,شمال غرب سويا: توفير الرعاية الصحية بين الأنقاض في جنديرس,D3260fee68c,1.0,D3260fee68c,شمال غرب سويا: توفير الرعاية الصحية بين الأنقاض في جنديرس,0.884,1.0,0.7,False,5
+"Title known-item (auto, 150)",hybrid,Accounting for False Positive HIV Tests: Is,D9ae55ed798,1.0,D9ae55ed798,Accounting for False Positive HIV Tests: Is,0.903,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,Premature babies fight for their lives in north Gaza,Dc9b5ae9bd8,1.0,Dc9b5ae9bd8,Premature babies fight for their lives in north Gaza,0.904,1.0,0.86,False,1
+"Title known-item (auto, 150)",hybrid,The Medecins Sans Frontieres Charter,Da3c2a32b51,1.0,Da3c2a32b51,The Medecins Sans Frontieres Charter,0.883,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,"Three questions about the recent violent clashes in Port-au-Prince, Haiti",Dc1894a2331,1.0,Dc1894a2331,"Three questions about the recent violent clashes in Port-au-Prince, Haiti",0.903,1.0,0.62,False,5
+"Title known-item (auto, 150)",hybrid,"van Boetzelaer E, et al. BMJ Glob Health 2025;10:e019821. doi:10.1136/bmjgh-2025-019821",D35e08369e9,1.0,D35e08369e9,"van Boetzelaer E, et al. BMJ Glob Health 2025;10:e019821. doi:10.1136/bmjgh-2025",0.909,1.0,1.0,False,4
+"Title known-item (auto, 150)",hybrid,published 21 march 2016,D9e83de4d52,1.0,D9e83de4d52,published 21 march 2016,0.846,1.0,1.0,False,5
+"Title known-item (auto, 150)",hybrid,"ISSN 2062-509X / $ 20.00 © 2012 Akadémiai Kiadó, Budapest",D96536b2560,1.0,D96536b2560,"ISSN 2062-509X / $ 20.00 © 2012 Akadémiai Kiadó, Budapest",0.889,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Doctors cannot stop genocide- world leaders can,Dc799fdceaa,1.0,Dc799fdceaa,Doctors cannot stop genocide- world leaders can,0.921,1.0,0.83,False,3
+"Title known-item (auto, 150)",hybrid,Twenty years of home-based palliative care,Dfc2b1675a1,1.0,Dfc2b1675a1,Twenty years of home-based palliative care,0.886,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,Incidence of paradoxical tuberculosis-associated immune reconstitution inflammatory syndrome and impact on patient outcome.,D89ca40c1b2,1.0,D89ca40c1b2,Incidence of paradoxical tuberculosis-associated immune reconstitution inflammat,0.925,1.0,0.91,False,5
+"Title known-item (auto, 150)",hybrid,"Alba S, et al. BMJ Global Health 2020;5:e003236. doi:10.1136/bmjgh-2020-003236",D227872fd4e,1.0,D227872fd4e,"Alba S, et al. BMJ Global Health 2020;5:e003236. doi:10.1136/bmjgh-2020-003236",0.912,1.0,1.0,False,1
+"Title known-item (auto, 150)",hybrid,أزمة غذائية بعيدة عن الأنظار تهدّد عشرات آلاف الأطفال في شمال غرب نيجيريا وتُقابَل بالإهمال,Da5383a3d0a,1.0,Da5383a3d0a,أزمة غذائية بعيدة عن الأنظار تهدّد عشرات آلاف الأطفال في شمال غرب نيجيريا وتُقاب,0.926,1.0,0.67,False,1
+Manual field questions,keyword,ready-to-use therapeutic food for malnourished children,Da7bd65da54,1.0,Da7bd65da54,Ready-to-Use Therapeutic Food for Catch-Up Growth in,,1.0,0.83,False,5
+Manual field questions,keyword,children with severe wasting need a food supplement,Da7bd65da54;Da8b17ac14e,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,,0.83,0.5,False,5
+Manual field questions,keyword,snake bite in children,Da8a79bb208,1.0,Da8a79bb208,CHARACTERISTICS OF CHILDREN AFFECTED BY SNAKE BITE AND,,1.0,0.67,False,5
+Manual field questions,keyword,decentralised care for multidrug-resistant tuberculosis,Dfa31139cc4,2.0,D3744b395c7,Now is the time for,,0.8,0.8,False,5
+Manual field questions,keyword,Ebola outbreak response North Kivu,D5e8da6e171;Dd2d4a2481b,1.0,D5e8da6e171,"MSF and Ebola in Nord Kivu: Positioning,",,1.0,1.0,False,5
+Manual field questions,keyword,oral cholera vaccine immune response,D8954bd10a8,1.0,D8954bd10a8,Immune Responses to an Oral Cholera Vaccine,,1.0,1.0,False,5
+Manual field questions,keyword,how to organise a mass vaccination campaign,Da5fedd82cc,1.0,Da5fedd82cc,Film: Organising an emergency mass vaccination campaign,,0.75,0.75,False,5
+Manual field questions,keyword,sexual and gender-based violence Port-au-Prince,D907b8f0256,1.0,D907b8f0256,Report: Sexual and gender-based violence in Port-au-Prince,,1.0,1.0,False,5
+Manual field questions,keyword,emergency response northern Mozambique,De4c251983a,1.0,De4c251983a,MSF begins emergency response in northern Mozambique,,1.0,1.0,False,5
+Manual field questions,keyword,MSF and the Rohingya,Dbd6e2ef149,1.0,Dbd6e2ef149,MSF AND THE ROHINGYA,,1.0,1.0,False,4
+Manual field questions,keyword,Rwanda genocide 1994 MSF speaking out,Da68d33c442;D3ee82c6349;D8edc950029,1.0,D3ee82c6349,APRIL 1994 - 1997,,0.83,0.83,False,5
+Manual field questions,keyword,HIV cascade of care survey Malawi,D24a2c98ae3,1.0,D24a2c98ae3,What gaps remain in the HIV cascade of care? Results of a population-based surve,,1.0,1.0,False,5
+Manual field questions,keyword,prise en charge du choléra,Dc95675e997,2.0,D88e42ff882,Chapitre 4 : Stratégies de réponse à une épidémie,,0.67,0.67,False,5
+Manual field questions,keyword,المهاجرون بنما,Df35d21f1d6,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,,1.0,1.0,False,1
+Manual field questions,keyword,hospital in southern Gaza,Dd4ee6d16b7,1.0,Dd4ee6d16b7,A day in the life at the last remaining hospital in southern Gaza,,1.0,1.0,False,5
+Manual field questions,keyword,attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,1.0,D8688fb1d8c,"Gaza: MSF condemns deliberate attack on a convoy transporting staff, resulting i",,1.0,0.83,False,5
+Manual field questions,keyword,how much money does MSF spend each year,D10d6a75496;P45;P48,3.0,D0ea302e15b,An obstetrician reborn,,1.0,0.67,False,5
+Manual field questions,keyword,veterinary rabies vaccine for cattle,(no answer),,D2b2708f82d,published: 20 August 2020,,0.5,0.5,False,5
+Manual field questions,keyword,cryptocurrency mining regulation,(no answer),,Dbb1bc86e28,MSF experiences of providing,,0.33,0.33,True,5
+Manual field questions,keyword,football world cup results,(no answer),,P24,AMOXICILLIN oral,,0.25,0.25,True,5
+Manual field questions,dense,ready-to-use therapeutic food for malnourished children,Da7bd65da54,2.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,0.914,1.0,1.0,False,4
+Manual field questions,dense,children with severe wasting need a food supplement,Da7bd65da54;Da8b17ac14e,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,0.901,0.83,0.5,False,5
+Manual field questions,dense,snake bite in children,Da8a79bb208,1.0,Da8a79bb208,CHARACTERISTICS OF CHILDREN AFFECTED BY SNAKE BITE AND,0.894,1.0,0.67,False,1
+Manual field questions,dense,decentralised care for multidrug-resistant tuberculosis,Dfa31139cc4,1.0,Dfa31139cc4,Decentralisation of multidrug-resistant-tuberculosis care,0.923,0.8,0.6,False,5
+Manual field questions,dense,Ebola outbreak response North Kivu,D5e8da6e171;Dd2d4a2481b,1.0,D5e8da6e171,"MSF and Ebola in Nord Kivu: Positioning,",0.904,1.0,0.8,False,2
+Manual field questions,dense,oral cholera vaccine immune response,D8954bd10a8,1.0,D8954bd10a8,Immune Responses to an Oral Cholera Vaccine,0.941,1.0,0.8,False,2
+Manual field questions,dense,how to organise a mass vaccination campaign,Da5fedd82cc,1.0,Da5fedd82cc,Film: Organising an emergency mass vaccination campaign,0.913,0.75,0.75,False,1
+Manual field questions,dense,sexual and gender-based violence Port-au-Prince,D907b8f0256,1.0,D907b8f0256,Report: Sexual and gender-based violence in Port-au-Prince,0.909,1.0,1.0,False,2
+Manual field questions,dense,emergency response northern Mozambique,De4c251983a,1.0,De4c251983a,MSF begins emergency response in northern Mozambique,0.906,1.0,1.0,False,1
+Manual field questions,dense,MSF and the Rohingya,Dbd6e2ef149,1.0,Dbd6e2ef149,MSF AND THE ROHINGYA,0.875,1.0,1.0,False,5
+Manual field questions,dense,Rwanda genocide 1994 MSF speaking out,Da68d33c442;D3ee82c6349;D8edc950029,1.0,D3ee82c6349,APRIL 1994 - 1997,0.901,0.83,0.83,False,4
+Manual field questions,dense,HIV cascade of care survey Malawi,D24a2c98ae3,1.0,D24a2c98ae3,What gaps remain in the HIV cascade of care? Results of a population-based surve,0.918,1.0,1.0,False,3
+Manual field questions,dense,prise en charge du choléra,Dc95675e997,1.0,Dc95675e997,Prise en charge d’une ÉPIDÉMIE DE CHOLÉRA,0.911,1.0,1.0,False,2
+Manual field questions,dense,المهاجرون بنما,Df35d21f1d6,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,0.869,1.0,1.0,False,1
+Manual field questions,dense,hospital in southern Gaza,Dd4ee6d16b7,2.0,D28f2e6484c,Supply shortages and patient influxes leave Nasser hospital at breaking point,0.87,0.67,0.67,False,5
+Manual field questions,dense,attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,1.0,D8688fb1d8c,"Gaza: MSF condemns deliberate attack on a convoy transporting staff, resulting i",0.909,1.0,0.83,False,3
+Manual field questions,dense,how much money does MSF spend each year,D10d6a75496;P45;P48,2.0,Ddc83b267e0,2020 in figures - Cloned,0.888,0.5,0.33,False,5
+Manual field questions,dense,veterinary rabies vaccine for cattle,(no answer),,D2b2708f82d,published: 20 August 2020,0.864,0.5,0.5,False,5
+Manual field questions,dense,cryptocurrency mining regulation,(no answer),,D0197c14ba0,E X P E R T S ’ O P I N I O N,0.824,0.0,0.0,True,5
+Manual field questions,dense,football world cup results,(no answer),,Dedb81e1789,Convention on the Prevention and Punishment of the Crime of Genocide,0.831,0.0,0.0,True,5
+Manual field questions,hybrid,ready-to-use therapeutic food for malnourished children,Da7bd65da54,1.0,Da7bd65da54,Ready-to-Use Therapeutic Food for Catch-Up Growth in,0.905,1.0,0.83,False,5
+Manual field questions,hybrid,children with severe wasting need a food supplement,Da7bd65da54;Da8b17ac14e,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,0.901,0.83,0.5,False,5
+Manual field questions,hybrid,snake bite in children,Da8a79bb208,1.0,Da8a79bb208,CHARACTERISTICS OF CHILDREN AFFECTED BY SNAKE BITE AND,0.894,1.0,0.67,False,1
+Manual field questions,hybrid,decentralised care for multidrug-resistant tuberculosis,Dfa31139cc4,1.0,Dfa31139cc4,Decentralisation of multidrug-resistant-tuberculosis care,0.923,0.8,0.8,False,5
+Manual field questions,hybrid,Ebola outbreak response North Kivu,D5e8da6e171;Dd2d4a2481b,1.0,D5e8da6e171,"MSF and Ebola in Nord Kivu: Positioning,",0.904,1.0,1.0,False,4
+Manual field questions,hybrid,oral cholera vaccine immune response,D8954bd10a8,1.0,D8954bd10a8,Immune Responses to an Oral Cholera Vaccine,0.941,1.0,1.0,False,5
+Manual field questions,hybrid,how to organise a mass vaccination campaign,Da5fedd82cc,1.0,Da5fedd82cc,Film: Organising an emergency mass vaccination campaign,0.913,0.75,0.75,False,5
+Manual field questions,hybrid,sexual and gender-based violence Port-au-Prince,D907b8f0256,1.0,D907b8f0256,Report: Sexual and gender-based violence in Port-au-Prince,0.909,1.0,1.0,False,4
+Manual field questions,hybrid,emergency response northern Mozambique,De4c251983a,1.0,De4c251983a,MSF begins emergency response in northern Mozambique,0.906,1.0,1.0,False,5
+Manual field questions,hybrid,MSF and the Rohingya,Dbd6e2ef149,1.0,Dbd6e2ef149,MSF AND THE ROHINGYA,0.875,1.0,1.0,False,5
+Manual field questions,hybrid,Rwanda genocide 1994 MSF speaking out,Da68d33c442;D3ee82c6349;D8edc950029,1.0,D3ee82c6349,APRIL 1994 - 1997,0.901,0.83,0.83,False,5
+Manual field questions,hybrid,HIV cascade of care survey Malawi,D24a2c98ae3,1.0,D24a2c98ae3,What gaps remain in the HIV cascade of care? Results of a population-based surve,0.918,1.0,1.0,False,5
+Manual field questions,hybrid,prise en charge du choléra,Dc95675e997,1.0,Dc95675e997,Prise en charge d’une ÉPIDÉMIE DE CHOLÉRA,0.911,1.0,1.0,False,5
+Manual field questions,hybrid,المهاجرون بنما,Df35d21f1d6,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,0.869,1.0,1.0,False,1
+Manual field questions,hybrid,hospital in southern Gaza,Dd4ee6d16b7,1.0,Dd4ee6d16b7,A day in the life at the last remaining hospital in southern Gaza,0.864,1.0,1.0,False,5
+Manual field questions,hybrid,attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,1.0,D8688fb1d8c,"Gaza: MSF condemns deliberate attack on a convoy transporting staff, resulting i",0.909,1.0,0.83,False,5
+Manual field questions,hybrid,how much money does MSF spend each year,D10d6a75496;P45;P48,2.0,Ddc83b267e0,2020 in figures - Cloned,0.888,0.5,0.5,False,5
+Manual field questions,hybrid,veterinary rabies vaccine for cattle,(no answer),,D2b2708f82d,published: 20 August 2020,0.864,0.5,0.5,False,5
+Manual field questions,hybrid,cryptocurrency mining regulation,(no answer),,Dbb1bc86e28,MSF experiences of providing,0.805,0.33,0.33,True,5
+Manual field questions,hybrid,football world cup results,(no answer),,Dfee2e6ea98,The MÉdecins Sans,0.808,0.75,0.5,True,5
