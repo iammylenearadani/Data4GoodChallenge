@@ -7,3 +7,11 @@ submission.zip
 *.pyc
 .DS_Store
 *.zip
+
+# web prototype (Lina) / tooling
+node_modules/
+dist/
+.agents/*
+.claude/*
+skills-lock.json
+.idea/

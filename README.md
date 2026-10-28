@@ -45,3 +45,8 @@ chapters exist in EN/FR/ES. Some genre labels are noisy. Tables in PDFs are most
 ## Roadmap
 ONNX int8 export of the embedder (no PyTorch in the field, ~140 MB) · cross-encoder re-ranker as an optional precision
 step · incremental re-index when the field kit syncs (only changed files) · feedback button → missing-protocol report · table extraction from PDFs.
+
+## Web prototype (React, `src/`) — work in progress
+`index.html`, `src/`, `vite.config.js`, `package.json`: a React/Vite front-end shell for a "spiderweb" query graph
+(by Lina). Not wired to the search engine yet; the working demo is `app.py` (Streamlit). Run with `npm install && npm run dev`.
+Background research and the original team plan: `research/`. Architecture notes: `agents.md`, `data.md`.
