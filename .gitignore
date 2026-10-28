@@ -1,0 +1,9 @@
+.agents/*
+.claude/*
+skills-lock.json
+
+/data/*
+.idea/
+artifacts/
+.venv/
+__pycache__/
