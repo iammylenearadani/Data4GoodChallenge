@@ -34,9 +34,10 @@ EMBED_MODEL = "intfloat/multilingual-e5-small"   # 118M params, 384-dim, 100 lan
 DENSE_MAX_CHUNKS_PER_DOC = 60   # caps embedding time for 300-page reports
 
 # --- ranking
+SIGNALS = ("passage", "abstract", "dense")   # switch signals off for ablations (eval/sweep.py)
 RRF_K = 60
 CANDIDATES = 300
-KEYWORD_CUTOFF = 0.45           # keep a doc if its best passage scores >= 45% of the best passage overall...
-DENSE_MARGIN = 0.06             # ...or its dense cosine is within this of the best dense cosine
+KEYWORD_CUTOFF = 0.65           # keep a doc if its best passage scores >= 45% of the best passage overall...
+DENSE_MARGIN = 0.03             # ...or its dense cosine is within this of the best dense cosine
 ABSTAIN_COVERAGE = 0.5          # abstain if < 50% of query words appear in the top doc...
 ABSTAIN_DENSE = 0.81            # ...or (hybrid/dense) top dense cosine < this. Answerable min: manual 0.864, title set 0.817; no-answer 0.805-0.864

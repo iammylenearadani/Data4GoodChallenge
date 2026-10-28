@@ -61,23 +61,26 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
     q_lang = detect_lang(query)
     out = {"query": query, "query_lang": q_lang, "mode": mode, "abstained": False, "results": []}
     if not q_tokens:
+        out["latency_ms"] = round((time.time() - t0) * 1000)
         return out
 
     lists = {}
     kw = {}
-    if mode in ("keyword", "hybrid"):
+    if mode in ("keyword", "hybrid") and "passage" in C.SIGNALS:
         kw = _best_per_doc(pack["bm25"].get_scores(q_tokens), None, chunks, C.CANDIDATES)
         lists["passage"] = list(kw)
+    if mode in ("keyword", "hybrid") and "abstract" in C.SIGNALS:
         h = pack["head_bm25"].get_scores(q_tokens)
         lists["abstract"] = [int(i) for i in np.argsort(-h)[:200] if h[i] > 0]
     dn = {}
-    use_dense = mode in ("dense", "hybrid") and dense_ready()
+    use_dense = mode in ("dense", "hybrid") and "dense" in C.SIGNALS and dense_ready()
     if use_dense:
         qv = embedder.embed_query(query)
         dn = _best_per_doc(_emb @ qv, pack["emb_ids"], chunks, C.CANDIDATES)
         lists["dense"] = list(dn)
     if not any(lists.values()):
         out["abstained"] = True
+        out["latency_ms"] = round((time.time() - t0) * 1000)
         return out
 
     ranks = {name: {d: r for r, d in enumerate(l)} for name, l in lists.items()}
@@ -134,9 +137,11 @@ def search(query, k=5, langs=None, genres=None, mode="hybrid"):
 
     # abstention: too few query words found in the top document (and weak semantic match, if available)
     if results:
-        top = docs[docs.doc_id == results[0]["doc_id"]].iloc[0]
+        # query words found in the top document OR any of its translations/editions (a Spanish query
+        # matched to the English member of a family would otherwise score 0 coverage)
+        fam = docs[docs.family_id == results[0]["family"]["id"]]
         qw = set(content_words(query))
-        found = set(tokenize(top.title + " " + top.text[:200000]))
+        found = set(tokenize(" ".join(t + " " + x[:200000] for t, x in zip(fam.title, fam.text))))
         coverage = len(qw & found) / max(1, len(qw))
         out["confidence"] = {"coverage": round(coverage, 2), "dense_cos": results[0]["dense_cos"]}
         out["abstained"] = coverage < C.ABSTAIN_COVERAGE
