@@ -34,7 +34,7 @@ REPORTING - held-out questions (written blind),keyword,crosslingual,en,mental he
 REPORTING - held-out questions (written blind),keyword,native,es,lista de medicamentos de uso externo como la clorhexidina,D6cbab2c6cb;D1b539fd0a2,1.0,1.0,D6cbab2c6cb,Medicamentos de uso externo y antisépticos,False,0.8,
 REPORTING - held-out questions (written blind),keyword,native,es,obstáculos para vacunar contra la COVID-19 a migrantes,D162ba1334d;Dbd5581d7ea,1.0,1.0,D162ba1334d,COVID-19: la dificultad de que las vacunas se conviertan en vacunaciones,False,0.83,
 REPORTING - held-out questions (written blind),keyword,native,es,tratamiento oral de seis meses para la tuberculosis resistente,Daa73c27a78;D4ebb3e2295;Dbd53eb7cac;D04304ea6c4,1.0,1.0,D04304ea6c4,Resumen del año 2021,False,1.0,
-REPORTING - held-out questions (written blind),keyword,native,es,asesinato de compañeros de MSF en Etiopía y suspensión de actividades,D04304ea6c4;Dbd53eb7cac,1.0,1.0,Dbd53eb7cac,Bilan de l’année 2021,True,0.17,
+REPORTING - held-out questions (written blind),keyword,native,es,asesinato de compañeros de MSF en Etiopía y suspensión de actividades,D04304ea6c4;Dbd53eb7cac,1.0,1.0,Dbd53eb7cac,Bilan de l’année 2021,False,1.0,
 REPORTING - held-out questions (written blind),keyword,native,es,atentados suicidas en el norte de Camerún y cirugía de urgencia,De76e327faa,1.0,1.0,De76e327faa,Camerún,False,0.83,
 REPORTING - held-out questions (written blind),keyword,crosslingual,fr,chirurgie de guerre dans les hôpitaux du nord de l'Éthiopie,Dbc65e15071,,,Da906dd6c63,Bilan de l’année 2023,False,0.8,
 REPORTING - held-out questions (written blind),keyword,crosslingual,fr,inondations à Maiduguri et risque de choléra,De2f723ce04,1.0,1.0,De2f723ce04,Nigeria fears of outbreaks grow in Maiduguri following severe flooding,False,0.5,
@@ -92,11 +92,11 @@ REPORTING - held-out questions (written blind),keyword,native,en,crime of aggres
 REPORTING - held-out questions (written blind),keyword,native,en,how to organise a measles inpatient unit,D506fa6468a;D580a93c4d4,1.0,1.0,D506fa6468a,Appendices,False,0.75,
 REPORTING - held-out questions (written blind),keyword,no-answer,en,dental implant surgery procedure,(no answer),,,D1fa284e16c,VitalSurg: Outcomes From a Surgical,False,0.5,
 REPORTING - held-out questions (written blind),keyword,no-answer,en,MSF research station in Antarctica,(no answer),,,Dbb8e0e493d,Health Seeking Behaviour in Kamrangirchar,False,0.5,
-REPORTING - held-out questions (written blind),keyword,no-answer,en,accepting bitcoin donations tax rules,(no answer),,,D0513ca68ff,Joint call by the ICRC WHO and MSF for states to uphold Resolution 2286,True,0.2,
+REPORTING - held-out questions (written blind),keyword,no-answer,en,accepting bitcoin donations tax rules,(no answer),,,P33,The Right Shot:,False,0.6,
 REPORTING - held-out questions (written blind),keyword,no-answer,en,helicopter engine maintenance schedule,(no answer),,,D7f227c43c5,PUTTING HIV AND,False,0.5,
 REPORTING - held-out questions (written blind),keyword,no-answer,en,stock market investment strategy for the reserve fund,(no answer),,,D46512b4307,Understanding the Impact of Historical Policy Legacies,False,0.83,
-REPORTING - held-out questions (written blind),keyword,no-answer,en,fertility treatment for couples,(no answer),,,D0c8b8c1868,Cost per patient of treatment for rifampicin-resistant,True,0.33,
-REPORTING - held-out questions (written blind),keyword,no-answer,fr,implants dentaires chirurgie,(no answer),,,D705b6e90b7,Cameroon,True,0.0,
+REPORTING - held-out questions (written blind),keyword,no-answer,en,fertility treatment for couples,(no answer),,,Dba66038131,Health in Action,False,0.67,
+REPORTING - held-out questions (written blind),keyword,no-answer,fr,implants dentaires chirurgie,(no answer),,,D705b6e90b7,Cameroon,True,0.33,
 REPORTING - held-out questions (written blind),keyword,no-answer,es,estación de investigación en la Antártida,(no answer),,,Dad7d7e880f,Cambodge Rapport d'Activités 2019,True,0.0,
 REPORTING - held-out questions (written blind),dense,native,ar,نقص الأمطار وانعدام الأمن الغذائي لدى الرعاة في إثيوبيا,D7acf22526b,1.0,1.0,D7acf22526b,أزمة إنسانية متفاقمة: الجفاف والنزوح يدفعان ملايين الأشخاص إلى حافة الهاوية في ا,False,0.67,0.878
 REPORTING - held-out questions (written blind),dense,native,ar,انتشار الكوليرا من الرنك إلى ملكال وجوبا,D160b2d96cd;D0fdc1d0ef5,1.0,1.0,D160b2d96cd,جنوب السودان: أطباء بلا حدود تدعو إلى استجابة محسّنة ومنسّقة لتفشي الكوليرا في أ,False,0.86,0.869
@@ -133,7 +133,7 @@ REPORTING - held-out questions (written blind),dense,crosslingual,en,mental heal
 REPORTING - held-out questions (written blind),dense,native,es,lista de medicamentos de uso externo como la clorhexidina,D6cbab2c6cb;D1b539fd0a2,1.0,1.0,D6cbab2c6cb,Medicamentos de uso externo y antisépticos,False,0.8,0.915
 REPORTING - held-out questions (written blind),dense,native,es,obstáculos para vacunar contra la COVID-19 a migrantes,D162ba1334d;Dbd5581d7ea,1.0,1.0,D162ba1334d,COVID-19: la dificultad de que las vacunas se conviertan en vacunaciones,False,0.83,0.888
 REPORTING - held-out questions (written blind),dense,native,es,tratamiento oral de seis meses para la tuberculosis resistente,Daa73c27a78;D4ebb3e2295;Dbd53eb7cac;D04304ea6c4,1.0,1.0,D04304ea6c4,Resumen del año 2021,False,1.0,0.905
-REPORTING - held-out questions (written blind),dense,native,es,asesinato de compañeros de MSF en Etiopía y suspensión de actividades,D04304ea6c4;Dbd53eb7cac,1.0,1.0,Dbd53eb7cac,Bilan de l’année 2021,True,0.17,0.915
+REPORTING - held-out questions (written blind),dense,native,es,asesinato de compañeros de MSF en Etiopía y suspensión de actividades,D04304ea6c4;Dbd53eb7cac,1.0,1.0,Dbd53eb7cac,Bilan de l’année 2021,False,1.0,0.915
 REPORTING - held-out questions (written blind),dense,native,es,atentados suicidas en el norte de Camerún y cirugía de urgencia,De76e327faa,1.0,1.0,De76e327faa,Camerún,False,0.83,0.906
 REPORTING - held-out questions (written blind),dense,crosslingual,fr,chirurgie de guerre dans les hôpitaux du nord de l'Éthiopie,Dbc65e15071,,4.0,Da906dd6c63,Bilan de l’année 2023,False,0.8,0.871
 REPORTING - held-out questions (written blind),dense,crosslingual,fr,inondations à Maiduguri et risque de choléra,De2f723ce04,1.0,1.0,De2f723ce04,Nigeria fears of outbreaks grow in Maiduguri following severe flooding,False,0.5,0.879
@@ -232,7 +232,7 @@ REPORTING - held-out questions (written blind),hybrid,crosslingual,en,mental hea
 REPORTING - held-out questions (written blind),hybrid,native,es,lista de medicamentos de uso externo como la clorhexidina,D6cbab2c6cb;D1b539fd0a2,1.0,1.0,D6cbab2c6cb,Medicamentos de uso externo y antisépticos,False,0.8,0.915
 REPORTING - held-out questions (written blind),hybrid,native,es,obstáculos para vacunar contra la COVID-19 a migrantes,D162ba1334d;Dbd5581d7ea,1.0,1.0,D162ba1334d,COVID-19: la dificultad de que las vacunas se conviertan en vacunaciones,False,0.83,0.888
 REPORTING - held-out questions (written blind),hybrid,native,es,tratamiento oral de seis meses para la tuberculosis resistente,Daa73c27a78;D4ebb3e2295;Dbd53eb7cac;D04304ea6c4,1.0,1.0,D04304ea6c4,Resumen del año 2021,False,1.0,0.905
-REPORTING - held-out questions (written blind),hybrid,native,es,asesinato de compañeros de MSF en Etiopía y suspensión de actividades,D04304ea6c4;Dbd53eb7cac,1.0,1.0,Dbd53eb7cac,Bilan de l’année 2021,True,0.17,0.915
+REPORTING - held-out questions (written blind),hybrid,native,es,asesinato de compañeros de MSF en Etiopía y suspensión de actividades,D04304ea6c4;Dbd53eb7cac,1.0,1.0,Dbd53eb7cac,Bilan de l’année 2021,False,1.0,0.915
 REPORTING - held-out questions (written blind),hybrid,native,es,atentados suicidas en el norte de Camerún y cirugía de urgencia,De76e327faa,1.0,1.0,De76e327faa,Camerún,False,0.83,0.906
 REPORTING - held-out questions (written blind),hybrid,crosslingual,fr,chirurgie de guerre dans les hôpitaux du nord de l'Éthiopie,Dbc65e15071,,,Da906dd6c63,Bilan de l’année 2023,False,0.8,0.871
 REPORTING - held-out questions (written blind),hybrid,crosslingual,fr,inondations à Maiduguri et risque de choléra,De2f723ce04,1.0,1.0,De2f723ce04,Nigeria fears of outbreaks grow in Maiduguri following severe flooding,False,0.5,0.879
@@ -294,7 +294,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,en,accepting bit
 REPORTING - held-out questions (written blind),hybrid,no-answer,en,helicopter engine maintenance schedule,(no answer),,,Dbb1bc86e28,MSF experiences of providing,True,0.25,0.813
 REPORTING - held-out questions (written blind),hybrid,no-answer,en,stock market investment strategy for the reserve fund,(no answer),,,D46512b4307,Understanding the Impact of Historical Policy Legacies,False,0.83,0.818
 REPORTING - held-out questions (written blind),hybrid,no-answer,en,fertility treatment for couples,(no answer),,,D86163d450a,Achan et al. Malaria Journal          (2024) 23:174,True,0.33,0.849
-REPORTING - held-out questions (written blind),hybrid,no-answer,fr,implants dentaires chirurgie,(no answer),,,P22,Tuberculose pulmonaire,True,0.0,0.838
+REPORTING - held-out questions (written blind),hybrid,no-answer,fr,implants dentaires chirurgie,(no answer),,,P22,Tuberculose pulmonaire,True,0.33,0.838
 REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de investigación en la Antártida,(no answer),,,Dad7d7e880f,Cambodge Rapport d'Activités 2019,True,0.0,0.822
 "REPORTING - title known-item (auto, 150)",keyword,title,,"PLOS Global Public Health | https://doi.org/10.1371/journal.pgph.0003986  January 24, 2025",Dcf618c0995,1.0,1.0,Dcf618c0995,PLOS Global Public Health | https://doi.org/10.1371/journal.pgph.0003986  Januar,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,2020 in figures - Cloned,Ddc83b267e0,1.0,1.0,Ddc83b267e0,2020 in figures - Cloned,False,1.0,
@@ -326,7 +326,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",keyword,title,,English Charity Reg. No. 1026588,D468eb40896,3.0,3.0,Ddd8f64b337,English Charity Reg. No. 1026588,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,MSF briefing on Sudan to UN Security Council,D5774643607,1.0,1.0,D5774643607,MSF briefing on Sudan to UN Security Council,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,أطباء بلا حدود تدين هجمات القوات الإسرائيلية على المسعفين في لبنان,D3fcfb82721,1.0,1.0,D3fcfb82721,أطباء بلا حدود تدين هجمات القوات الإسرائيلية على المسعفين في لبنان,False,1.0,
-"REPORTING - title known-item (auto, 150)",keyword,title,,Building evidence in crises,D62457e1efb,5.0,5.0,D67e9876b52,Pneumococcal conjugate vaccine use during humanitarian crises,False,0.67,
+"REPORTING - title known-item (auto, 150)",keyword,title,,Building evidence in crises,D62457e1efb,,,D67e9876b52,Pneumococcal conjugate vaccine use during humanitarian crises,False,0.67,
 "REPORTING - title known-item (auto, 150)",keyword,title,,published: 20 August 2020,D2b2708f82d,1.0,1.0,D2b2708f82d,published: 20 August 2020,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,How is MSF responding to war in the Middle East?,De248530dbe,3.0,3.0,D270ed35e75,Three things to know about what is happening in Syria,False,0.6,
 "REPORTING - title known-item (auto, 150)",keyword,title,,Impact of Hiv-Associated Conditions on Mortality in,D95900a2edb,1.0,1.0,D95900a2edb,Impact of Hiv-Associated Conditions on Mortality in,False,1.0,
@@ -411,7 +411,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",keyword,title,,Achan et al. Malaria Journal          (2024) 23:174,D86163d450a,1.0,1.0,D86163d450a,Achan et al. Malaria Journal          (2024) 23:174,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,A lifeline for mothers on Yemen west coast,D3a2e8cc2bf,1.0,1.0,D3a2e8cc2bf,A lifeline for mothers on Yemen west coast,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,Implementation of WHO guidelines on urine lateral flow LAM testing in the high TB/HIV burden African countries,D9549aa0ea8,1.0,1.0,D9549aa0ea8,Implementation of WHO guidelines on urine lateral flow LAM testing in the high T,False,1.0,
-"REPORTING - title known-item (auto, 150)",keyword,title,,Medicamentos potencialmente peligrosos u obsoletos o ineficaces,D9693bfc7d0,,1.0,D7cadfec00d,Drugs potentially dangerous or obsolete or ineffective,True,0.0,
+"REPORTING - title known-item (auto, 150)",keyword,title,,Medicamentos potencialmente peligrosos u obsoletos o ineficaces,D9693bfc7d0,,1.0,D7cadfec00d,Drugs potentially dangerous or obsolete or ineffective,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,Progress and Challenges in Using Oral Cholera Vaccines to Control Outbreaks: The Médecins Sans Frontières Experience.,D9962a0b190,1.0,1.0,D9962a0b190,Progress and Challenges in Using Oral Cholera Vaccines to Control Outbreaks: The,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,MSF welcomes Members of the European Parliament response to the US pharmaceutical pressure to stop EU action on high drug prices,D576ed006d1,1.0,1.0,D576ed006d1,MSF welcomes Members of the European Parliament response to the US pharmaceutica,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,The burden and outcomes of childhood tuberculosis,D795c870cf1,1.0,1.0,D795c870cf1,The burden and outcomes of childhood tuberculosis,False,1.0,
@@ -433,11 +433,11 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",keyword,title,,"Lazarus JV, et al. BMJ Global Health 2022;7:e009010. doi:10.1136/bmjgh-2022-009010",D08b1166a91,1.0,1.0,D08b1166a91,"Lazarus JV, et al. BMJ Global Health 2022;7:e009010. doi:10.1136/bmjgh-2022-0090",False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,"Zeena Khazendar, Dr. Hala Abdo",D9feb5dac85,1.0,1.0,D9feb5dac85,"Zeena Khazendar, Dr. Hala Abdo",False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,Management of diabetes and associated costs in a complex humanitarian setting in the Democratic Republic of Congo: a retrospective cohort study,D7b1badbde2,1.0,1.0,D7b1badbde2,Management of diabetes and associated costs in a complex humanitarian setting in,False,1.0,
-"REPORTING - title known-item (auto, 150)",keyword,title,,Surgical care addresses needs amid resurgent violence in DRC,D0fe93f344c,5.0,5.0,D597b901fc0,East DRC: MSF staff safely return to Bukavu following security incident in Mweng,False,0.75,
+"REPORTING - title known-item (auto, 150)",keyword,title,,Surgical care addresses needs amid resurgent violence in DRC,D0fe93f344c,,,D597b901fc0,East DRC: MSF staff safely return to Bukavu following security incident in Mweng,False,0.75,
 "REPORTING - title known-item (auto, 150)",keyword,title,,Ethical dilemmas in medical humanitarian practice:,D473461b69b,1.0,1.0,D473461b69b,Ethical dilemmas in medical humanitarian practice:,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,Df1c261b285,1.0,1.0,Df1c261b285,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,High Prevalence of Tuberculosis and Serious,D3fff8fb771,1.0,1.0,D3fff8fb771,High Prevalence of Tuberculosis and Serious,False,1.0,
-"REPORTING - title known-item (auto, 150)",keyword,title,,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,False,0.5,
+"REPORTING - title known-item (auto, 150)",keyword,title,,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,published 21 march 2016,D9e83de4d52,2.0,2.0,D111832613c,Lancet Gastroenterol Hepatol,False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,"Vaccination coverage survey for diphtheria,",D6a4632d088,1.0,1.0,D6a4632d088,"Vaccination coverage survey for diphtheria,",False,1.0,
 "REPORTING - title known-item (auto, 150)",keyword,title,,MSF UK | English Charity Reg. No. 1026588,D48246cb637,1.0,1.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,False,1.0,
@@ -561,7 +561,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",dense,title,,Achan et al. Malaria Journal          (2024) 23:174,D86163d450a,1.0,1.0,D86163d450a,Achan et al. Malaria Journal          (2024) 23:174,False,1.0,0.893
 "REPORTING - title known-item (auto, 150)",dense,title,,A lifeline for mothers on Yemen west coast,D3a2e8cc2bf,1.0,1.0,D3a2e8cc2bf,A lifeline for mothers on Yemen west coast,False,1.0,0.899
 "REPORTING - title known-item (auto, 150)",dense,title,,Implementation of WHO guidelines on urine lateral flow LAM testing in the high TB/HIV burden African countries,D9549aa0ea8,1.0,1.0,D9549aa0ea8,Implementation of WHO guidelines on urine lateral flow LAM testing in the high T,False,1.0,0.918
-"REPORTING - title known-item (auto, 150)",dense,title,,Medicamentos potencialmente peligrosos u obsoletos o ineficaces,D9693bfc7d0,,1.0,D7cadfec00d,Drugs potentially dangerous or obsolete or ineffective,True,0.0,0.892
+"REPORTING - title known-item (auto, 150)",dense,title,,Medicamentos potencialmente peligrosos u obsoletos o ineficaces,D9693bfc7d0,,1.0,D7cadfec00d,Drugs potentially dangerous or obsolete or ineffective,False,1.0,0.892
 "REPORTING - title known-item (auto, 150)",dense,title,,Progress and Challenges in Using Oral Cholera Vaccines to Control Outbreaks: The Médecins Sans Frontières Experience.,D9962a0b190,1.0,1.0,D9962a0b190,Progress and Challenges in Using Oral Cholera Vaccines to Control Outbreaks: The,False,1.0,0.895
 "REPORTING - title known-item (auto, 150)",dense,title,,MSF welcomes Members of the European Parliament response to the US pharmaceutical pressure to stop EU action on high drug prices,D576ed006d1,1.0,1.0,D576ed006d1,MSF welcomes Members of the European Parliament response to the US pharmaceutica,False,1.0,0.9
 "REPORTING - title known-item (auto, 150)",dense,title,,The burden and outcomes of childhood tuberculosis,D795c870cf1,1.0,1.0,D795c870cf1,The burden and outcomes of childhood tuberculosis,False,1.0,0.92
@@ -587,8 +587,8 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",dense,title,,Ethical dilemmas in medical humanitarian practice:,D473461b69b,1.0,1.0,D473461b69b,Ethical dilemmas in medical humanitarian practice:,False,1.0,0.9
 "REPORTING - title known-item (auto, 150)",dense,title,,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,Df1c261b285,1.0,1.0,Df1c261b285,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,False,1.0,0.923
 "REPORTING - title known-item (auto, 150)",dense,title,,High Prevalence of Tuberculosis and Serious,D3fff8fb771,1.0,1.0,D3fff8fb771,High Prevalence of Tuberculosis and Serious,False,1.0,0.894
-"REPORTING - title known-item (auto, 150)",dense,title,,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,False,0.5,0.879
-"REPORTING - title known-item (auto, 150)",dense,title,,published 21 march 2016,D9e83de4d52,5.0,5.0,D92891baef4,Authors/Contributors,True,0.25,0.878
+"REPORTING - title known-item (auto, 150)",dense,title,,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,False,1.0,0.879
+"REPORTING - title known-item (auto, 150)",dense,title,,published 21 march 2016,D9e83de4d52,,,D92891baef4,Authors/Contributors,True,0.25,0.878
 "REPORTING - title known-item (auto, 150)",dense,title,,"Vaccination coverage survey for diphtheria,",D6a4632d088,1.0,1.0,D6a4632d088,"Vaccination coverage survey for diphtheria,",False,1.0,0.908
 "REPORTING - title known-item (auto, 150)",dense,title,,MSF UK | English Charity Reg. No. 1026588,D48246cb637,1.0,1.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,False,1.0,0.869
 "REPORTING - title known-item (auto, 150)",dense,title,,Characteristics of human encounters and,De0610b719b,1.0,1.0,De0610b719b,Characteristics of human encounters and,False,1.0,0.898
@@ -652,7 +652,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",hybrid,title,,"Performance evaluation of the Mini-Lab, an all-in-one clinical",D04c8ff52a2,1.0,1.0,D04c8ff52a2,"Performance evaluation of the Mini-Lab, an all-in-one clinical",False,1.0,0.889
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Thailand Cooperating with local groups to fight AIDS,D0eebba4c05,1.0,1.0,D0eebba4c05,Thailand Cooperating with local groups to fight AIDS,False,1.0,0.906
 "REPORTING - title known-item (auto, 150)",hybrid,title,,MSF condemns the killing of paramedics by Israeli forces in Lebanon,D17e499ac0a,1.0,1.0,D17e499ac0a,MSF condemns the killing of paramedics by Israeli forces in Lebanon,False,1.0,0.931
-"REPORTING - title known-item (auto, 150)",hybrid,title,,"Abréviations, sigles et acronymes",D9e021943b7,,,Dd19d457d52,"Enquête de Mortalité Rétrospective, de recherche et d’accès aux soins pour les e",True,0.33,0.822
+"REPORTING - title known-item (auto, 150)",hybrid,title,,"Abréviations, sigles et acronymes",D9e021943b7,4.0,4.0,Dd19d457d52,"Enquête de Mortalité Rétrospective, de recherche et d’accès aux soins pour les e",True,0.33,0.822
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Comparison of Operative Logbook,D9980aae794,1.0,1.0,D9980aae794,Comparison of Operative Logbook,False,1.0,0.882
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Statement on Israeli military decision to deny a criminal investigation into MSF killings and injuries,Da7897cecbd,1.0,1.0,Da7897cecbd,Statement on Israeli military decision to deny a criminal investigation into MSF,False,1.0,0.907
 "REPORTING - title known-item (auto, 150)",hybrid,title,,The first 72 hours of a cholera outbreak,D85d7eb197c,1.0,1.0,D85d7eb197c,The first 72 hours of a cholera outbreak,False,1.0,0.908
@@ -711,7 +711,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Achan et al. Malaria Journal          (2024) 23:174,D86163d450a,1.0,1.0,D86163d450a,Achan et al. Malaria Journal          (2024) 23:174,False,1.0,0.893
 "REPORTING - title known-item (auto, 150)",hybrid,title,,A lifeline for mothers on Yemen west coast,D3a2e8cc2bf,1.0,1.0,D3a2e8cc2bf,A lifeline for mothers on Yemen west coast,False,1.0,0.899
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Implementation of WHO guidelines on urine lateral flow LAM testing in the high TB/HIV burden African countries,D9549aa0ea8,1.0,1.0,D9549aa0ea8,Implementation of WHO guidelines on urine lateral flow LAM testing in the high T,False,1.0,0.918
-"REPORTING - title known-item (auto, 150)",hybrid,title,,Medicamentos potencialmente peligrosos u obsoletos o ineficaces,D9693bfc7d0,,1.0,D7cadfec00d,Drugs potentially dangerous or obsolete or ineffective,True,0.0,0.892
+"REPORTING - title known-item (auto, 150)",hybrid,title,,Medicamentos potencialmente peligrosos u obsoletos o ineficaces,D9693bfc7d0,,1.0,D7cadfec00d,Drugs potentially dangerous or obsolete or ineffective,False,1.0,0.892
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Progress and Challenges in Using Oral Cholera Vaccines to Control Outbreaks: The Médecins Sans Frontières Experience.,D9962a0b190,1.0,1.0,D9962a0b190,Progress and Challenges in Using Oral Cholera Vaccines to Control Outbreaks: The,False,1.0,0.895
 "REPORTING - title known-item (auto, 150)",hybrid,title,,MSF welcomes Members of the European Parliament response to the US pharmaceutical pressure to stop EU action on high drug prices,D576ed006d1,1.0,1.0,D576ed006d1,MSF welcomes Members of the European Parliament response to the US pharmaceutica,False,1.0,0.9
 "REPORTING - title known-item (auto, 150)",hybrid,title,,The burden and outcomes of childhood tuberculosis,D795c870cf1,1.0,1.0,D795c870cf1,The burden and outcomes of childhood tuberculosis,False,1.0,0.92
@@ -737,7 +737,7 @@ REPORTING - held-out questions (written blind),hybrid,no-answer,es,estación de 
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Ethical dilemmas in medical humanitarian practice:,D473461b69b,1.0,1.0,D473461b69b,Ethical dilemmas in medical humanitarian practice:,False,1.0,0.9
 "REPORTING - title known-item (auto, 150)",hybrid,title,,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,Df1c261b285,1.0,1.0,Df1c261b285,Unprecedented increase of scabies cases in Cox’s Bazar refugee camps,False,1.0,0.923
 "REPORTING - title known-item (auto, 150)",hybrid,title,,High Prevalence of Tuberculosis and Serious,D3fff8fb771,1.0,1.0,D3fff8fb771,High Prevalence of Tuberculosis and Serious,False,1.0,0.894
-"REPORTING - title known-item (auto, 150)",hybrid,title,,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,False,0.5,0.879
+"REPORTING - title known-item (auto, 150)",hybrid,title,,Memoria de Actividad 2018 en Nauru,Dcf6e6ba02b,,1.0,Dbb3e40c69c,Nauru Rapport d'Activités 2018,False,1.0,0.879
 "REPORTING - title known-item (auto, 150)",hybrid,title,,published 21 march 2016,D9e83de4d52,1.0,1.0,D9e83de4d52,published 21 march 2016,False,1.0,0.846
 "REPORTING - title known-item (auto, 150)",hybrid,title,,"Vaccination coverage survey for diphtheria,",D6a4632d088,1.0,1.0,D6a4632d088,"Vaccination coverage survey for diphtheria,",False,1.0,0.908
 "REPORTING - title known-item (auto, 150)",hybrid,title,,MSF UK | English Charity Reg. No. 1026588,D48246cb637,1.0,1.0,D48246cb637,MSF UK | English Charity Reg. No. 1026588,False,1.0,0.869
@@ -762,9 +762,9 @@ TUNING - manual set (thresholds chosen on this; do not quote),keyword,,fr,prise 
 TUNING - manual set (thresholds chosen on this; do not quote),keyword,,ar,المهاجرون بنما,Df35d21f1d6,1.0,1.0,Df35d21f1d6,لا يزال المهاجرون يواجهون الخطر أثناء عبورهم إلى بنما,False,1.0,
 TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,hospital in southern Gaza,Dd4ee6d16b7,1.0,1.0,Dd4ee6d16b7,A day in the life at the last remaining hospital in southern Gaza,False,1.0,
 TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,1.0,1.0,D8688fb1d8c,"Gaza: MSF condemns deliberate attack on a convoy transporting staff, resulting i",False,1.0,
-TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,how much money does MSF spend each year,D10d6a75496;P45;P48,3.0,3.0,D0ea302e15b,An obstetrician reborn,False,1.0,
-TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,veterinary rabies vaccine for cattle,(no answer),,,D2b2708f82d,published: 20 August 2020,False,0.5,
-TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,cryptocurrency mining regulation,(no answer),,,Dbb1bc86e28,MSF experiences of providing,True,0.33,
+TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,how much money does MSF spend each year,D10d6a75496;P45;P48,,,D99b084ca58,MSF AND NORTH KOREA,False,0.83,
+TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,dental implant surgery procedure,(no answer),,,D1fa284e16c,VitalSurg: Outcomes From a Surgical,False,0.5,
+TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,cryptocurrency mining regulation,(no answer),,,P09,Nigeria,True,0.33,
 TUNING - manual set (thresholds chosen on this; do not quote),keyword,,en,football world cup results,(no answer),,,P24,AMOXICILLIN oral,True,0.25,
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,ready-to-use therapeutic food for malnourished children,Da7bd65da54,2.0,2.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,False,1.0,0.914
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,children with severe wasting need a food supplement,Da7bd65da54;Da8b17ac14e,1.0,1.0,Da8b17ac14e,Reducing Wasting in Young Children With Preventive,False,0.83,0.901
@@ -783,7 +783,7 @@ TUNING - manual set (thresholds chosen on this; do not quote),dense,,ar,المه
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,hospital in southern Gaza,Dd4ee6d16b7,2.0,2.0,D28f2e6484c,Supply shortages and patient influxes leave Nasser hospital at breaking point,False,0.67,0.87
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,1.0,1.0,D8688fb1d8c,"Gaza: MSF condemns deliberate attack on a convoy transporting staff, resulting i",False,1.0,0.909
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,how much money does MSF spend each year,D10d6a75496;P45;P48,2.0,2.0,Ddc83b267e0,2020 in figures - Cloned,False,0.5,0.888
-TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,veterinary rabies vaccine for cattle,(no answer),,,D2b2708f82d,published: 20 August 2020,False,0.5,0.864
+TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,dental implant surgery procedure,(no answer),,,D49a9834c4f,Foreword,True,0.25,0.866
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,cryptocurrency mining regulation,(no answer),,,D0197c14ba0,E X P E R T S ’ O P I N I O N,True,0.0,0.824
 TUNING - manual set (thresholds chosen on this; do not quote),dense,,en,football world cup results,(no answer),,,Dedb81e1789,Convention on the Prevention and Punishment of the Crime of Genocide,True,0.0,0.831
 TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,ready-to-use therapeutic food for malnourished children,Da7bd65da54,1.0,1.0,Da7bd65da54,Ready-to-Use Therapeutic Food for Catch-Up Growth in,False,1.0,0.905
@@ -803,6 +803,6 @@ TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,ar,الم�
 TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,hospital in southern Gaza,Dd4ee6d16b7,1.0,1.0,Dd4ee6d16b7,A day in the life at the last remaining hospital in southern Gaza,False,1.0,0.864
 TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,attack on a convoy transporting MSF staff in Gaza,D8688fb1d8c,1.0,1.0,D8688fb1d8c,"Gaza: MSF condemns deliberate attack on a convoy transporting staff, resulting i",False,1.0,0.909
 TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,how much money does MSF spend each year,D10d6a75496;P45;P48,2.0,2.0,Ddc83b267e0,2020 in figures - Cloned,False,0.5,0.888
-TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,veterinary rabies vaccine for cattle,(no answer),,,D2b2708f82d,published: 20 August 2020,False,0.5,0.864
+TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,dental implant surgery procedure,(no answer),,,D1fa284e16c,VitalSurg: Outcomes From a Surgical,False,0.5,0.844
 TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,cryptocurrency mining regulation,(no answer),,,Dbb1bc86e28,MSF experiences of providing,True,0.33,0.805
 TUNING - manual set (thresholds chosen on this; do not quote),hybrid,,en,football world cup results,(no answer),,,Dfee2e6ea98,The MÉdecins Sans,True,0.75,0.808
