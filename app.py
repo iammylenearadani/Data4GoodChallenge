@@ -90,7 +90,10 @@ with tab_s:
                         st.dataframe(pd.DataFrame(fam), hide_index=True)
 
         if r["abstained"]:
-            st.warning(f"No confident match in the library (only {conf.get('coverage', 0):.0%} of your words found). "
+            why = f"{conf.get('coverage', 0):.0%} of your words found"
+            if conf.get("dense_cos") is not None:
+                why += f", meaning match {conf['dense_cos']:.3f}, needs ≥ {C.ABSTAIN_DENSE:.3f}"
+            st.warning(f"No confident match in the library ({why}). "
                        "Closest documents below — check before relying on them.")
             with st.expander("Closest documents"):
                 for x in r["results"]:
