@@ -66,8 +66,17 @@ with tab_search:
         for r in results:
             d = r["doc"]
             with st.container(border=True):
-                badge = "✅ Latest version" if r["is_recommended"] else "⚠️ Older or duplicate version"
-                st.markdown(f"**{d.title}**  \n`{d.doc_id}` · {badge}")
+                kind = d.get("dup_type", "")
+                if r["is_recommended"]:
+                    badge = "✅ Recommended version" if len(r["other_versions"]) else "✅"
+                elif kind == "exact":
+                    badge = "📄 Exact duplicate (hidden copies merged)"
+                else:
+                    badge = "⚠️ Possibly an older version"
+                title = d.get("ai_title") or d.title
+                meta = " · ".join(str(x) for x in [d.get("genre"), d.get("language"),
+                                                    int(d.year) if pd.notna(d.get("year")) else None] if x)
+                st.markdown(f"**{title}**  \n`{d.doc_id}` · {meta} · {badge}")
                 if not r["is_recommended"]:
                     st.markdown(f"➡️ Recommended instead: **{r['recommended_doc'].title}** "
                                 f"(`{r['recommended_doc'].doc_id}`)")
