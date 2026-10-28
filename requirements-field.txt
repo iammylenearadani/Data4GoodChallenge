@@ -5,6 +5,7 @@ scikit-learn>=1.5
 rank-bm25>=0.2.2
 streamlit>=1.38
 plotly>=5.22
+networkx>=3.0          # document-web layout in the app
 # semantic (hybrid) search: + the e5-small model folder (~470 MB download once, then offline)
 sentence-transformers>=3.0
 qrcode[pil]>=7.4              # QR code so team phones on the kit Wi-Fi can open the app

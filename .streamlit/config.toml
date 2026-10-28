@@ -4,4 +4,8 @@ gatherUsageStats = false
 headless = true
 [theme]
 base = "light"
-primaryColor = "#E1001A"
+primaryColor = "#EE0000"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F4F4"
+textColor = "#1A1A1A"
+font = "sans serif"
