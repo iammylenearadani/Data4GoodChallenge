@@ -29,7 +29,7 @@ T = {
            "older": "older version(s) hidden", "none": "No confident answer in the library",
            "none_sub": "We would rather say nothing than mislead you. Closest documents:",
            "speed": "answered in {ms} ms · no internet used", "lib": "{n} MSF documents · 4 languages",
-           "open": "Open", "source": "Source",
+           "open": "Open", "brief": "Download the briefing for my team", "source": "Source",
            "scen": {"Cholera": "cholera outbreak: setting up treatment centres and oral rehydration",
                     "Measles": "measles outbreak: vaccination campaign age and coverage",
                     "Ebola": "Ebola outbreak response: isolation, contact tracing and protection of health workers",
@@ -44,7 +44,7 @@ T = {
            "older": "ancienne(s) version(s) masquée(s)", "none": "Pas de réponse fiable dans la bibliothèque",
            "none_sub": "Mieux vaut ne rien dire que vous induire en erreur. Documents les plus proches :",
            "speed": "réponse en {ms} ms · sans internet", "lib": "{n} documents MSF · 4 langues",
-           "open": "Ouvrir", "source": "Source",
+           "open": "Ouvrir", "brief": "Télécharger le briefing pour mon équipe", "source": "Source",
            "scen": {"Choléra": "épidémie de choléra : centre de traitement et réhydratation",
                     "Rougeole": "épidémie de rougeole : campagne de vaccination",
                     "Ebola": "riposte Ebola : isolement et suivi des contacts",
@@ -59,7 +59,7 @@ T = {
            "older": "versión(es) anterior(es) ocultas", "none": "No hay una respuesta fiable en la biblioteca",
            "none_sub": "Preferimos no decir nada antes que confundirle. Documentos más cercanos:",
            "speed": "respuesta en {ms} ms · sin internet", "lib": "{n} documentos de MSF · 4 idiomas",
-           "open": "Abrir", "source": "Fuente",
+           "open": "Abrir", "brief": "Descargar el informe para mi equipo", "source": "Fuente",
            "scen": {"Cólera": "brote de cólera: centros de tratamiento y rehidratación oral",
                     "Sarampión": "brote de sarampión: campaña de vacunación",
                     "Ébola": "respuesta al ébola: aislamiento y rastreo de contactos",
@@ -74,7 +74,7 @@ T = {
            "older": "نسخ أقدم مخفية", "none": "لا توجد إجابة موثوقة في المكتبة",
            "none_sub": "نفضّل ألا نقول شيئًا على أن نضللك. أقرب الوثائق:",
            "speed": "الإجابة خلال {ms} مللي ثانية · دون إنترنت", "lib": "{n} وثيقة · 4 لغات",
-           "open": "فتح", "source": "المصدر",
+           "open": "فتح", "brief": "تنزيل الإحاطة لفريقي", "source": "المصدر",
            "scen": {"الكوليرا": "cholera outbreak: setting up treatment centres and oral rehydration",
                     "الحصبة": "measles outbreak: vaccination campaign age and coverage",
                     "إيبولا": "Ebola outbreak response: isolation, contact tracing and protection of health workers",
@@ -193,6 +193,21 @@ def doc_card(x):
     st.markdown(f'<div class="doc"><div class="t">{link}</div>{"".join(tags)}</div>', unsafe_allow_html=True)
 
 
+def briefing(query, r):
+    """One-page Day-1 briefing (plain text: prints anywhere, shares over the field kit network). Quotes only."""
+    lines = ["MSF OUTBREAK BRIEFING", f"Question: {query}", f"Prepared: {time.strftime('%d %b %Y %H:%M')} - offline, field kit",
+             "Every point below is quoted word for word from an MSF document. Nothing is generated.", "",
+             "EVIDENCE FOR THE DECISION"]
+    for i, a in enumerate(r["actions"], 1):
+        year = f", {a['year']}" if a.get("year") else ""
+        lines += [f"{i}. \"{a['text']}\"", f"   Source: {a['title']} ({a['genre']}{year}) {a.get('url') or a['doc_id']}"]
+    lines += ["", "REFERENCE DOCUMENTS (latest version)"]
+    for x in r["results"][:3]:
+        year = f", {x['year']}" if x.get("year") else ""
+        lines.append(f"- {x['title']} ({x['genre']}{year}) {x.get('url') or x['doc_id']}")
+    return "\n".join(lines)
+
+
 if q.strip():
     t0 = time.time()
     r = decide(q.strip())
@@ -218,3 +233,5 @@ if q.strip():
         st.markdown(f'<div{rtl}><div class="sec">{t["docs"]}</div></div>', unsafe_allow_html=True)
         for x in r["results"][:3]:
             doc_card(x)
+        st.download_button(f'📄 {t["brief"]}', briefing(q.strip(), r), type="primary", use_container_width=True,
+                           file_name=f'MSF-briefing-{time.strftime("%Y%m%d")}.txt', mime="text/plain")
