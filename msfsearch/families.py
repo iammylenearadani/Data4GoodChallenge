@@ -33,10 +33,20 @@ def build(df, doc_emb=None):
         elif not same_lang and df.genre.iat[i] == df.genre.iat[j]:
             edges.append((i, j, "translation", s))  # shared references/structure across languages
     if doc_emb is not None:  # multilingual embeddings catch translations with no shared words
+        # e5 cosines are high even for unrelated same-genre docs, so a threshold alone chains whole
+        # collections together; also require i and j to be each other's nearest doc in the other language.
         S = doc_emb @ doc_emb.T
+        langs = df.lang.to_numpy()
+        best = {}  # (doc, other language) -> nearest doc in that language
+        for lang in set(langs):
+            cols = np.where(langs == lang)[0]
+            for i in range(n):
+                if langs[i] != lang:
+                    best[i, lang] = cols[np.argmax(S[i, cols])]
         ii, jj = np.where(np.triu(S, 1) >= C.TRANSLATION_DENSE_SIM)
         for i, j in zip(ii, jj):
-            if df.lang.iat[i] != df.lang.iat[j] and df.genre.iat[i] == df.genre.iat[j]:
+            if (langs[i] != langs[j] and df.genre.iat[i] == df.genre.iat[j]
+                    and best[i, langs[j]] == j and best[j, langs[i]] == i):
                 edges.append((i, j, "translation", float(S[i, j])))
 
     parent = list(range(n))
