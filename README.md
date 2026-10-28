@@ -17,6 +17,11 @@ streamlit run app.py                      # analyst view: filters, collection ma
 python eval/run_eval.py                   # metrics -> eval/results.md
 ```
 
+## On the field kit (one box, a team of 3, no internet)
+The box runs `run_field_kit.ps1` (or starts it at boot via Task Scheduler). Team members join the kit's local Wi-Fi and
+scan the QR code under **📱 Open on team phones**: the Navigator opens in the phone's browser. Nothing to install on
+phones, no internet, no per-query cost. New documents arrive when the box syncs; rebuild with one command.
+
 ## Pipeline
 | Step | Where | File | What |
 |---|---|---|---|

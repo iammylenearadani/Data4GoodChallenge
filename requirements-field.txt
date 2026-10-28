@@ -7,3 +7,4 @@ streamlit>=1.38
 plotly>=5.22
 # semantic (hybrid) search: + the e5-small model folder (~470 MB download once, then offline)
 sentence-transformers>=3.0
+qrcode[pil]>=7.4              # QR code so team phones on the kit Wi-Fi can open the app

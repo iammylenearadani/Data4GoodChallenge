@@ -8,6 +8,8 @@ Every line shown is quoted from an MSF document (msfsearch.decide) — nothing i
 The analyst view (filters, collection map, evaluation) stays in app.py.
 """
 import html
+import io
+import socket
 import re
 import time
 
@@ -151,6 +153,36 @@ with right:
              format_func=lambda c: LANG_NAMES[c])
 st.markdown(f'<span class="pill"><span class="dot"></span>{t["status"]}</span>&nbsp; '
             f'<span class="pill">{t["lib"].format(n=n_docs)}</span>', unsafe_allow_html=True)
+
+
+def lan_url():
+    """Address of this box on the field kit's local Wi-Fi (no packet is sent: UDP connect only picks the interface)."""
+    ip = "127.0.0.1"
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("10.255.255.255", 1))
+        ip = s.getsockname()[0]
+        s.close()
+    except OSError:
+        pass
+    return f"http://{ip}:{st.get_option('server.port')}"
+
+
+PHONE = {"en": ("📱 Open on team phones", "Join the field kit Wi-Fi, then scan:"),
+         "fr": ("📱 Ouvrir sur les téléphones", "Connectez-vous au Wi-Fi du kit, puis scannez :"),
+         "es": ("📱 Abrir en los teléfonos", "Conéctese al Wi-Fi del kit y escanee:"),
+         "ar": ("📱 افتح على هواتف الفريق", "اتصل بشبكة Wi-Fi الخاصة بالعدة ثم امسح الرمز:")}
+with st.popover(PHONE[lang][0]):
+    url = lan_url()
+    st.caption(PHONE[lang][1])
+    try:
+        import qrcode
+        buf = io.BytesIO()
+        qrcode.make(url, border=2).save(buf, format="PNG")
+        st.image(buf.getvalue(), width=200)
+    except ImportError:
+        pass
+    st.code(url, language=None)
 
 st.markdown(f'<div{rtl}><div class="hero">{t["hero"]}</div><div class="sub">{t["sub"]}</div></div>',
             unsafe_allow_html=True)

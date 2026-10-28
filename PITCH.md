@@ -4,6 +4,9 @@
 72 hours of an outbreak response. Their question: "what has MSF already learned about this, and which document is the
 current reference?" Demo app: `streamlit run navigator.py` (the analyst view with filters/map/eval stays in `app.py`).
 
+**How a 3-person team uses it:** the field-kit box serves the app on its local Wi-Fi; each person scans the QR code
+(📱 button) and uses it on their own phone — no install, no internet. Show this on stage: scan the QR with a phone.
+
 **Live demo (Wi-Fi off), ~90 s:** ① UI in English → click **Measles** → 5 numbered evidence points quoted from MSF
 studies ("aim for vaccination coverage close to 100%", "increase coverage by at least 67%") with sources, in ~80 ms.
 ② Switch the UI to **العربية** (right-to-left) and **Français** → same evidence, interface in the user's language.
