@@ -1,0 +1,6 @@
+# Off-premises build machine (internet allowed): everything in the field set + parsing, LLM, evaluation
+-r requirements-field.txt
+beautifulsoup4>=4.12
+tabulate>=0.9
+boto3>=1.35
+python-dotenv>=1.0

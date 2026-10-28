@@ -1,11 +1,17 @@
+.env
+.venv/
+__pycache__/
+artifacts/
+data/
+submission.zip
+*.pyc
+.DS_Store
+*.zip
+
+# web prototype (Lina) / tooling
+node_modules/
+dist/
 .agents/*
 .claude/*
 skills-lock.json
-
-/data/*
 .idea/
-artifacts/
-.venv/
-__pycache__/
-
-node_modules/
